@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>推理でうめる英単語 | クイズ＆学習アプリ</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Top Status Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="app-logo" id="logoHomeBtn" title="ホームへ戻る">
+        <span class="logo-icon">🔍</span>
+        <div>
+          <h1 class="app-title">推理でうめる英単語</h1>
+          <div class="rank-badge" id="headerRankBadge">見習い探偵 Lv.1</div>
+        </div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="stat-pill streak-pill" id="streakPill" title="連続学習日数">
+        <span>🔥</span> <span id="headerStreak">0</span><small>日</small>
+      </div>
+      <div class="stat-pill exp-pill" id="expPill" title="獲得EXP">
+        <span>⭐</span> <span id="headerExp">0</span><small>EXP</small>
+      </div>
+      <button class="icon-btn" id="soundToggleBtn" title="効果音 ON/OFF" aria-label="効果音切替">🔊</button>
+      <button class="icon-btn" id="themeToggleBtn" title="ダークモード切替" aria-label="テーマ切替">🌙</button>
+    </div>
+  </header>
+
+  <!-- Global Progress Summary Bar (Always visible!) -->
+  <section class="global-progress-bar" id="globalProgressBar">
+    <div class="progress-stats-row">
+      <div class="p-stat mastered">
+        <span class="dot mastered-dot"></span>
+        覚えた <strong id="globalMasteredCount">0</strong>
+      </div>
+      <div class="p-stat review">
+        <span class="dot review-dot"></span>
+        要復習 <strong id="globalReviewCount">0</strong>
+      </div>
+      <div class="p-stat remaining">
+        <span class="dot remaining-dot"></span>
+        残り <strong id="globalRemainingCount">0</strong>
+      </div>
+      <div class="p-stat total">
+        達成率 <strong id="globalPercent">0%</strong> (<span id="globalTotalCount">0</span>問)
+      </div>
+    </div>
+    <div class="multi-progress-track">
+      <div class="multi-progress-fill mastered-fill" id="globalMasteredBar" style="width: 0%"></div>
+      <div class="multi-progress-fill review-fill" id="globalReviewBar" style="width: 0%"></div>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <main class="app-main">
+    <!-- TAB 1: DASHBOARD / HOME -->
+    <section class="tab-view active" id="view-home">
+      <!-- Detective Rank & Daily Goal Card -->
+      <div class="hero-card">
+        <div class="hero-top">
+          <div class="detective-avatar" id="detectiveAvatar">🕵️‍♂️</div>
+          <div class="hero-info">
+            <div class="hero-rank-label">現在の称号</div>
+            <div class="hero-rank-title" id="heroRankTitle">見習い探偵</div>
+            <div class="exp-bar-wrap">
+              <div class="exp-bar-fill" id="heroExpBar" style="width: 10%"></div>
+            </div>
+            <div class="exp-subtext" id="heroExpSubtext">次の称号まで あと 100 EXP</div>
+          </div>
+        </div>
+        <div class="daily-goal-box">
+          <div class="daily-goal-header">
+            <span>📅 今日の目標（1日10問で脳トレ継続！）</span>
+            <span class="daily-goal-count"><strong id="todaySolvedCount">0</strong> / <span id="dailyGoalTarget">10</span> 問</span>
+          </div>
+          <div class="daily-bar-track">
+            <div class="daily-bar-fill" id="dailyGoalBar" style="width: 0%"></div>
+          </div>
+          <div class="weekly-calendar" id="weeklyCalendar"></div>
+        </div>
+      </div>
+
+      <!-- Quick Start Smart Actions -->
+      <div class="quick-actions-grid">
+        <button class="quick-action-btn primary-pulse" id="btnSmartSession">
+          <span class="qa-icon">⚡</span>
+          <div class="qa-text">
+            <strong>おすすめ10問を推理する</strong>
+            <small>未学習＆復習タイミングの問題を自動出題</small>
+          </div>
+        </button>
+        <button class="quick-action-btn accent-btn" id="btnTimeAttack">
+          <span class="qa-icon">⏱️</span>
+          <div class="qa-text">
+            <strong>60秒スピード推理チャレンジ</strong>
+            <small>ハイスコア: <span id="bestTimeAttackScore">0</span>点 | 瞬発力4択バトル</small>
+          </div>
+        </button>
+      </div>
+
+      <!-- Section Selector Cards -->
+      <h2 class="section-heading">📚 コーナーを選んで挑戦</h2>
+      <div class="mode-cards-grid" id="sectionCardsGrid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+
+      <!-- Stage / 10-question Unit Selector -->
+      <div class="stage-selector-panel" id="stageSelectorPanel">
+        <div class="stage-panel-header">
+          <div>
+            <h3 id="selectedSectionTitle">PART 1 【漢字入力モード】</h3>
+            <p class="stage-panel-sub" id="selectedSectionSub">英語2語の成句から2〜5文字の漢字を推理（全500問）</p>
+          </div>
+        </div>
+
+        <!-- Quiz Configuration Controls -->
+        <div class="quiz-config-box">
+          <div class="config-row">
+            <label class="config-label">解答スタイル</label>
+            <div class="segmented-control" id="styleSelector">
+              <button class="seg-btn active" data-style="card">🃏 推理カード</button>
+              <button class="seg-btn" data-style="input">⌨️ 文字入力</button>
+              <button class="seg-btn" data-style="choice">🎯 4択クイズ</button>
+            </div>
+          </div>
+          <div class="config-row">
+            <label class="config-label">出題フィルター</label>
+            <div class="segmented-control" id="filterSelector">
+              <button class="seg-btn active" data-filter="remaining">未チェック（残り）</button>
+              <button class="seg-btn" data-filter="review">要復習のみ</button>
+              <button class="seg-btn" data-filter="all">すべて</button>
+              <button class="seg-btn" data-filter="mastered">覚えた✓のみ</button>
+            </div>
+          </div>
+          <div class="config-row" id="categoryFilterRow" style="display:none;">
+            <label class="config-label">分野カテゴリー</label>
+            <select class="form-select" id="part2CategorySelect">
+              <option value="all">すべての分野（全500問）</option>
+            </select>
+          </div>
+          <div class="config-actions">
+            <button class="start-btn" id="btnStartFilteredQuiz">🚀 この条件で10問スタート</button>
+            <button class="start-btn secondary" id="btnStartRandomQuiz">🎲 ランダム10問</button>
+          </div>
+        </div>
+
+        <!-- 10-Question Unit Grid (Book Page Units) -->
+        <div class="unit-grid-header">
+          <span>📖 本書の10問ユニット一覧（タップでその10問を開始）</span>
+          <small>緑＝コンプリート / 青＝進行中</small>
+        </div>
+        <div class="units-grid" id="unitsGrid"></div>
+      </div>
+    </section>
+
+    <!-- TAB 2: QUIZ VIEW -->
+    <section class="tab-view" id="view-quiz">
+      <!-- Quiz Header Bar -->
+      <div class="quiz-top-bar">
+        <button class="back-chip" id="btnQuitQuiz">← 戻る</button>
+        <div class="quiz-progress-info">
+          <span id="quizModeBadge" class="quiz-mode-badge">PART 1</span>
+          <span id="quizStepCounter" class="quiz-step-counter">1 / 10</span>
+        </div>
+        <div class="quiz-combo-pill" id="quizComboPill">🔥 0 Combo</div>
+      </div>
+
+      <!-- Time Attack Timer Bar (Shown only in Time Attack) -->
+      <div class="timer-bar-wrap" id="timeAttackBarWrap" style="display:none;">
+        <div class="timer-info">
+          <span>⏱️ 残り時間: <strong id="timeAttackSeconds">60.0</strong>秒</span>
+          <span>スコア: <strong id="timeAttackCurrentScore">0</strong></span>
+        </div>
+        <div class="timer-track">
+          <div class="timer-fill" id="timeAttackBar" style="width:100%"></div>
+        </div>
+      </div>
+
+      <!-- Quiz Session Progress Dots -->
+      <div class="session-dots" id="sessionDots"></div>
+
+      <!-- Quick Style Switcher inside Quiz -->
+      <div class="in-quiz-toolbar">
+        <div class="mini-seg" id="inQuizStyleSwitch">
+          <button class="mini-seg-btn active" data-style="card">🃏 カード</button>
+          <button class="mini-seg-btn" data-style="input">⌨️ 入力</button>
+          <button class="mini-seg-btn" data-style="choice">🎯 4択</button>
+        </div>
+        <label class="master-checkbox-label" id="quizMasteredToggleLabel">
+          <input type="checkbox" id="quizMasteredCheckbox" />
+          <span class="checkmark-box"></span>
+          <span id="quizMasteredText">覚えた！✓</span>
+        </label>
+      </div>
+
+      <!-- Main Question Card -->
+      <div class="question-card" id="questionCard">
+        <div class="q-card-meta">
+          <span class="q-number-badge" id="qNumberBadge">No. 1</span>
+          <span class="q-sub-badge" id="qSubBadge">2字 Version</span>
+          <button class="speak-btn" id="btnSpeakQuestion" title="英語を発音">🔊 発音</button>
+        </div>
+
+        <div class="q-prompt-area">
+          <div class="q-main-prompt" id="qMainPrompt">supplementary lesson</div>
+          <div class="q-phonetic" id="qPhonetic">[sʌ́pləméntəri]</div>
+        </div>
+
+        <!-- Progressive Hints Area (The essence of "推理でうめる英単語"!) -->
+        <div class="hints-container" id="hintsContainer">
+          <!-- Step 1: Partial Kanji / Cloze Template Box -->
+          <div class="hint-box hint-step-1" id="hintBox1">
+            <div class="hint-header">
+              <span class="hint-tag">ヒント① 文字枠・手がかり</span>
+              <button class="reveal-hint-btn" id="btnRevealHint1">タップして開く 🔍</button>
+            </div>
+            <div class="hint-content" id="hintContent1"></div>
+          </div>
+
+          <!-- Step 2: Context Sentence / Explanation -->
+          <div class="hint-box hint-step-2" id="hintBox2">
+            <div class="hint-header">
+              <span class="hint-tag">ヒント② 推理の文脈ヒント</span>
+              <button class="reveal-hint-btn" id="btnRevealHint2">タップして開く 💡</button>
+            </div>
+            <div class="hint-content" id="hintContent2"></div>
+          </div>
+
+          <!-- Step 3: Vocab Footnote -->
+          <div class="hint-box hint-step-3" id="hintBox3">
+            <div class="hint-header">
+              <span class="hint-tag">ヒント③ ヒント内の重要語句</span>
+              <button class="reveal-hint-btn" id="btnRevealHint3">タップして開く 📖</button>
+            </div>
+            <div class="hint-content" id="hintContent3"></div>
+          </div>
+        </div>
+
+        <!-- INTERACTION AREA 1: Card Flip / Self-Grading Mode -->
+        <div class="interaction-panel" id="panelCardMode">
+          <button class="show-answer-btn" id="btnShowAnswerCard">✨ 正解を見る（推理完了！）</button>
+        </div>
+
+        <!-- INTERACTION AREA 2: Typing Input Mode -->
+        <div class="interaction-panel" id="panelInputMode" style="display:none;">
+          <div class="input-guide-text" id="inputGuideText">漢字全体（または□に入る文字）を入力してください</div>
+          <form class="answer-input-form" id="answerInputForm">
+            <input type="text" class="answer-text-input" id="answerTextInput" placeholder="ここに答えを入力..." autocomplete="off" autocapitalize="off" spellcheck="false" />
+            <button type="submit" class="submit-answer-btn">判定</button>
+          </form>
+          <div class="input-helper-row">
+            <button type="button" class="text-link-btn" id="btnInputCharHint">💡 1文字ヒントをもらう</button>
+            <button type="button" class="text-link-btn" id="btnInputGiveUp">正解を見る</button>
+          </div>
+        </div>
+
+        <!-- INTERACTION AREA 3: 4-Choice Mode -->
+        <div class="interaction-panel" id="panelChoiceMode" style="display:none;">
+          <div class="choices-grid" id="choicesGrid"></div>
+        </div>
+
+        <!-- Answer & Explanation Reveal Box -->
+        <div class="answer-reveal-box" id="answerRevealBox" style="display:none;">
+          <div class="result-banner" id="resultBanner">
+            <span class="result-icon" id="resultIcon">⭕</span>
+            <span class="result-title" id="resultTitle">大正解！名推理！</span>
+            <span class="result-exp" id="resultExpBadge">+20 EXP</span>
+          </div>
+          <div class="answer-showcase">
+            <div class="answer-label">正解</div>
+            <div class="answer-main-text" id="answerMainText">補習</div>
+            <div class="answer-sub-text" id="answerSubText">supplementary lesson</div>
+          </div>
+          <div class="answer-details-box" id="answerDetailsBox"></div>
+
+          <!-- Post-Answer Actions (Check as Mastered or Keep for Review) -->
+          <div class="grading-buttons" id="gradingButtons">
+            <button class="grade-btn review-btn" id="btnGradeReview">
+              <span>🔄 まだ不安（要復習へ）</span>
+              <small>あとでまた出題します</small>
+            </button>
+            <button class="grade-btn master-btn" id="btnGradeMaster">
+              <span>✅ 覚えた！（チェック済にする）</span>
+              <small>覚えた数にカウント＆次の問題へ</small>
+            </button>
+          </div>
+          <button class="next-question-btn" id="btnNextQuestion" style="display:none;">次の問題へ進む →</button>
+        </div>
+      </div>
+
+      <!-- Session Complete Modal / Card -->
+      <div class="session-result-card" id="sessionResultCard" style="display:none;">
+        <div class="sr-badge">🎉 SESSION CLEAR!</div>
+        <h2 class="sr-title" id="srTitle">10問推理完了！お疲れ様でした！</h2>
+        <div class="sr-stats-grid">
+          <div class="sr-stat-box">
+            <div class="sr-stat-val" id="srCorrectCount">10 / 10</div>
+            <div class="sr-stat-label">正解・達成</div>
+          </div>
+          <div class="sr-stat-box">
+            <div class="sr-stat-val" id="srMasteredDelta">+5</div>
+            <div class="sr-stat-label">今回覚えた数</div>
+          </div>
+          <div class="sr-stat-box">
+            <div class="sr-stat-val" id="srEarnedExp">+180</div>
+            <div class="sr-stat-label">獲得EXP</div>
+          </div>
+        </div>
+        <div class="sr-review-list" id="srReviewList"></div>
+        <div class="sr-actions">
+          <button class="start-btn" id="btnContinueNextBatch">🔥 続けて次の10問に挑戦！</button>
+          <button class="start-btn warning" id="btnRetryWrongOnly" style="display:none;">🔄 今回まだ不安だった問題だけ復習</button>
+          <button class="start-btn secondary" id="btnBackToHomeFromResult">🏠 ホームに戻る</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: WORD LIST / CHECKBOOK VIEW -->
+    <section class="tab-view" id="view-list">
+      <div class="list-header-card">
+        <h2>☑️ 単語帳＆一括チェック管理</h2>
+        <p class="list-sub">覚えたものにチェックを入れると、残りの数や出題対象に即座に反映されます。</p>
+        <div class="list-controls">
+          <select class="form-select" id="listSectionSelect">
+            <option value="part1">PART 1：漢字入力（500問）</option>
+            <option value="part2">PART 2：英語入力・分野別（500問）</option>
+            <option value="yoji">四文字熟語コーナー（50問）</option>
+            <option value="abbr">略語の解剖コーナー（40問）</option>
+            <option value="katakana">カタカナ英語コーナー（20問）</option>
+          </select>
+          <select class="form-select" id="listStatusFilter">
+            <option value="all">すべての状態</option>
+            <option value="remaining">未チェック（残り）のみ</option>
+            <option value="review">要復習のみ</option>
+            <option value="mastered">覚えた✓のみ</option>
+          </select>
+          <input type="search" class="form-input" id="listSearchInput" placeholder="🔍 英語・漢字・ヒントで検索..." />
+        </div>
+        <div class="list-summary-bar">
+          <span id="listFilteredCount">表示中: 500件</span>
+          <div class="list-bulk-btns">
+            <button class="mini-btn" id="btnQuizFromListed">🎯 表示中の問題から10問出題</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wordlist-container" id="wordlistContainer"></div>
+      <div class="pagination-bar" id="listPaginationBar"></div>
+    </section>
+
+    <!-- TAB 4: STATS, ACHIEVEMENTS & SETTINGS -->
+    <section class="tab-view" id="view-stats">
+      <div class="stats-overview-card">
+        <h2>📊 学習データ＆達成状況</h2>
+        <div class="big-metrics-grid">
+          <div class="metric-card mastered-theme">
+            <div class="metric-label">覚えた数（チェック済）</div>
+            <div class="metric-value" id="statTotalMastered">0</div>
+            <div class="metric-sub" id="statTotalMasteredSub">/ 1110 問</div>
+          </div>
+          <div class="metric-card remaining-theme">
+            <div class="metric-label">残りの数（未修得）</div>
+            <div class="metric-value" id="statTotalRemaining">1110</div>
+            <div class="metric-sub" id="statTotalReviewSub">うち要復習: 0問</div>
+          </div>
+          <div class="metric-card streak-theme">
+            <div class="metric-label">連続学習ストリーク</div>
+            <div class="metric-value"><span id="statStreakDays">0</span><small>日</small></div>
+            <div class="metric-sub" id="statTotalAnsweredSub">累計解答: 0回</div>
+          </div>
+          <div class="metric-card rank-theme">
+            <div class="metric-label">探偵ランク＆総EXP</div>
+            <div class="metric-value" id="statTotalExp">0</div>
+            <div class="metric-sub" id="statRankNameSub">見習い探偵</div>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">コーナー別の進捗詳細</h3>
+        <div class="section-breakdown-list" id="sectionBreakdownList"></div>
+      </div>
+
+      <!-- Badges / Achievements -->
+      <div class="achievements-card">
+        <h2>🏆 推理バッジコレクション</h2>
+        <p class="list-sub">条件をクリアして名探偵バッジを集めよう！</p>
+        <div class="badges-grid" id="badgesGrid"></div>
+      </div>
+
+      <!-- Data Backup / Restore -->
+      <div class="settings-card">
+        <h2>⚙️ 設定・データ引き継ぎ</h2>
+        <div class="settings-row">
+          <div>
+            <strong>英語の自動発音読み上げ</strong>
+            <p class="small-muted">問題表示時や正解時に自動で英語を読み上げます</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggleAutoSpeak" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>1日の目標問題数</strong>
+            <p class="small-muted">毎日のストリーク達成目安（本書推奨は1日10問〜30問）</p>
+          </div>
+          <select class="form-select narrow-select" id="selectDailyGoal">
+            <option value="10">10問 / 日</option>
+            <option value="20">20問 / 日</option>
+            <option value="30">30問 / 日</option>
+            <option value="50">50問 / 日</option>
+          </select>
+        </div>
+        <div class="backup-actions">
+          <button class="secondary-btn" id="btnExportData">📥 学習データを保存（JSON書き出し）</button>
+          <label class="secondary-btn file-label">
+            📤 学習データを復元（JSON読み込み）
+            <input type="file" id="inputImportData" accept=".json" style="display:none;" />
+          </label>
+          <button class="danger-btn" id="btnResetData">🗑️ 学習記録をリセット</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+  <!-- Smartphone Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-tab="home">
+      <span class="nav-icon">🏠</span>
+      <span class="nav-label">ホーム</span>
+    </button>
+    <button class="nav-item" data-tab="quiz">
+      <span class="nav-icon">🔍</span>
+      <span class="nav-label">クイズ</span>
+    </button>
+    <button class="nav-item" data-tab="list">
+      <span class="nav-icon">☑️</span>
+      <span class="nav-label">単語帳・チェック</span>
+    </button>
+    <button class="nav-item" data-tab="stats">
+      <span class="nav-icon">🏆</span>
+      <span class="nav-label">成績・バッジ</span>
+    </button>
+  </nav>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10443 @@
+// Auto-generated complete quiz dataset for 推理でうめる英単語 (1,110 questions)
+window.SUIRI_DATA = {
+  "part1": [
+    {
+      "id": 1,
+      "english": "supplementary lesson",
+      "phonetic": "[sʌ́pləméntəri]",
+      "version": "2字",
+      "kanji_hint": "□習",
+      "answer": "補習",
+      "hint": "「このテストで20点以下の者は放課後残るように」「ウッソー，そんなの dictatorship だわ」",
+      "vocab": "dictatorship [名] 独裁政治",
+      "part2_id": 233
+    },
+    {
+      "id": 2,
+      "english": "fairy tale",
+      "phonetic": "[fέəri] [teil]",
+      "version": "2字",
+      "kanji_hint": "□話",
+      "answer": "童話",
+      "hint": "寓話ほど irony が強くない，子供向けのお話。",
+      "vocab": "irony [名] 皮肉",
+      "part2_id": 303
+    },
+    {
+      "id": 3,
+      "english": "magnetic attraction",
+      "phonetic": "[mægnétik] [ətrǽkʃən]",
+      "version": "2字",
+      "kanji_hint": "□力",
+      "answer": "磁力",
+      "hint": "鉄どうしが attach したりするのはこれが原因。",
+      "vocab": "attach [動] 固着する",
+      "part2_id": 5
+    },
+    {
+      "id": 4,
+      "english": "family budget",
+      "phonetic": "[bʌ́dʒət]",
+      "version": "2字",
+      "kanji_hint": "家□",
+      "answer": "家計",
+      "hint": "給料をどのような priority でやりくりするか。",
+      "vocab": "priority [名] 優先(権)",
+      "part2_id": 424
+    },
+    {
+      "id": 5,
+      "english": "political situation",
+      "phonetic": "[pəlítikəl] [sitʃuéiʃən]",
+      "version": "2字",
+      "kanji_hint": "政□",
+      "answer": "政局(情)",
+      "hint": "新聞の一面を賑わす politician たちの動き。",
+      "vocab": "politician [名] 政治家",
+      "part2_id": 141
+    },
+    {
+      "id": 6,
+      "english": "agricultural chemical",
+      "phonetic": "[æ̀grikʌ́ltʃərəl] [kémikəl]",
+      "version": "2字",
+      "kanji_hint": "農□",
+      "answer": "農薬",
+      "hint": "畑に散布したりする物。種類としては insecticide とか pesticide などがある。",
+      "vocab": "insecticide [名] 殺虫剤 / pesticide [名] 害虫駆除剤",
+      "part2_id": 11
+    },
+    {
+      "id": 7,
+      "english": "criminal law",
+      "phonetic": "[krímənəl] [lɔː]",
+      "version": "2字",
+      "kanji_hint": "□法",
+      "answer": "刑法",
+      "hint": "罪を commit した人にどのような罰を与えるか決める。",
+      "vocab": "commit [動] 犯す",
+      "part2_id": 205
+    },
+    {
+      "id": 8,
+      "english": "sign language",
+      "phonetic": "[sain] [lǽŋgwidʒ]",
+      "version": "2字",
+      "kanji_hint": "□話",
+      "answer": "手話",
+      "hint": "deaf や dumb といったハンディキャップのある人達のコミュニケーションの手段。",
+      "vocab": "deaf [形] 耳の不自由な / dumb [形] 口のきけない，ばかげた",
+      "part2_id": 231
+    },
+    {
+      "id": 9,
+      "english": "gas mileage",
+      "phonetic": "[máilidʒ]",
+      "version": "2字",
+      "kanji_hint": "燃□",
+      "answer": "燃費",
+      "hint": "「新車の調子どう？」「うん，かなり economical。少ないガソリンでけっこう距離が伸びるよ」",
+      "vocab": "economical [形] 経済的な，むだのない",
+      "part2_id": 308
+    },
+    {
+      "id": 10,
+      "english": "intense pain",
+      "phonetic": "[inténs] [pein]",
+      "version": "2字",
+      "kanji_hint": "□痛",
+      "answer": "激痛",
+      "hint": "これが走ると顔を思わず distort する。",
+      "vocab": "distort [動] ゆがめる",
+      "part2_id": 381
+    },
+    {
+      "id": 11,
+      "english": "genuine love",
+      "phonetic": "[dʒénjuin]",
+      "version": "2字",
+      "kanji_hint": "□愛",
+      "answer": "純愛",
+      "hint": "「あなたのしあわせだけを願っているわ」といった pure な愛。",
+      "vocab": "pure [形] 純粋な",
+      "part2_id": 319
+    },
+    {
+      "id": 12,
+      "english": "short temper",
+      "phonetic": "[témpər]",
+      "version": "2字",
+      "kanji_hint": "□気",
+      "answer": "短気",
+      "hint": "人の性格のことで，impatient ですぐにカッとなったりしてしまうような…。",
+      "vocab": "impatient [形] せっかちな",
+      "part2_id": 323
+    },
+    {
+      "id": 13,
+      "english": "official residence",
+      "phonetic": "[əfíʃəl] [rézədəns]",
+      "version": "2字",
+      "kanji_hint": "□舎",
+      "answer": "官舎",
+      "hint": "公務員だけに available で家賃も unreasonable に安い。",
+      "vocab": "available [形] 利用できる，手に入る，役に立つ / unreasonable [形] 不合理な",
+      "part2_id": 418
+    },
+    {
+      "id": 14,
+      "english": "dead sleep",
+      "phonetic": "",
+      "version": "2字",
+      "kanji_hint": "□睡",
+      "answer": "熟睡",
+      "hint": "sound な眠り。fast に寝ている。",
+      "vocab": "sound [形] 十分な，健全な / fast [副] ぐっすりと",
+      "part2_id": 421
+    },
+    {
+      "id": 15,
+      "english": "premature delivery",
+      "phonetic": "[prìːmət(j)úər] [dilívəri]",
+      "version": "2字",
+      "kanji_hint": "□産",
+      "answer": "早産",
+      "hint": "人間の場合は普通10ヵ月ぐらいが appropriate だが，それより短いと…。",
+      "vocab": "appropriate [形] 適切な",
+      "part2_id": 374
+    },
+    {
+      "id": 16,
+      "english": "school characteristic",
+      "phonetic": "[kæ̀riktərístik]",
+      "version": "2字",
+      "kanji_hint": "校□",
+      "answer": "校風",
+      "hint": "質実剛健，文武両道といったイメージが学校に soak している。",
+      "vocab": "soak [動] 浸す",
+      "part2_id": 241
+    },
+    {
+      "id": 17,
+      "english": "tax evasion",
+      "phonetic": "[ivéiʒən]",
+      "version": "2字",
+      "kanji_hint": "□税",
+      "answer": "脱税",
+      "hint": "売上を過小申告するなどの cheat をする。これは違法行為。",
+      "vocab": "cheat [名][動] 詐欺(を働く)",
+      "part2_id": 199
+    },
+    {
+      "id": 18,
+      "english": "army regulation",
+      "phonetic": "[règjuléiʃən]",
+      "version": "2字",
+      "kanji_hint": "軍□",
+      "answer": "軍縮",
+      "hint": "「もう戦争は cease だ」「そうしよう。もう『武器よさらば』だ」",
+      "vocab": "cease [動] やめる，やむ",
+      "part2_id": 139
+    },
+    {
+      "id": 19,
+      "english": "net profit",
+      "phonetic": "[prɑ́fit]",
+      "version": "2字",
+      "kanji_hint": "□益",
+      "answer": "純益",
+      "hint": "売り上げからいろいろな経費を subtract して後に残ったお金。",
+      "vocab": "subtract [動] 引く",
+      "part2_id": 85
+    },
+    {
+      "id": 20,
+      "english": "good harvest",
+      "phonetic": "[hɑ́ːrvist]",
+      "version": "2字",
+      "kanji_hint": "□作",
+      "answer": "豊作",
+      "hint": "農作物の収穫が abundant。めでたい，めでたい。",
+      "vocab": "abundant [形] 豊富な",
+      "part2_id": 90
+    },
+    {
+      "id": 21,
+      "english": "corporate bond",
+      "phonetic": "[kɔ́ːrpərət] [bɑnd]",
+      "version": "2字",
+      "kanji_hint": "□債",
+      "answer": "社債",
+      "hint": "国ではなく会社がお金を市場から借りる時に issue するもの。",
+      "vocab": "issue [動] 発行する [名] 問題",
+      "part2_id": 79
+    },
+    {
+      "id": 22,
+      "english": "crude oil",
+      "phonetic": "[kruːd]",
+      "version": "2字",
+      "kanji_hint": "□油",
+      "answer": "原油",
+      "hint": "これを refine してガソリンや灯油などいろいろなものが作られる。",
+      "vocab": "refine [動] 精製する",
+      "part2_id": 6
+    },
+    {
+      "id": 23,
+      "english": "dairy cattle",
+      "phonetic": "[déəri] [kǽtl]",
+      "version": "2字",
+      "kanji_hint": "□牛",
+      "answer": "乳牛",
+      "hint": "牛の一種類。protein をたっぷり contain した白いものを出す。",
+      "vocab": "protein [名] たんぱく質 / contain [動] 含む",
+      "part2_id": 88
+    },
+    {
+      "id": 24,
+      "english": "public money",
+      "phonetic": "[pʌ́blik]",
+      "version": "2字",
+      "kanji_hint": "□金",
+      "answer": "公金",
+      "hint": "もしこれを私的な purpose に流用したらとんでもないことに。",
+      "vocab": "purpose [名] 目的",
+      "part2_id": 83
+    },
+    {
+      "id": 25,
+      "english": "status quo",
+      "phonetic": "[stéitəs] [kwou]",
+      "version": "2字",
+      "kanji_hint": "□状",
+      "answer": "現状",
+      "hint": "若い人にはこんなものに満足しないで，もっといろいろなことに longing を持って欲しい。",
+      "vocab": "longing [名] あこがれ",
+      "part2_id": 8
+    },
+    {
+      "id": 26,
+      "english": "perfect attendance",
+      "phonetic": "[əténdəns]",
+      "version": "2字",
+      "kanji_hint": "皆□",
+      "answer": "皆勤",
+      "hint": "授業や講習などを一回も休まなかった。表彰に deserve する。",
+      "vocab": "deserve [動] 値する",
+      "part2_id": 226
+    },
+    {
+      "id": 27,
+      "english": "great achievement",
+      "phonetic": "[ətʃíːvmənt]",
+      "version": "2字",
+      "kanji_hint": "□業",
+      "answer": "偉業",
+      "hint": "誰からも賞賛される brilliant な業績。",
+      "vocab": "brilliant [形] 素晴しい",
+      "part2_id": 326
+    },
+    {
+      "id": 28,
+      "english": "blood transfusion",
+      "phonetic": "[blʌd] [trænsfjúːʒən]",
+      "version": "2字",
+      "kanji_hint": "□血",
+      "answer": "輸血",
+      "hint": "大量の出血を伴う手術の時は，これが imperative …。",
+      "vocab": "imperative [形] 必須の",
+      "part2_id": 382
+    },
+    {
+      "id": 29,
+      "english": "marriage contract",
+      "phonetic": "[mǽridʒ] [kɑ́ntrækt]",
+      "version": "2字",
+      "kanji_hint": "婚□",
+      "answer": "婚約",
+      "hint": "男性の方から申し込まなければいけないなんて，superstition 。",
+      "vocab": "superstition [名] 迷信",
+      "part2_id": 411
+    },
+    {
+      "id": 30,
+      "english": "evil deed",
+      "phonetic": "[íːvəl] [diːd]",
+      "version": "2字",
+      "kanji_hint": "□行",
+      "answer": "悪行",
+      "hint": "人から後ろ指を差されるような conduct や behavior 。",
+      "vocab": "conduct [名] 行い / behavior [名] ふるまい",
+      "part2_id": 321
+    },
+    {
+      "id": 31,
+      "english": "hasty conclusion",
+      "phonetic": "[héisti] [kənklúːʒən]",
+      "version": "3字",
+      "kanji_hint": "□合□",
+      "answer": "早合点",
+      "hint": "「人の話はちゃんと最後まで聞けよ」「ちょっと rash だったか」",
+      "vocab": "rash [形] 軽率な",
+      "part2_id": 337
+    },
+    {
+      "id": 32,
+      "english": "under investigation",
+      "phonetic": "[investəgéiʃən]",
+      "version": "3字",
+      "kanji_hint": "□□中",
+      "answer": "調査中",
+      "hint": "事故が起こり関係者たちが，その cause を examine している。",
+      "vocab": "examine [動] 調べる",
+      "part2_id": 245
+    },
+    {
+      "id": 33,
+      "english": "participating nation",
+      "phonetic": "[pɑːrtísəpèitiŋ]",
+      "version": "3字",
+      "kanji_hint": "□□国",
+      "answer": "参加国",
+      "hint": "オリンピックの場合は多過ぎてどれ位になるのか accurate な数はわからない。",
+      "vocab": "accurate [形] 正確な",
+      "part2_id": 248
+    },
+    {
+      "id": 34,
+      "english": "consumption tax",
+      "phonetic": "[kəsʌ́mpʃən]",
+      "version": "3字",
+      "kanji_hint": "□□税",
+      "answer": "消費税",
+      "hint": "お店で何かを purchase した時に払う税金。",
+      "vocab": "purchase [動] 購入する",
+      "part2_id": 100
+    },
+    {
+      "id": 35,
+      "english": "public servant",
+      "phonetic": "[sə́ːrvənt]",
+      "version": "3字",
+      "kanji_hint": "□□員",
+      "answer": "公務員",
+      "hint": "「リストラの fear もないし，まったく親方日の丸はいいよな…」",
+      "vocab": "fear [名] 恐怖",
+      "part2_id": 148
+    },
+    {
+      "id": 36,
+      "english": "Marine Corps",
+      "phonetic": "[məríːn] [kɔ́ːr]",
+      "version": "3字",
+      "kanji_hint": "□兵□",
+      "answer": "海兵隊",
+      "hint": "アメリカ合衆国の forces のひとつで，主に coast に上陸作戦を展開する。",
+      "vocab": "forces [名] 軍隊 / coast [名] 海岸",
+      "part2_id": 154
+    },
+    {
+      "id": 37,
+      "english": "blood type",
+      "phonetic": "[blʌd]",
+      "version": "3字",
+      "kanji_hint": "□液□",
+      "answer": "血液型",
+      "hint": "人に言わせると私は typical なA型だそうです。",
+      "vocab": "typical [形] 典型的な",
+      "part2_id": 24
+    },
+    {
+      "id": 38,
+      "english": "ecological system",
+      "phonetic": "[ìːkəlɑ́dʒikəl]",
+      "version": "3字",
+      "kanji_hint": "□□系",
+      "answer": "生態系",
+      "hint": "地球上に生息するすべての生物が互いに依存しあって生きているという perspective 。",
+      "vocab": "perspective [名] 総体的，長期的な観点",
+      "part2_id": 18
+    },
+    {
+      "id": 39,
+      "english": "threatening letter",
+      "phonetic": "[θrétniŋ]",
+      "version": "3字",
+      "kanji_hint": "□□状",
+      "answer": "脅迫状",
+      "hint": "「明日の昼までに1億円用意しろ。さもないと娘の命は…」といった intimidate している書き付け。",
+      "vocab": "intimidate [動] 脅かす",
+      "part2_id": 207
+    },
+    {
+      "id": 40,
+      "english": "ambitious work",
+      "phonetic": "[æmbíʃəs]",
+      "version": "3字",
+      "kanji_hint": "□心□",
+      "answer": "野心作",
+      "hint": "passion を込めて一発当てるつもりで書いた作品。",
+      "vocab": "passion [名] 情熱",
+      "part2_id": 247
+    },
+    {
+      "id": 41,
+      "english": "inferiority complex",
+      "phonetic": "[infìəriɔ́ːrəti]",
+      "version": "3字",
+      "kanji_hint": "□□感",
+      "answer": "劣等感",
+      "hint": "「オレなんか trivial な存在さ，何の役にも立ちゃしない」",
+      "vocab": "trivial [形] つまらない，ささいな",
+      "part2_id": 338
+    },
+    {
+      "id": 42,
+      "english": "acid rain",
+      "phonetic": "[ǽsəd]",
+      "version": "3字",
+      "kanji_hint": "□□雨",
+      "answer": "酸性雨",
+      "hint": "工場の chimney などから emit される煙や車の排ガスなどが原因なのか。",
+      "vocab": "chimney [名] 煙突 / emit [動] 放出する",
+      "part2_id": 15
+    },
+    {
+      "id": 43,
+      "english": "nuclear fuel",
+      "phonetic": "[njúːkliər] [fjuəl]",
+      "version": "3字",
+      "kanji_hint": "□□料",
+      "answer": "核燃料",
+      "hint": "発電所や船の動力として使われる。安全性に対してまだ doubtful になってしまう。",
+      "vocab": "doubtful [形] 疑いを持つ",
+      "part2_id": 26
+    },
+    {
+      "id": 44,
+      "english": "fierce opposition",
+      "phonetic": "[fiərs] [ɑ̀pəzíʃən]",
+      "version": "3字",
+      "kanji_hint": "□□対",
+      "answer": "猛反対",
+      "hint": "会議などでこういう enthusiastic な disagreement にあうと本当につらい。",
+      "vocab": "enthusiastic [形] 熱心な / disagreement [名] 反対",
+      "part2_id": 257
+    },
+    {
+      "id": 45,
+      "english": "riot police",
+      "phonetic": "[ráiət]",
+      "version": "3字",
+      "kanji_hint": "□□隊",
+      "answer": "機動隊",
+      "hint": "demonstration をしていた群衆が暴力的な mob になった時に出動してくる。",
+      "vocab": "demonstration [名] デモ，実演 / mob [名] 暴徒",
+      "part2_id": 149
+    },
+    {
+      "id": 46,
+      "english": "intellectual crime",
+      "phonetic": "[ìntəléktʃuəl] [kraim]",
+      "version": "3字",
+      "kanji_hint": "□□犯",
+      "answer": "知能犯",
+      "hint": "暴力などは使わずに頭を使ってやる fraud のような犯罪。",
+      "vocab": "fraud [名] 詐欺(さぎ)",
+      "part2_id": 209
+    },
+    {
+      "id": 47,
+      "english": "graduate school",
+      "phonetic": "[grǽdʒueit]",
+      "version": "3字",
+      "kanji_hint": "□学□",
+      "answer": "大学院",
+      "hint": "「おまえ大学卒業したらどうする？」「オレ大学に remain するよ」",
+      "vocab": "remain [動] 残る",
+      "part2_id": 260
+    },
+    {
+      "id": 48,
+      "english": "original inhabitant",
+      "phonetic": "[ərídʒənəl] [inhǽbətənt]",
+      "version": "3字",
+      "kanji_hint": "□住□",
+      "answer": "原(先)住民",
+      "hint": "もともとその土地に住んでいた人たち。Inuits や Aborigines などが知られている。",
+      "vocab": "Inuits [名] エスキモー / Aborigines [名] オーストラリア原住民",
+      "part2_id": 327
+    },
+    {
+      "id": 49,
+      "english": "English literature",
+      "phonetic": "[lítərətʃər]",
+      "version": "3字",
+      "kanji_hint": "□文□",
+      "answer": "英文学",
+      "hint": "シェークスピアが有名。novel や play も poetry もこれに含まれる。",
+      "vocab": "novel [名] 小説 / play [名] 劇 / poetry [名] 詩",
+      "part2_id": 332
+    },
+    {
+      "id": 50,
+      "english": "occupational disease",
+      "phonetic": "[ɑ̀kjəpéiʃənəl] [dizíːz]",
+      "version": "3字",
+      "kanji_hint": "□□病",
+      "answer": "職業病",
+      "hint": "あまりにも長い時間 monotonous な仕事を続けていると体に変調が…。",
+      "vocab": "monotonous [形] 単調な",
+      "part2_id": 431
+    },
+    {
+      "id": 51,
+      "english": "fixed idea",
+      "phonetic": "[fikst] [aidíə]",
+      "version": "4字",
+      "kanji_hint": "□□観□",
+      "answer": "固定観念",
+      "hint": "flexibility に欠けた考え。stereotype ともいう。",
+      "vocab": "flexibility [名] 柔軟性 / stereotype [名] 固定観念 [動] 型にはめる",
+      "part2_id": 290
+    },
+    {
+      "id": 52,
+      "english": "paid holiday",
+      "phonetic": "[peid]",
+      "version": "4字",
+      "kanji_hint": "□□休□",
+      "answer": "有給休暇",
+      "hint": "労働者の当然の right。ただし日数には limit がある。",
+      "vocab": "right [名] 権利",
+      "part2_id": 355
+    },
+    {
+      "id": 53,
+      "english": "organ transplant",
+      "phonetic": "[ɔ́ːrgən] [trænsplǽnt]",
+      "version": "4字",
+      "kanji_hint": "□□移□",
+      "answer": "臓器移植",
+      "hint": "他人の心臓とか肝臓を利用することに，まだ ethics 上の問題を持つ人が…。",
+      "vocab": "ethics [名] 倫理",
+      "part2_id": 397
+    },
+    {
+      "id": 54,
+      "english": "preparatory training",
+      "phonetic": "[pripǽrətɔːri]",
+      "version": "4字",
+      "kanji_hint": "□□訓□",
+      "answer": "予備訓練",
+      "hint": "「すぐに duty に着く自信はありません」「大丈夫だ。前もってちゃんと教えてやる」",
+      "vocab": "duty [名] 任務，義務",
+      "part2_id": 463
+    },
+    {
+      "id": 55,
+      "english": "safety device",
+      "phonetic": "[séifti] [diváis]",
+      "version": "4字",
+      "kanji_hint": "□全□□",
+      "answer": "安全装置",
+      "hint": "万一の時，命を guard してくれるもの。エアバッグ，シートベルトなど。",
+      "vocab": "",
+      "part2_id": 457
+    },
+    {
+      "id": 56,
+      "english": "juvenile delinquency",
+      "phonetic": "[dʒúːvənàil] [dilíŋkwensi]",
+      "version": "4字",
+      "kanji_hint": "□年□□",
+      "answer": "少年非行",
+      "hint": "adolescent の人たちのよくない行動。",
+      "vocab": "adolescent [形] 思春期の",
+      "part2_id": 359
+    },
+    {
+      "id": 57,
+      "english": "racial discrimination",
+      "phonetic": "[réiʃəl] [diskriməneiʃən]",
+      "version": "4字",
+      "kanji_hint": "□種□□",
+      "answer": "人種差別",
+      "hint": "肌や髪の色といった身体的な features で態度を変えることなど。",
+      "vocab": "features [名] 特徴",
+      "part2_id": 343
+    },
+    {
+      "id": 58,
+      "english": "vocational education",
+      "phonetic": "[voukéiʃənəl] [èdʒəkéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□教□",
+      "answer": "職業教育",
+      "hint": "仕事に対する aptitude を伸ばすためにするトレーニング。",
+      "vocab": "aptitude [名] 適性",
+      "part2_id": 280
+    },
+    {
+      "id": 59,
+      "english": "press conference",
+      "phonetic": "[kɑ́nfərəns]",
+      "version": "4字",
+      "kanji_hint": "□□会□",
+      "answer": "記者会見",
+      "hint": "「今日マスコミ各社のみなさんに集まっていただいたのは，妻との divorce の件です」",
+      "vocab": "divorce [名][動] 離婚(する)",
+      "part2_id": 270
+    },
+    {
+      "id": 60,
+      "english": "successive murders",
+      "phonetic": "[səksésiv] [mə́ːrdərz]",
+      "version": "4字",
+      "kanji_hint": "□続□□",
+      "answer": "連続殺人",
+      "hint": "人が殺されるという事件が in sequence に限られた地域で起こる。",
+      "vocab": "in sequence つぎつぎと",
+      "part2_id": 214
+    },
+    {
+      "id": 61,
+      "english": "maternal instinct",
+      "phonetic": "[mətə́ːrnəl] [ínstiŋkt]",
+      "version": "4字",
+      "kanji_hint": "□性□□",
+      "answer": "母性本能",
+      "hint": "赤ちゃんを見ると思わず affection を感じてしまう tendency。",
+      "vocab": "affection [名] 愛情 / tendency [名] 傾向，性癖",
+      "part2_id": 361
+    },
+    {
+      "id": 62,
+      "english": "commuter train",
+      "phonetic": "[kəmjúːtər]",
+      "version": "4字",
+      "kanji_hint": "□□電□",
+      "answer": "通勤電車",
+      "hint": "仕事の往復に乗る transportation，ラッシュアワーには incredible な状況に…。",
+      "vocab": "transportation [名] 輸送機関 / incredible [形] 信じられない",
+      "part2_id": 464
+    },
+    {
+      "id": 63,
+      "english": "unemployment benefit",
+      "phonetic": "[ʌ̀nimplɔ́imənt] [bénəfit]",
+      "version": "4字",
+      "kanji_hint": "□□手□",
+      "answer": "失業手当",
+      "hint": "会社を fire された時にもらえるお金。ちなみに fire の反意語は hire 。",
+      "vocab": "fire [動] クビにする / hire [動] 雇う",
+      "part2_id": 470
+    },
+    {
+      "id": 64,
+      "english": "surgical operation",
+      "phonetic": "[sə́ːrdʒikəl] [ɑ̀pəréiʃən]",
+      "version": "4字",
+      "kanji_hint": "□科□□",
+      "answer": "外科手術",
+      "hint": "メスを使って麻酔をかけて行う。anatomy の研究の成果。",
+      "vocab": "anatomy [名] 解剖学",
+      "part2_id": 400
+    },
+    {
+      "id": 65,
+      "english": "cultural heritage",
+      "phonetic": "[kʌ́ltʃərəl] [hérətidʒ]",
+      "version": "4字",
+      "kanji_hint": "□化□□",
+      "answer": "文化遺産",
+      "hint": "ancestor たちから代々受けついできたかけがえのないもの。",
+      "vocab": "ancestor [名] 祖先",
+      "part2_id": 346
+    },
+    {
+      "id": 66,
+      "english": "persecution complex",
+      "phonetic": "[pə̀ːrsikjúːʃən]",
+      "version": "4字",
+      "kanji_hint": "□害□□",
+      "answer": "被害妄想",
+      "hint": "常に誰かが自分を stalk しているとか思ってしまう。",
+      "vocab": "stalk [動] 忍び寄る",
+      "part2_id": 292
+    },
+    {
+      "id": 67,
+      "english": "optional subject",
+      "phonetic": "[ɑ́pʃənəl] [sʌ́bdʒikt]",
+      "version": "4字",
+      "kanji_hint": "選□□□",
+      "answer": "選択科目",
+      "hint": "いろいろな alternatives の中から自分の好みに応じて選べる。",
+      "vocab": "alternatives [名] 選択肢",
+      "part2_id": 278
+    },
+    {
+      "id": 68,
+      "english": "corruption case",
+      "phonetic": "[kərʌ́pʃən]",
+      "version": "4字",
+      "kanji_hint": "□職□□",
+      "answer": "汚職事件",
+      "hint": "政治家が賄賂(わいろ)をもらうなんて，conscience を疑う。",
+      "vocab": "conscience [名] 良心",
+      "part2_id": 216
+    },
+    {
+      "id": 69,
+      "english": "assembly plant",
+      "phonetic": "[əsémbli]",
+      "version": "4字",
+      "kanji_hint": "□立□□",
+      "answer": "組立工場",
+      "hint": "いろいろな部品を集めてきて，それを compose して製品にする所。",
+      "vocab": "compose [動] 組み立てる",
+      "part2_id": 113
+    },
+    {
+      "id": 70,
+      "english": "natural selection",
+      "phonetic": "[səlékʃən]",
+      "version": "4字",
+      "kanji_hint": "□然□□",
+      "answer": "自然淘汰",
+      "hint": "強者は survive し弱者は extinct になる厳しい法則。",
+      "vocab": "survive [動] 生き残る / extinct [形] 絶滅した",
+      "part2_id": 45
+    },
+    {
+      "id": 71,
+      "english": "child abuse",
+      "phonetic": "[əbjúːz]",
+      "version": "4字",
+      "kanji_hint": "□□□待",
+      "answer": "幼児虐待",
+      "hint": "子供に discipline をする時などに awful な暴力を使う。",
+      "vocab": "discipline [名] しつけ，訓練 / awful [形] 恐ろしい，とてもよい",
+      "part2_id": 488
+    },
+    {
+      "id": 72,
+      "english": "political donation",
+      "phonetic": "[pəlítikəl] [dounéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□治□□",
+      "answer": "政治献金",
+      "hint": "政治家の活動を sustain するために，個人や団体が charity であげるお金。",
+      "vocab": "sustain [動] 支える",
+      "part2_id": 183
+    },
+    {
+      "id": 73,
+      "english": "welfare state",
+      "phonetic": "[wélfɛə]",
+      "version": "4字",
+      "kanji_hint": "□□国□",
+      "answer": "福祉国家",
+      "hint": "市民に対する行政のサービスが，実に substantial で penetrating している国。",
+      "vocab": "substantial [形] 充実した / penetrating [形] 浸透した",
+      "part2_id": 164
+    },
+    {
+      "id": 74,
+      "english": "crisis management",
+      "phonetic": "[kráisis] [mǽnidʒmənt]",
+      "version": "4字",
+      "kanji_hint": "□機□□",
+      "answer": "危機管理",
+      "hint": "terrorism などの緊急事態に panic になることなくしっかりと対処すること。",
+      "vocab": "",
+      "part2_id": 174
+    },
+    {
+      "id": 75,
+      "english": "territorial dispute",
+      "phonetic": "[terətɔ́ːriəl] [dispjúːt]",
+      "version": "4字",
+      "kanji_hint": "□□□争",
+      "answer": "領土紛争",
+      "hint": "国と国との boundary や島の領有権をめぐって起きる争い。",
+      "vocab": "boundary [名] 国境",
+      "part2_id": 177
+    },
+    {
+      "id": 76,
+      "english": "external debt",
+      "phonetic": "[ekstə́ːrnəl] [det]",
+      "version": "4字",
+      "kanji_hint": "□外□□",
+      "answer": "対外債務",
+      "hint": "他の国々からお金を borrow をしていること。よくこれが国の発展にとって burden となる。",
+      "vocab": "burden [名] 重荷",
+      "part2_id": 118
+    },
+    {
+      "id": 77,
+      "english": "bank robbery",
+      "phonetic": "[rɑ́bəri]",
+      "version": "4字",
+      "kanji_hint": "□行□□",
+      "answer": "銀行強盗",
+      "hint": "「手を上げろ。動くとぶっぱなすぞ。早く safe を開けろ！」",
+      "vocab": "safe [名] 金庫",
+      "part2_id": 217
+    },
+    {
+      "id": 78,
+      "english": "greenhouse effect",
+      "phonetic": "[ifékt]",
+      "version": "4字",
+      "kanji_hint": "□室□□",
+      "answer": "温室効果",
+      "hint": "二酸化炭素などのガスが地表から宇宙に放出されるはずの熱を，trap してしまうこと。",
+      "vocab": "trap [動] 閉じ込める",
+      "part2_id": 59
+    },
+    {
+      "id": 79,
+      "english": "population explosion",
+      "phonetic": "[pɑ̀pjuléiʃən] [iksplóuʒən]",
+      "version": "4字",
+      "kanji_hint": "□口□□",
+      "answer": "人口爆発",
+      "hint": "途上国などで急激に人の数が increase する現象。",
+      "vocab": "increase [動] 上昇する(名詞は前にアクセント)",
+      "part2_id": 65
+    },
+    {
+      "id": 80,
+      "english": "office equipment",
+      "phonetic": "[ikwípmənt]",
+      "version": "4字",
+      "kanji_hint": "□□用□",
+      "answer": "事務用品",
+      "hint": "stationery もこれのひとつ。具体的には机，椅子，ペン，紙，のり，stapler など。",
+      "vocab": "stationery [名] 文房具 / stapler [名] ホッチキス，主要産物",
+      "part2_id": 481
+    },
+    {
+      "id": 81,
+      "english": "carbon dioxide",
+      "phonetic": "[kɑ́ːrbən] [daiɑ́ksaid]",
+      "version": "5字",
+      "kanji_hint": "□□□炭□",
+      "answer": "二酸化炭素",
+      "hint": "人や動物が breathe すると出てくるガスの一種。",
+      "vocab": "breathe [動] 息をする",
+      "part2_id": 71
+    },
+    {
+      "id": 82,
+      "english": "advertising agency",
+      "phonetic": "[ǽdvərtaiziŋ] [éidʒənsi]",
+      "version": "5字",
+      "kanji_hint": "□□□理□",
+      "answer": "広告代理店",
+      "hint": "商品の売り上げを伸ばすためにコマーシャルを作ることを specialize している会社。",
+      "vocab": "specialize [動] 専門にする",
+      "part2_id": 129
+    },
+    {
+      "id": 83,
+      "english": "capitalistic country",
+      "phonetic": "[kæ̀pitəlístik]",
+      "version": "5字",
+      "kanji_hint": "□本□□□",
+      "answer": "資本主義国",
+      "hint": "国の制度のひとつ。よく対比されるのは communism country。",
+      "vocab": "communism [名] 共産主義",
+      "part2_id": 192
+    },
+    {
+      "id": 84,
+      "english": "intellectual property",
+      "phonetic": "[intəléktʃuəl] [prɑ́pəti]",
+      "version": "5字",
+      "kanji_hint": "□的□□□",
+      "answer": "知的所有権",
+      "hint": "コンピューターの software や著作物を imitate したら，この侵害になる。",
+      "vocab": "imitate [動] まねをする",
+      "part2_id": 134
+    },
+    {
+      "id": 85,
+      "english": "foreign correspondent",
+      "phonetic": "[kɔ́rəspɑ́ndənt]",
+      "version": "5字",
+      "kanji_hint": "□□□派□",
+      "answer": "海外特派員",
+      "hint": "現地国の状況をテレビなどで詳しく mention してくれる人。",
+      "vocab": "mention [動] 述べる",
+      "part2_id": 293
+    },
+    {
+      "id": 86,
+      "english": "authorized textbook",
+      "phonetic": "[ɔ́ːθəràizd]",
+      "version": "5字",
+      "kanji_hint": "□□教□□",
+      "answer": "検定教科書",
+      "hint": "文部省が事前に審議をし，そして permission を受けたものだけが出版される。",
+      "vocab": "permission [名] 許可",
+      "part2_id": 297
+    },
+    {
+      "id": 87,
+      "english": "frontier spirit",
+      "phonetic": "[frʌntíər]",
+      "version": "5字",
+      "kanji_hint": "□□者□□",
+      "answer": "開拓者精神",
+      "hint": "安定を求めず常に新しい場所へ courage を持って進んでいく心。",
+      "vocab": "courage [名] 勇気",
+      "part2_id": 362
+    },
+    {
+      "id": 88,
+      "english": "drug addict",
+      "phonetic": "[ǽdikt]",
+      "version": "5字",
+      "kanji_hint": "□□中□□",
+      "answer": "麻薬中毒者",
+      "hint": "ヘロインやコカインといった麻薬に身も心もすっかり absorbed された人。",
+      "vocab": "absorbed [形] 夢中の",
+      "part2_id": 408
+    },
+    {
+      "id": 89,
+      "english": "food additive",
+      "phonetic": "[ǽdətiv]",
+      "version": "5字",
+      "kanji_hint": "□□□加□",
+      "answer": "食品添加物",
+      "hint": "食べ物が rot したりしないようにほんの少しの amount 加えるもの。よくその安全性が問題に。",
+      "vocab": "rot [動] 腐る / amount [名] 量",
+      "part2_id": 493
+    },
+    {
+      "id": 90,
+      "english": "cultural anthropology",
+      "phonetic": "[kʌ́ltʃərəl] [æ̀nθrəpɑ́lədʒi]",
+      "version": "5字",
+      "kanji_hint": "□□人□□",
+      "answer": "文化人類学",
+      "hint": "anthropo は語源で人間という意味。anthropoid は『類人猿』とか『人間に似た』という意味。",
+      "vocab": "",
+      "part2_id": 299
+    },
+    {
+      "id": 91,
+      "english": "family allowance",
+      "phonetic": "[əláuəns]",
+      "version": "4字",
+      "kanji_hint": "□族□□",
+      "answer": "家族手当",
+      "hint": "その金額たるやほんとにすずめの tear。",
+      "vocab": "",
+      "part2_id": 480
+    },
+    {
+      "id": 92,
+      "english": "fire drill",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□難□□",
+      "answer": "避難訓練",
+      "hint": "「今日10時に化学 laboratory から出火予定。みんなしっかり逃げるように」",
+      "vocab": "laboratory [名] 実験室",
+      "part2_id": 475
+    },
+    {
+      "id": 93,
+      "english": "immune deficiency",
+      "phonetic": "[imjúːn] [difíʃənsi]",
+      "version": "4字",
+      "kanji_hint": "□□不□",
+      "answer": "免疫不全",
+      "hint": "virus と戦う機能が function しなくなる。",
+      "vocab": "virus [名] ビールス / function [動] 作用する",
+      "part2_id": 403
+    },
+    {
+      "id": 94,
+      "english": "official record",
+      "phonetic": "[əfíʃəl]",
+      "version": "4字",
+      "kanji_hint": "□式□□",
+      "answer": "公式記録",
+      "hint": "スポーツの大会などでの result でちゃんと認められたもの。",
+      "vocab": "result [名] 結果，成績",
+      "part2_id": 353
+    },
+    {
+      "id": 95,
+      "english": "detective story",
+      "phonetic": "[ditéktiv]",
+      "version": "4字",
+      "kanji_hint": "□理□□",
+      "answer": "推理小説",
+      "hint": "mysterious な小説で，事件の成り行きを anticipate するのが醍醐味。",
+      "vocab": "anticipate [動] 予想する",
+      "part2_id": 351
+    },
+    {
+      "id": 96,
+      "english": "ethnic costume",
+      "phonetic": "[eθnik]",
+      "version": "4字",
+      "kanji_hint": "□□衣□",
+      "answer": "民族衣装",
+      "hint": "ceremony で着用されることが多い。",
+      "vocab": "",
+      "part2_id": 347
+    },
+    {
+      "id": 97,
+      "english": "Industrial Revolution",
+      "phonetic": "[indʌ́striəl] [revəlúːʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□命",
+      "answer": "産業革命",
+      "hint": "イギリスで起こった世界史上の大きな変革。その consequence は測り知れない。",
+      "vocab": "consequence [名] 結果，重要性",
+      "part2_id": 340
+    },
+    {
+      "id": 98,
+      "english": "moral education",
+      "phonetic": "[èdʒəkéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□教□",
+      "answer": "道徳教育",
+      "hint": "人が生きていく上でどのような principle が大切なのかを教えること。",
+      "vocab": "principle [名] 原理，原則",
+      "part2_id": 284
+    },
+    {
+      "id": 99,
+      "english": "manuscript paper",
+      "phonetic": "[mǽnjuskript]",
+      "version": "4字",
+      "kanji_hint": "□□□紙",
+      "answer": "原稿用紙",
+      "hint": "学生の頃 assignment で400字詰めのこれに書いてくるようにとよく言われた。",
+      "vocab": "assignment [名] 課題，宿題",
+      "part2_id": 269
+    },
+    {
+      "id": 100,
+      "english": "unwritten constitution",
+      "phonetic": "[kɑ̀nstətʃúːʃən]",
+      "version": "4字",
+      "kanji_hint": "不□□□",
+      "answer": "不文憲法",
+      "hint": "過去に下されてきた sentences をもとに裁判をしていく。",
+      "vocab": "sentences [名] 判決",
+      "part2_id": 220
+    },
+    {
+      "id": 101,
+      "english": "diplomatic privilege",
+      "phonetic": "[dipləmǽtik] [prívəlidʒ]",
+      "version": "4字",
+      "kanji_hint": "□交□□",
+      "answer": "外交特権",
+      "hint": "外交官や ambassador はたとえ罪を犯したとしても現地国では逮捕されない。",
+      "vocab": "ambassador [æmbǽsədər]: [名] 大使",
+      "part2_id": 171
+    },
+    {
+      "id": 102,
+      "english": "management engineering",
+      "phonetic": "[mǽnidʒmənt] [èndʒəníəriŋ]",
+      "version": "4字",
+      "kanji_hint": "□□工□",
+      "answer": "経営工学",
+      "hint": "会社の運営の状況を研究する上で理工系の knowledge も導入しようという major。",
+      "vocab": "knowledge: [名] 知識 / major: [名] 専攻(科目)",
+      "part2_id": 122
+    },
+    {
+      "id": 103,
+      "english": "metal fatigue",
+      "phonetic": "[fətíːg]",
+      "version": "4字",
+      "kanji_hint": "□属□□",
+      "answer": "金属疲労",
+      "hint": "どんなに頑丈な鉄でも repetition するうちに fragile になってくる。",
+      "vocab": "repetition [rèpətíʃən]: [名] 繰り返し / fragile [frǽdʒail]: [形] もろい",
+      "part2_id": 50
+    },
+    {
+      "id": 104,
+      "english": "treaty revision",
+      "phonetic": "[tríːti] [rivíʒən]",
+      "version": "4字",
+      "kanji_hint": "□□改□",
+      "answer": "条約改正",
+      "hint": "一度なされた agreement をまた新しく見なおす。",
+      "vocab": "agreement: [名] 合意，協定",
+      "part2_id": 172
+    },
+    {
+      "id": 105,
+      "english": "intensive agriculture",
+      "phonetic": "[inténsiv] [ǽgrikʌ̀ltʃər]",
+      "version": "4字",
+      "kanji_hint": "□□農□",
+      "answer": "集約農業",
+      "hint": "狭い土地でも技術や effort を concentrate して最大の収穫をあげる。",
+      "vocab": "effort: [名] 努力 / concentrate [kánsəntrèit]: [動] 集中する",
+      "part2_id": 119
+    },
+    {
+      "id": 106,
+      "english": "artificial intelligence",
+      "phonetic": "[ɑ̀ːrtəfíʃəl] [intélədʒəns]",
+      "version": "4字",
+      "kanji_hint": "□□知□",
+      "answer": "人工知能",
+      "hint": "人間の精神面の働きを機械に代ってやらせる。accuracy に関してはすごい。",
+      "vocab": "accuracy [ǽkjərəsi]: [名] 正確さ",
+      "part2_id": 39
+    },
+    {
+      "id": 107,
+      "english": "population density",
+      "phonetic": "[pɑpjuléiʃən] [dénsəti]",
+      "version": "4字",
+      "kanji_hint": "□口□□",
+      "answer": "人口密度",
+      "hint": "一定の面積にどれくらいの数の人間が住んでいるかという statistics 上の数値。",
+      "vocab": "statistics [stətístiks]: [名] 統計",
+      "part2_id": 60
+    },
+    {
+      "id": 108,
+      "english": "extracurricular activity",
+      "phonetic": "[èkstrəkəríkjulər] [æktívəti]",
+      "version": "4字",
+      "kanji_hint": "□外□□",
+      "answer": "課外活動",
+      "hint": "学校生活も勉強ばかりでは boring である。",
+      "vocab": "boring [bɔ́ːriŋ]: [形] 退屈な",
+      "part2_id": 275
+    },
+    {
+      "id": 109,
+      "english": "pedestrian crossing",
+      "phonetic": "[pidéstriən]",
+      "version": "4字",
+      "kanji_hint": "□□□道",
+      "answer": "横断歩道",
+      "hint": "路上に白く stripes が塗ってある所。signal がある所とそうでない所とある。",
+      "vocab": "",
+      "part2_id": 469
+    },
+    {
+      "id": 110,
+      "english": "synthetic fiber",
+      "phonetic": "[sinθétik] [fáibər]",
+      "version": "4字",
+      "kanji_hint": "□成□□",
+      "answer": "合成繊維",
+      "hint": "やはりシルクなどと比べればその感触は stiff。",
+      "vocab": "stiff: [形] 堅い",
+      "part2_id": 462
+    },
+    {
+      "id": 111,
+      "english": "voluntary restraint",
+      "phonetic": "[vɑ́ləntèri] [ristréint]",
+      "version": "4字",
+      "kanji_hint": "自□□□",
+      "answer": "自主規制",
+      "hint": "強制された訳でもないのに自ら進んで，spontaneous に輸出を reserve する。",
+      "vocab": "spontaneous [spɑntéiniəs]: [形] 自発的な / reserve: [動] 遠慮する",
+      "part2_id": 105
+    },
+    {
+      "id": 112,
+      "english": "cooperative research",
+      "phonetic": "[kouɑ́pərətiv] [ríːsəːrtʃ]",
+      "version": "4字",
+      "kanji_hint": "□□研□",
+      "answer": "共同研究",
+      "hint": "複数で行なう学問的な，analysis や調査。",
+      "vocab": "analysis [ənǽləsəs]: [名] 分析",
+      "part2_id": 286
+    },
+    {
+      "id": 113,
+      "english": "civilized society",
+      "phonetic": "[sívəlaizd] [səsáiəti]",
+      "version": "4字",
+      "kanji_hint": "□□社□",
+      "answer": "文明社会",
+      "hint": "primitive で野蛮な時代から，sophisticated で洗練された時代へ。",
+      "vocab": "primitive [prímətiv]: [形] 原始の / sophisticated [səfístəkèitid]: [形] 洗練された",
+      "part2_id": 344
+    },
+    {
+      "id": 114,
+      "english": "apparatus gymnastics",
+      "phonetic": "[æpərǽtəs] [dʒimnǽstiks]",
+      "version": "4字",
+      "kanji_hint": "□□体□",
+      "answer": "器械体操",
+      "hint": "体操の中にもいろいろあって，かなり高度なテクニックが claim されるもの。",
+      "vocab": "claim [kleim]: [動] 要求する",
+      "part2_id": 356
+    },
+    {
+      "id": 115,
+      "english": "overseas investment",
+      "phonetic": "[òuvəsíːz] [invéstəmənt]",
+      "version": "4字",
+      "kanji_hint": "□外□□",
+      "answer": "海外投資",
+      "hint": "外国に工場や会社を作り，利益を得ようとする tactics。",
+      "vocab": "tactics [tǽktiks]: [名] 戦術",
+      "part2_id": 102
+    },
+    {
+      "id": 116,
+      "english": "coalition government",
+      "phonetic": "[kòuəlíʃən] [gʌ́vərnmənt]",
+      "version": "4字",
+      "kanji_hint": "□□□権",
+      "answer": "連立政権",
+      "hint": "国会において過半数を取るために，複数の政党が ally になる。",
+      "vocab": "ally [əlái]: [名] 味方",
+      "part2_id": 178
+    },
+    {
+      "id": 117,
+      "english": "circumstantial evidence",
+      "phonetic": "[sə̀ːrkəmstǽnʃəl] [évədəns]",
+      "version": "4字",
+      "kanji_hint": "状□□□",
+      "answer": "状況証拠",
+      "hint": "「凶器はまだ発見できませんが motive からみてやつが犯人に間違いありません」",
+      "vocab": "motive [móutiv]: [名] 動機",
+      "part2_id": 221
+    },
+    {
+      "id": 118,
+      "english": "withdrawal symptom",
+      "phonetic": "[wiðdrɔ́ːəl] [símptəm]",
+      "version": "4字",
+      "kanji_hint": "□□□状",
+      "answer": "禁断症状",
+      "hint": "中毒になってしまった麻薬を止めた時に起こる nightmare や指の tremble。",
+      "vocab": "nightmare [náitmèər]: [名] 悪夢 / tremble [trémbl]: [名] 震え",
+      "part2_id": 405
+    },
+    {
+      "id": 119,
+      "english": "haunted house",
+      "phonetic": "[hɔ́ːntid]",
+      "version": "4字",
+      "kanji_hint": "□□屋□",
+      "answer": "幽霊屋敷",
+      "hint": "オバケが出るという rumor のある horrible な家。",
+      "vocab": "rumor [rúːmər]: [名] うわさ / horrible [hɔ́ːrəbl]: [形] 恐ろしい",
+      "part2_id": 352
+    },
+    {
+      "id": 120,
+      "english": "urgent situation",
+      "phonetic": "[ə́ːrdʒənt] [sìtʃuéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□事□",
+      "answer": "緊急事態",
+      "hint": "「おい，これは immediately になんとかしなくちゃ，大変なことになるぞ」",
+      "vocab": "immediately [imíːdiətli]: [副] 直ちに",
+      "part2_id": 483
+    },
+    {
+      "id": 121,
+      "english": "consolation prize",
+      "phonetic": "[kɑ̀nsəléiʃən] [praiz]",
+      "version": "3字",
+      "kanji_hint": "□□賞",
+      "answer": "残念賞",
+      "hint": "「ビリだったのに賞もらっちゃった。compassion してくれたのかな」",
+      "vocab": "compassion: [名] 同情",
+      "part2_id": 433
+    },
+    {
+      "id": 122,
+      "english": "commuter pass",
+      "phonetic": "[kəmjúːtər]",
+      "version": "3字",
+      "kanji_hint": "□期□",
+      "answer": "定期券",
+      "hint": "ふつう3ヶ月か半年位 valid である。",
+      "vocab": "valid [vǽləd]: [形] 有効な",
+      "part2_id": 446
+    },
+    {
+      "id": 123,
+      "english": "infectious disease",
+      "phonetic": "[infékʃəs] [dizíːz]",
+      "version": "3字",
+      "kanji_hint": "□□病",
+      "answer": "伝染病",
+      "hint": "ビールスや germ が原因ですごい早さで広まっていく。",
+      "vocab": "germ [dʒəːrm]: [名] 細菌",
+      "part2_id": 387
+    },
+    {
+      "id": 124,
+      "english": "cram school",
+      "phonetic": "[kræm]",
+      "version": "3字",
+      "kanji_hint": "□□校",
+      "answer": "予備校",
+      "hint": "「浪人しちゃった」「あなたに一番 suitable な所を探さなくてはね」",
+      "vocab": "suitable [súːtəbl]: [形] 適した",
+      "part2_id": 261
+    },
+    {
+      "id": 125,
+      "english": "compensation money",
+      "phonetic": "[kɑ̀mpənséiʃən]",
+      "version": "3字",
+      "kanji_hint": "□□金",
+      "answer": "補償金",
+      "hint": "「タンカーの座礁で漁場がメチャクチャ。生活していくお金も devoid だ」",
+      "vocab": "devoid [divɔ́id]: [形] 欠如した",
+      "part2_id": 456
+    },
+    {
+      "id": 126,
+      "english": "lightning rod",
+      "phonetic": "[láitniŋ] [rɑd]",
+      "version": "3字",
+      "kanji_hint": "□□針",
+      "answer": "避雷針",
+      "hint": "カミナリを lure するポール。",
+      "vocab": "lure: [動] おびき寄せる",
+      "part2_id": 30
+    },
+    {
+      "id": 127,
+      "english": "advanced country",
+      "phonetic": "[ədvǽnst]",
+      "version": "3字",
+      "kanji_hint": "□□国",
+      "answer": "先進国",
+      "hint": "西洋文明を基準にしていて，私には snobbish に聞こえる。",
+      "vocab": "snobbish [snɑ́biʃ]: [形] お高くとまった",
+      "part2_id": 97
+    },
+    {
+      "id": 128,
+      "english": "nuclear disarmament",
+      "phonetic": "[njúːkliər] [disɑ́ːrməmənt]",
+      "version": "3字",
+      "kanji_hint": "核□□",
+      "answer": "核軍縮",
+      "hint": "冷戦の終結とともにかなり proceed しているのでは…。",
+      "vocab": "proceed [prəsíːd]: [動] 進行する",
+      "part2_id": 151
+    },
+    {
+      "id": 129,
+      "english": "habitual criminal",
+      "phonetic": "[həbítʃuəl] [krímənəl]",
+      "version": "3字",
+      "kanji_hint": "□□犯",
+      "answer": "常習犯",
+      "hint": "何度 jail に入れられても繰り返し罪を犯してしまう人。",
+      "vocab": "jail [dʒeil]: [名] 刑務所",
+      "part2_id": 212
+    },
+    {
+      "id": 130,
+      "english": "native language",
+      "phonetic": "[néitiv] [lǽŋgwidʒ]",
+      "version": "3字",
+      "kanji_hint": "□□語",
+      "answer": "母国語",
+      "hint": "普通なんの苦労もなく fluently にしゃべれる。",
+      "vocab": "fluently [flúːəntli]: [副] なめらかに",
+      "part2_id": 244
+    },
+    {
+      "id": 131,
+      "english": "favorable impression",
+      "phonetic": "[féivərəbl] [impréʃən]",
+      "version": "2字",
+      "kanji_hint": "□感",
+      "answer": "好感",
+      "hint": "「今度来た課長どう？」「なかなかいいんじゃない。少なくとも mean には見えないわ」",
+      "vocab": "mean: [形] 意地の悪い",
+      "part2_id": 240
+    },
+    {
+      "id": 132,
+      "english": "supporting role",
+      "phonetic": "[səpɔ́ːrtiŋ] [roul]",
+      "version": "2字",
+      "kanji_hint": "□役",
+      "answer": "脇役",
+      "hint": "「えーっ，また主役じゃないの。もう subsidiary な役はうんざりよ」",
+      "vocab": "subsidiary [səbsídièri]: [形] 補助の",
+      "part2_id": 309
+    },
+    {
+      "id": 133,
+      "english": "mental ability",
+      "phonetic": "[méntl] [əbíləti]",
+      "version": "2字",
+      "kanji_hint": "□力",
+      "answer": "知力",
+      "hint": "ものごとを comprehend する能力，よく体力と対比される。",
+      "vocab": "comprehend: [動] 理解する",
+      "part2_id": 227
+    },
+    {
+      "id": 134,
+      "english": "partially destroyed",
+      "phonetic": "[pɑ́ːrʃəli] [distrɔ́id]",
+      "version": "2字",
+      "kanji_hint": "□壊",
+      "answer": "半壊",
+      "hint": "entirely にこわれたわけではない。",
+      "vocab": "entirely [intáiəli]: [副] 完全に",
+      "part2_id": 146
+    },
+    {
+      "id": 135,
+      "english": "fake bill",
+      "phonetic": "[feik] [bil]",
+      "version": "2字",
+      "kanji_hint": "□札",
+      "answer": "偽札",
+      "hint": "こんなものが流通しだすと国家の根幹がゆらぐ。counterfeit note ともいう。",
+      "vocab": "counterfeit note [káuntərfit]",
+      "part2_id": 80
+    },
+    {
+      "id": 136,
+      "english": "natural disaster",
+      "phonetic": "[dizǽstər]",
+      "version": "2字",
+      "kanji_hint": "□災",
+      "answer": "天災",
+      "hint": "地震とか台風とか洪水とか tornado とかで大災害をもたらすもの。",
+      "vocab": "tornado [tɔːrnéidou]: [名] 竜巻",
+      "part2_id": 3
+    },
+    {
+      "id": 137,
+      "english": "lethal weapon",
+      "phonetic": "[líːθəl] [wépən]",
+      "version": "2字",
+      "kanji_hint": "□器",
+      "answer": "凶器",
+      "hint": "「結局直接の死因はなんだったんだ」「はい警部，刃の length が15cm の包丁で腹部を」",
+      "vocab": "length [leŋkθ]: [名] 長さ",
+      "part2_id": 202
+    },
+    {
+      "id": 138,
+      "english": "common sense",
+      "phonetic": "[kɑ́mən] [sens]",
+      "version": "2字",
+      "kanji_hint": "□識",
+      "answer": "常識",
+      "hint": "「amazing だなぁ。おまえこんなことも知らないの。まったくそんなの…」",
+      "vocab": "amazing [əméiziŋ]: [形] 驚くほどの",
+      "part2_id": 428
+    },
+    {
+      "id": 139,
+      "english": "lecture hall",
+      "phonetic": "[léktʃər] [hɔːl]",
+      "version": "2字",
+      "kanji_hint": "□堂",
+      "answer": "講堂",
+      "hint": "今はほとんどの学校で体育館がその役割を果たしている。auditorium ともいう。",
+      "vocab": "auditorium [ɔ̀ːdətɔ́ːriəm]",
+      "part2_id": 313
+    },
+    {
+      "id": 140,
+      "english": "brain death",
+      "phonetic": "[brein] [deθ]",
+      "version": "2字",
+      "kanji_hint": "□死",
+      "answer": "脳死",
+      "hint": "これを人の死とするか否か，大きな controversy である。",
+      "vocab": "controversy [kɑ́ntrəvə̀ːrsi]: [名] 論争",
+      "part2_id": 380
+    },
+    {
+      "id": 141,
+      "english": "public opinion",
+      "phonetic": "[pʌ́blik] [əpínjən]",
+      "version": "2字",
+      "kanji_hint": "□論",
+      "answer": "世論",
+      "hint": "ある問題に対して国民の大半がどういう attitude でいるのか。",
+      "vocab": "attitude: [名] 態度，姿勢",
+      "part2_id": 229
+    },
+    {
+      "id": 142,
+      "english": "deliberate intention",
+      "phonetic": "[dilíbərət] [inténʃən]",
+      "version": "2字",
+      "kanji_hint": "□意",
+      "answer": "故意",
+      "hint": "直訳すると『意図的な意図』。同じような意味のことばが並ぶと tedious。",
+      "vocab": "tedious [tíːdiəs]: [形] 退屈な",
+      "part2_id": 232
+    },
+    {
+      "id": 143,
+      "english": "air raid",
+      "phonetic": "[reid]",
+      "version": "2字",
+      "kanji_hint": "空□",
+      "answer": "空襲",
+      "hint": "敵地に飛行機で assault をしかけること。",
+      "vocab": "assault [əsɔ́ːlt]: [名] 攻撃",
+      "part2_id": 144
+    },
+    {
+      "id": 144,
+      "english": "overwhelming victory",
+      "phonetic": "[òuvərwélmiŋ] [víktəri]",
+      "version": "2字",
+      "kanji_hint": "□勝",
+      "answer": "圧勝",
+      "hint": "ワンサイドゲーム。numerous な得点差。",
+      "vocab": "numerous [njúːmərəs]: [形] たくさんの",
+      "part2_id": 311
+    },
+    {
+      "id": 145,
+      "english": "physical strength",
+      "phonetic": "[fízikəl] [streŋkθ]",
+      "version": "2字",
+      "kanji_hint": "□力",
+      "answer": "体力",
+      "hint": "いつも vivid で病気にもならずエネルギッシュな人は，これに自信があるはず。",
+      "vocab": "vivid: [形] 元気な",
+      "part2_id": 371
+    },
+    {
+      "id": 146,
+      "english": "retirement age",
+      "phonetic": "[ritáiərmənt]",
+      "version": "2字",
+      "kanji_hint": "□年",
+      "answer": "定年",
+      "hint": "「今 resign するのと，2年待って60歳まで勤めるのとでは年金どっちが得かなぁ」",
+      "vocab": "resign [rizáin]: [動] 辞職する",
+      "part2_id": 412
+    },
+    {
+      "id": 147,
+      "english": "blind obedience",
+      "phonetic": "[blaind] [əbíːdiəns]",
+      "version": "2字",
+      "kanji_hint": "□従",
+      "answer": "盲従",
+      "hint": "「高橋君ったらいつも上役に loyal で，あまりにも意気地がないわ。あんなゴマスリ大っ嫌い！」",
+      "vocab": "loyal: [形] 忠実な",
+      "part2_id": 316
+    },
+    {
+      "id": 148,
+      "english": "masculine gender",
+      "phonetic": "[mǽskjəlin] [dʒéndər]",
+      "version": "2字",
+      "kanji_hint": "□性",
+      "answer": "男性",
+      "hint": "2つしかない性のひとつ。普通 muscle の発達している方。もうひとつは feminine gender。",
+      "vocab": "muscle [mʌ́sl]: [名] 筋肉 / feminine [fémənən]: [名] 女性",
+      "part2_id": 324
+    },
+    {
+      "id": 149,
+      "english": "routine task",
+      "phonetic": "[rùːtíːn] [tæsk]",
+      "version": "2字",
+      "kanji_hint": "日□",
+      "answer": "日課",
+      "hint": "「部屋ずいぶん neat で tidy だね」「毎日掃除するのが習慣でね」",
+      "vocab": "neat: [形] きちんとした / tidy [táidi]: [形] きちんとした",
+      "part2_id": 415
+    },
+    {
+      "id": 150,
+      "english": "decayed tooth",
+      "phonetic": "[dikéid] [tuːθ]",
+      "version": "2字",
+      "kanji_hint": "□歯",
+      "answer": "虫歯",
+      "hint": "「コウジ，ちゃんと歯磨きしたの，otherwise バイ菌さんが cavity あけちゃうよ」",
+      "vocab": "otherwise [ʌ́ðərwàiz]: [副] さもないと / cavity [kǽvəti]: [名] 穴",
+      "part2_id": 378
+    },
+    {
+      "id": 151,
+      "english": "elimination matches",
+      "phonetic": "[ilìmənéiʃən] [mǽtʃiz]",
+      "version": "2字",
+      "kanji_hint": "□戦",
+      "answer": "予戦",
+      "hint": "これを transit しないと本戦には行けない。",
+      "vocab": "transit [trǽnzət]: [名] 通過",
+      "part2_id": 310
+    },
+    {
+      "id": 152,
+      "english": "commercial broadcasting",
+      "phonetic": "[kəmə́ːrʃəl] [brɔ́ːdkæ̀stiŋ]",
+      "version": "2字",
+      "kanji_hint": "□放",
+      "answer": "民放",
+      "hint": "「うちは公共放送じゃないんだ。attractive な番組をどんどん produce しなきゃつぶれるぞ」",
+      "vocab": "attractive: [形] 魅力的な",
+      "part2_id": 238
+    },
+    {
+      "id": 153,
+      "english": "public hazard",
+      "phonetic": "[pʌ́blik] [hǽzərd]",
+      "version": "2字",
+      "kanji_hint": "□害",
+      "answer": "公害",
+      "hint": "「まったくあの暴走族うるさいわね。irritating で寝られやしない」",
+      "vocab": "irritating: [形] いらいらさせる",
+      "part2_id": 12
+    },
+    {
+      "id": 154,
+      "english": "trading firm",
+      "phonetic": "[tréidiŋ] [fəːrm]",
+      "version": "2字",
+      "kanji_hint": "□社",
+      "answer": "商社",
+      "hint": "日本には旧財閥系のとてつもなく dominant な会社がいくつかある。",
+      "vocab": "dominant [dɑ́mənənt]: [形] 支配的な",
+      "part2_id": 86
+    },
+    {
+      "id": 155,
+      "english": "tax avoidance",
+      "phonetic": "[əvɔ́idəns]",
+      "version": "2字",
+      "kanji_hint": "□税",
+      "answer": "節税",
+      "hint": "ちゃんと領収書などを取っておいて青色申告の時に。ケチなのではなく thrifty なのである。",
+      "vocab": "thrifty [θrífti]: [形] 倹約な",
+      "part2_id": 92
+    },
+    {
+      "id": 156,
+      "english": "fierce battle",
+      "phonetic": "[fíərs] [bætl]",
+      "version": "2字",
+      "kanji_hint": "□戦",
+      "answer": "激戦",
+      "hint": "「きのうのナイター見た？」「うん，すごい combat だったね」",
+      "vocab": "combat: [名] 戦い",
+      "part2_id": 138
+    },
+    {
+      "id": 157,
+      "english": "political party",
+      "phonetic": "[pəlítikəl]",
+      "version": "2字",
+      "kanji_hint": "□党",
+      "answer": "政党",
+      "hint": "「選挙の時，何を criterion に投票する？」",
+      "vocab": "criterion [kraitíəriən]: [名] 判断の基準",
+      "part2_id": 136
+    },
+    {
+      "id": 158,
+      "english": "criminal record",
+      "phonetic": "[krímənl]",
+      "version": "2字",
+      "kanji_hint": "□科",
+      "answer": "前科",
+      "hint": "犯罪に関しての background。",
+      "vocab": "background: [名] 経歴",
+      "part2_id": 197
+    },
+    {
+      "id": 159,
+      "english": "sutra chanting",
+      "phonetic": "[súːtrə] [tʃǽntiŋ]",
+      "version": "2字",
+      "kanji_hint": "読□",
+      "answer": "読経",
+      "hint": "sutra はイスラム教でいえば Koran。",
+      "vocab": "Koran [kərǽn]: [名] コーラン(イスラム教の経典)",
+      "part2_id": 234
+    },
+    {
+      "id": 160,
+      "english": "mental calculation",
+      "phonetic": "[mentl] [kæ̀lkjəléiʃən]",
+      "version": "2字",
+      "kanji_hint": "□算",
+      "answer": "暗算",
+      "hint": "そろばんも電卓も使わないで，頭の中で arithmetic をする。",
+      "vocab": "arithmetic [əríθmətik]: [名] 算数",
+      "part2_id": 243
+    },
+    {
+      "id": 161,
+      "english": "prestigious school",
+      "phonetic": "[prestíːdʒəs]",
+      "version": "3字",
+      "kanji_hint": "□門□",
+      "answer": "名門校",
+      "hint": "長い歴史と伝統があり distinguished な人々を数多く世に送り出している。",
+      "vocab": "distinguished [distíŋgwiʃt]: [形] 著名な",
+      "part2_id": 254
+    },
+    {
+      "id": 162,
+      "english": "rebellious age",
+      "phonetic": "[ribéljəs]",
+      "version": "3字",
+      "kanji_hint": "□□期",
+      "answer": "反抗期",
+      "hint": "「うちの子最近 stubborn で言うこと聞かないのよ」",
+      "vocab": "stubborn [stʌ́bən]: [形] 頑固な",
+      "part2_id": 264
+    },
+    {
+      "id": 163,
+      "english": "martial law",
+      "phonetic": "[mɑ́ːrʃəl] [lɔː]",
+      "version": "3字",
+      "kanji_hint": "□□令",
+      "answer": "戒厳令",
+      "hint": "戦争に突入すると軍隊が出動して市民を家に confine したりする。",
+      "vocab": "confine [kənfáin]: [動] 閉じ込める",
+      "part2_id": 150
+    },
+    {
+      "id": 164,
+      "english": "gross income",
+      "phonetic": "[grous]",
+      "version": "3字",
+      "kanji_hint": "□□入",
+      "answer": "総収入",
+      "hint": "税金や諸経費を引き去る前の，すべてを include した額。",
+      "vocab": "include [inklúːd]: [動] 含める",
+      "part2_id": 98
+    },
+    {
+      "id": 165,
+      "english": "uninhabited island",
+      "phonetic": "[ʌ̀ninhǽbitid] [áilənd]",
+      "version": "3字",
+      "kanji_hint": "□□島",
+      "answer": "無人島",
+      "hint": "船が沈没して drown しかかりながら，たどり着いた先がここだと，かなりがっかり。",
+      "vocab": "drown [draun]: [動] おぼれる",
+      "part2_id": 27
+    },
+    {
+      "id": 166,
+      "english": "glacial epoch",
+      "phonetic": "[gléiʃəl] [épək]",
+      "version": "3字",
+      "kanji_hint": "□河□",
+      "answer": "氷河期",
+      "hint": "また地球がこんな時代になると contend している人がいる。",
+      "vocab": "contend: [動] 主張する",
+      "part2_id": 29
+    },
+    {
+      "id": 167,
+      "english": "protected bird",
+      "phonetic": "[prətéktid]",
+      "version": "3字",
+      "kanji_hint": "□□鳥",
+      "answer": "保護鳥",
+      "hint": "法律によって preserve されていて hunting することはできない。",
+      "vocab": "preserve [prizə́ːrv]: [動] 保護する",
+      "part2_id": 16
+    },
+    {
+      "id": 168,
+      "english": "assistant professor",
+      "phonetic": "[əsístənt] [prəfésər]",
+      "version": "3字",
+      "kanji_hint": "□教□",
+      "answer": "助教授",
+      "hint": "「助手を5年，講師を10年，そろそろ offer があっても」",
+      "vocab": "offer: [名] 申し出",
+      "part2_id": 253
+    },
+    {
+      "id": 169,
+      "english": "actual size",
+      "phonetic": "[ǽktʃuəl]",
+      "version": "3字",
+      "kanji_hint": "□物□",
+      "answer": "実物大",
+      "hint": "「dinosaur ってどれ位大きいの？」「今度 museum に化石を見に行こう」",
+      "vocab": "dinosaur [dáinəsɔ̀ːr]: [名] 恐竜 / museum [mjuːzíəm]: [名] 博物館",
+      "part2_id": 329
+    },
+    {
+      "id": 170,
+      "english": "athletic meet",
+      "phonetic": "[æθlétik]",
+      "version": "3字",
+      "kanji_hint": "□□会",
+      "answer": "運動会",
+      "hint": "「お父さん，明日ボク，パン喰い競争に出るんだ。絶対見に来てよ」「definitely に行くよ」",
+      "vocab": "definitely [défənətli]: [副] 絶対に",
+      "part2_id": 334
+    },
+    {
+      "id": 171,
+      "english": "general survey",
+      "phonetic": "[dʒénərəl] [sə́ːrvei]",
+      "version": "4字",
+      "kanji_hint": "□論□□",
+      "answer": "世論調査",
+      "hint": "国民全体がどのような意見を持っているかの poll。",
+      "vocab": "poll [poul]: [名] 投票結果",
+      "part2_id": 161
+    },
+    {
+      "id": 172,
+      "english": "election campaign",
+      "phonetic": "[ilékʃən] [kæmpéin]",
+      "version": "4字",
+      "kanji_hint": "□挙□□",
+      "answer": "選挙運動",
+      "hint": "議員になりたい人が有権者に対して solicit したりして。",
+      "vocab": "solicit [səlísət]: [動] せがむ",
+      "part2_id": 160
+    },
+    {
+      "id": 173,
+      "english": "stock market",
+      "phonetic": "[stɑk] [mɑ́ːrkit]",
+      "version": "4字",
+      "kanji_hint": "□□市□",
+      "answer": "株式市場",
+      "hint": "日本では兜町，アメリカでは Wall Street，イギリスでは The City。",
+      "vocab": "",
+      "part2_id": 110
+    },
+    {
+      "id": 174,
+      "english": "technical innovation",
+      "phonetic": "[téknikəl] [ìnəvéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□革□",
+      "answer": "技術革新",
+      "hint": "「この新製品すごいね」「ほんと unbelievable な進歩だよ」",
+      "vocab": "unbelievable [ʌ̀nbəlíːvəbl]: [形] 信じられない",
+      "part2_id": 46
+    },
+    {
+      "id": 175,
+      "english": "volcanic eruption",
+      "phonetic": "[vɑlkǽnik] [irʌ́pʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□火",
+      "answer": "火山噴火",
+      "hint": "山が abrupt に爆発して溶岩が流れ出てくる。",
+      "vocab": "abrupt [əbrʌ́pt]: [形] 突然の",
+      "part2_id": 53
+    },
+    {
+      "id": 176,
+      "english": "chain reaction",
+      "phonetic": "[tʃein] [riǽkʃən]",
+      "version": "4字",
+      "kanji_hint": "□□反□",
+      "answer": "連鎖反応",
+      "hint": "「あーあ」「ふぁー」「ふーう」「なんだよ yawn の3連発か」",
+      "vocab": "yawn [jɔːn]: [名] あくび",
+      "part2_id": 58
+    },
+    {
+      "id": 177,
+      "english": "refugee relief",
+      "phonetic": "[rèfjudʒíː] [rilíːf]",
+      "version": "4字",
+      "kanji_hint": "□民□□",
+      "answer": "難民救済",
+      "hint": "内戦が outbreak して困っている人たちに援助の手を。",
+      "vocab": "outbreak: [名] 勃(ぼっ)発",
+      "part2_id": 165
+    },
+    {
+      "id": 178,
+      "english": "reckless driving",
+      "phonetic": "[rékləs]",
+      "version": "4字",
+      "kanji_hint": "□□運□",
+      "answer": "無謀運転",
+      "hint": "「おい，そんなひどい運転，おまわりさんに見つかったら fine だぞ」「わかった。慎重にするよ」",
+      "vocab": "fine: [名] 罰金",
+      "part2_id": 222
+    },
+    {
+      "id": 179,
+      "english": "local item",
+      "phonetic": "[lóukəl] [áitəm]",
+      "version": "4字",
+      "kanji_hint": "□□記□",
+      "answer": "地方記事",
+      "hint": "小さな incident はふつう新聞ではこのように扱われる。",
+      "vocab": "incident [ínsədənt]: [名] 事件",
+      "part2_id": 273
+    },
+    {
+      "id": 180,
+      "english": "infant education",
+      "phonetic": "[ínfənt] [èdʒəkéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□児□□",
+      "answer": "幼児教育",
+      "hint": "kindergarten に通っている子供に勉強させる。",
+      "vocab": "kindergarten [kíndərgɑ̀ːrtn]: [名] 幼稚園",
+      "part2_id": 287
+    },
+    {
+      "id": 181,
+      "english": "retail price",
+      "phonetic": "[ríːteil]",
+      "version": "4字",
+      "kanji_hint": "□□価□",
+      "answer": "小売価格",
+      "hint": "生産価格。卸売価格。細かい quantity に分けて一般の人へ売るのは。",
+      "vocab": "quantity [kwɑ́ntəti]: [名] 量",
+      "part2_id": 101
+    },
+    {
+      "id": 182,
+      "english": "traffic accident",
+      "phonetic": "[trǽfik]",
+      "version": "4字",
+      "kanji_hint": "□通□□",
+      "answer": "交通事故",
+      "hint": "車が人をはねたり，車と車が collide したり。",
+      "vocab": "collide [kəláid]: [動] 衝突する",
+      "part2_id": 458
+    },
+    {
+      "id": 183,
+      "english": "filial son",
+      "phonetic": "[fíliəl]",
+      "version": "4字",
+      "kanji_hint": "□□□子",
+      "answer": "孝行息子",
+      "hint": "常に親を大切にし contribute しようとする男の子。",
+      "vocab": "contribute [kəntríbjuːt]: [動] 貢献する",
+      "part2_id": 484
+    },
+    {
+      "id": 184,
+      "english": "absolute majority",
+      "phonetic": "[ǽbsəluːt] [mədʒɔ́ːrəti]",
+      "version": "4字",
+      "kanji_hint": "□□□数",
+      "answer": "絶対多数",
+      "hint": "「それでは投票の結果を発表します。38対2で approve する人が多かったです」",
+      "vocab": "approve [əprúːv]: [動] 賛同する",
+      "part2_id": 158
+    },
+    {
+      "id": 185,
+      "english": "mutual understanding",
+      "phonetic": "[mjúːtʃuəl]",
+      "version": "4字",
+      "kanji_hint": "□□□解",
+      "answer": "相互理解",
+      "hint": "お互いが相手の conceive していることを分かり合う。",
+      "vocab": "conceive [kənsíːv]: [動] 思う",
+      "part2_id": 266
+    },
+    {
+      "id": 186,
+      "english": "market research",
+      "phonetic": "[mɑ́ːrkit] [ríːsəːrtʃ]",
+      "version": "4字",
+      "kanji_hint": "□場□□",
+      "answer": "市場調査",
+      "hint": "企業は普通これをやってから商品を distribute させる。",
+      "vocab": "distribute [distríbjuːt]: [動] 流通させる",
+      "part2_id": 103
+    },
+    {
+      "id": 187,
+      "english": "sales promotion",
+      "phonetic": "[seilz] [prəmóuʃən]",
+      "version": "4字",
+      "kanji_hint": "販□□□",
+      "answer": "販売促進",
+      "hint": "売り上げを伸ばそうと endeavor すること。",
+      "vocab": "endeavor [indévər]: [名][動] 努力(する)",
+      "part2_id": 126
+    },
+    {
+      "id": 188,
+      "english": "atmospheric pollution",
+      "phonetic": "[æ̀tməsférik] [pəlúːʃən]",
+      "version": "4字",
+      "kanji_hint": "□気□□",
+      "answer": "大気汚染",
+      "hint": "工場の排煙や車の排気ガスで空気が dirty。",
+      "vocab": "dirty [də́ːrti]: [形] きたない",
+      "part2_id": 62
+    },
+    {
+      "id": 189,
+      "english": "artificial satellite",
+      "phonetic": "[ɑ̀ːrtəfíʃəl] [sǽtəlàit]",
+      "version": "4字",
+      "kanji_hint": "□工□□",
+      "answer": "人工衛星",
+      "hint": "人間の作ったもので地球の周りの orbit をくるくる回って電波を送ってくれる。",
+      "vocab": "orbit [ɔ́ːrbit]: [名] 軌道",
+      "part2_id": 51
+    },
+    {
+      "id": 190,
+      "english": "discriminatory treatment",
+      "phonetic": "[diskrímənətəri] [tríːtmənt]",
+      "version": "4字",
+      "kanji_hint": "□□待□",
+      "answer": "差別待遇",
+      "hint": "一流大学とそうじゃない大学で企業の対応が違うという complaint をよく聞く。",
+      "vocab": "complaint: [名] 不平不満",
+      "part2_id": 180
+    },
+    {
+      "id": 191,
+      "english": "global market",
+      "phonetic": "[glóubəl] [mɑ́ːrkit]",
+      "version": "4字",
+      "kanji_hint": "□界□□",
+      "answer": "世界市場",
+      "hint": "これからの商売はせまい district を飛び出して…。",
+      "vocab": "district [dístrikt]: [名] 地域",
+      "part2_id": 179
+    },
+    {
+      "id": 192,
+      "english": "private detective",
+      "phonetic": "[práivət] [ditéktiv]",
+      "version": "4字",
+      "kanji_hint": "□立□□",
+      "answer": "私立探偵",
+      "hint": "「最近どうも主人の様子が queer なんです」「わかりました。調査してみましょう」",
+      "vocab": "queer [kwíər]: [形] 妙な，怪しい",
+      "part2_id": 213
+    },
+    {
+      "id": 193,
+      "english": "simultaneous interpretation",
+      "phonetic": "[sàiməltéiniəs] [ìntə̀rːpritéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□時□□",
+      "answer": "同時通訳",
+      "hint": "国際的な会議や交渉の場で bilingual な能力を持った人たちが行う。",
+      "vocab": "bilingual [bailíŋgwəl]: [形] 2ヵ国語を話す",
+      "part2_id": 268
+    },
+    {
+      "id": 194,
+      "english": "graduation thesis",
+      "phonetic": "[græ̀dʒuéiʃən] [θíːsis]",
+      "version": "4字",
+      "kanji_hint": "□業□□",
+      "answer": "卒業論文",
+      "hint": "これを書かなければ大学に farewell を言えない。",
+      "vocab": "farewell [fèəwél]: [名] 別れ",
+      "part2_id": 282
+    },
+    {
+      "id": 195,
+      "english": "Old Testament",
+      "phonetic": "[téstəmənt]",
+      "version": "4字",
+      "kanji_hint": "□約□□",
+      "answer": "旧約聖書",
+      "hint": "キリスト教の Bible。新約(New)とこれと2つある。",
+      "vocab": "Bible [báibl]: [名] 聖書",
+      "part2_id": 350
+    },
+    {
+      "id": 196,
+      "english": "minority groups",
+      "phonetic": "[mainɔ́rəti]",
+      "version": "4字",
+      "kanji_hint": "□□民□",
+      "answer": "少数民族",
+      "hint": "melting pot アメリカではこの人たちの待遇の改善が叫ばれている。",
+      "vocab": "melting pot: [名] 人種のるつぼ",
+      "part2_id": 342
+    },
+    {
+      "id": 197,
+      "english": "cosmetic surgery",
+      "phonetic": "[kɑzmétik] [sə́ːrdʒəri]",
+      "version": "4字",
+      "kanji_hint": "□□整□",
+      "answer": "美容整形",
+      "hint": "キレイになりたい desire。キレイにしてあげるという temptation。",
+      "vocab": "desire [dizáiər]: [名] 欲求 / temptation: [名] 誘惑",
+      "part2_id": 396
+    },
+    {
+      "id": 198,
+      "english": "synthetic detergent",
+      "phonetic": "[sinθétik] [ditə́ːrdʒənt]",
+      "version": "4字",
+      "kanji_hint": "□□洗□",
+      "answer": "合成洗剤",
+      "hint": "洗濯や食器を洗う時に使う。soap の一種。",
+      "vocab": "soap [soup]: [名] 石けん",
+      "part2_id": 66
+    },
+    {
+      "id": 199,
+      "english": "cash discount",
+      "phonetic": "[kæʃ] [dískaunt]",
+      "version": "4字",
+      "kanji_hint": "□□割□",
+      "answer": "現金割引",
+      "hint": "「カードで支払う場合には necessarily まけてくれるとは限りません」",
+      "vocab": "necessarily [nèsəsérəli]: [副] 必ず",
+      "part2_id": 466
+    },
+    {
+      "id": 200,
+      "english": "multiple personality",
+      "phonetic": "[mʌ́ltəpl] [pə̀ːrsənǽləti]",
+      "version": "4字",
+      "kanji_hint": "□□人□",
+      "answer": "多重人格",
+      "hint": "一人の人間の心に複数の人間がいる。psychiatrist の治療が必要な場合も。",
+      "vocab": "psychiatrist [saikáiətrist]: [名] 精神科医",
+      "part2_id": 360
+    },
+    {
+      "id": 201,
+      "english": "gene therapy",
+      "phonetic": "[dʒiːn] [θérəpi]",
+      "version": "5字",
+      "kanji_hint": "□□□□療",
+      "answer": "遺伝子治療",
+      "hint": "最先端医療の remedy [rémədi] のひとつ。細胞内の DNA を正常なものと置きかえることで病気を治そうとするもの。",
+      "vocab": "[名] 治療(法)",
+      "part2_id": 410
+    },
+    {
+      "id": 202,
+      "english": "Great Depression",
+      "phonetic": "[dipréʃən]",
+      "version": "5字",
+      "kanji_hint": "□□□□慌",
+      "answer": "世界大恐慌",
+      "hint": "短期の不況は recession [riséʃən]。",
+      "vocab": "[名] 景気の後退",
+      "part2_id": 364
+    },
+    {
+      "id": 203,
+      "english": "teaching certificate",
+      "phonetic": "[sərtífikət]",
+      "version": "5字",
+      "kanji_hint": "□□□□状",
+      "answer": "教員免許状",
+      "hint": "小・中・高の先生になるためには qualify する書類が必要。",
+      "vocab": "[動] 資格を与える",
+      "part2_id": 298
+    },
+    {
+      "id": 204,
+      "english": "economic analyst",
+      "phonetic": "[èkənámik] [ǽnəlist]",
+      "version": "5字",
+      "kanji_hint": "□□□□家",
+      "answer": "経済評論家",
+      "hint": "「先生，これから先の decade [dékeid]，日本の景気はどうなっていくのでしょうか？」「私の考えでは…」",
+      "vocab": "[名] 10年間",
+      "part2_id": 131
+    },
+    {
+      "id": 205,
+      "english": "applied physics",
+      "phonetic": "[əpláid] [fíziks]",
+      "version": "5字",
+      "kanji_hint": "□□□□学",
+      "answer": "応用物理学",
+      "hint": "科学の研究といってもその範囲はかなり広い。utility [juːtíləti] を重視。",
+      "vocab": "[名] 実用(性)",
+      "part2_id": 69
+    },
+    {
+      "id": 206,
+      "english": "radioactive contamination",
+      "phonetic": "[rèidiouǽktiv] [kəntæ̀mənéiʃən]",
+      "version": "5字",
+      "kanji_hint": "□□□□染",
+      "answer": "放射能汚染",
+      "hint": "なぜ住民は原子力発電所の建設に object [ábdʒikt] するのか。",
+      "vocab": "[動] 反対する",
+      "part2_id": 73
+    },
+    {
+      "id": 207,
+      "english": "vending machine",
+      "phonetic": "[vendiŋ] [məʃíːn]",
+      "version": "5字",
+      "kanji_hint": "□□□□機",
+      "answer": "自動販売機",
+      "hint": "これのせいで一日人とまったく contact なしで過ごせてしまう。",
+      "vocab": "[名] 接触",
+      "part2_id": 368
+    },
+    {
+      "id": 208,
+      "english": "wedding anniversary",
+      "phonetic": "[wédiŋ] [æ̀nəvə́ːrsəri]",
+      "version": "5字",
+      "kanji_hint": "□□□□日",
+      "answer": "結婚記念日",
+      "hint": "夫婦水入らずで celebrate [séləbreit] したい日。",
+      "vocab": "[動] 祝う",
+      "part2_id": 497
+    },
+    {
+      "id": 209,
+      "english": "identification card",
+      "phonetic": "[aidèntəfəkéiʃən]",
+      "version": "5字",
+      "kanji_hint": "□□□□書",
+      "answer": "身分証明書",
+      "hint": "この presentation [prìzentéiʃən] がないと入れない所もある。",
+      "vocab": "[名] 提示",
+      "part2_id": 491
+    },
+    {
+      "id": 210,
+      "english": "rescue party",
+      "phonetic": "[réskjuː]",
+      "version": "5字",
+      "kanji_hint": "□□□□隊",
+      "answer": "人命救助隊",
+      "hint": "海や山で活躍することが多い。人を危機から save するのが仕事。",
+      "vocab": "[動] 救う",
+      "part2_id": 490
+    },
+    {
+      "id": 211,
+      "english": "living standard",
+      "phonetic": "[stǽndərd]",
+      "version": "4字",
+      "kanji_hint": "□□水□",
+      "answer": "生活水準",
+      "hint": "どれくらい暮し向きが affluent [ǽfluənt] か，またはそうじゃないか。",
+      "vocab": "[形] 豊かな",
+      "part2_id": 485
+    },
+    {
+      "id": 212,
+      "english": "integrated circuit",
+      "phonetic": "[íntəgrèitid] [sə́ːrkit]",
+      "version": "4字",
+      "kanji_hint": "□□回□",
+      "answer": "集積回路",
+      "hint": "真空管にかわってこれが使われるようになったおかげでずいぶんラジオやテレビが compact になった。",
+      "vocab": "[形] 小型の",
+      "part2_id": 43
+    },
+    {
+      "id": 213,
+      "english": "natural resources",
+      "phonetic": "[ríːsɔːrsiz]",
+      "version": "4字",
+      "kanji_hint": "□□資□",
+      "answer": "天然資源",
+      "hint": "化石燃料から木材，鉄鋼石にいたるまですべてのものの総称。産業を興す場合には indispensable [ìndispénsəbl]。",
+      "vocab": "[形] 不可欠な",
+      "part2_id": 38
+    },
+    {
+      "id": 214,
+      "english": "evacuation order",
+      "phonetic": "[ivæ̀kjuéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□難□□",
+      "answer": "避難命令",
+      "hint": "「もうすぐ津波が襲ってきます。住民のみなさんは大至急高台まで refuge [réfjuːdʒ] してください」",
+      "vocab": "[名] 避難",
+      "part2_id": 54
+    },
+    {
+      "id": 215,
+      "english": "traffic congestion",
+      "phonetic": "[trǽfik] [kəndʒéstʃən]",
+      "version": "4字",
+      "kanji_hint": "□通□□",
+      "answer": "交通渋滞",
+      "hint": "毎年のお盆と正月の高速道路。みんなが compromise [kámprəmaiz] して日時をずらせば…。",
+      "vocab": "[名][動] 妥協(する)",
+      "part2_id": 64
+    },
+    {
+      "id": 216,
+      "english": "quality control",
+      "phonetic": "[kwáləti] [kəntróul]",
+      "version": "4字",
+      "kanji_hint": "□質□□",
+      "answer": "品質管理",
+      "hint": "「なんだよこのラジカセ，パネルを remove できちゃうよ」ということが起こらないように。",
+      "vocab": "[動] 取り去る",
+      "part2_id": 107
+    },
+    {
+      "id": 217,
+      "english": "economic sanctions",
+      "phonetic": "[èkənámik] [sǽŋkʃənz]",
+      "version": "4字",
+      "kanji_hint": "□□制□",
+      "answer": "経済制裁",
+      "hint": "いかなる理由であろうと他国を武力で侵略してはいけない。nevertheless [nèvərðəlés] やろうとする国には国際社会がペナルティーを課す。",
+      "vocab": "[副] それでも",
+      "part2_id": 125
+    },
+    {
+      "id": 218,
+      "english": "traditional event",
+      "phonetic": "[trədíʃnəl] [ivént]",
+      "version": "4字",
+      "kanji_hint": "□□行□",
+      "answer": "伝統行事",
+      "hint": "ひな祭りや七五三のように先祖から offsprings へ。",
+      "vocab": "[名] 子孫",
+      "part2_id": 348
+    },
+    {
+      "id": 219,
+      "english": "preliminary negotiation",
+      "phonetic": "[prilímənèri] [nigòuʃiéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□備□□",
+      "answer": "予備交渉",
+      "hint": "summit のような先進国首脳会議の前には次官級の会議が前もってある。",
+      "vocab": "[名] 首脳会議，頂上",
+      "part2_id": 167
+    },
+    {
+      "id": 220,
+      "english": "trade friction",
+      "phonetic": "[treid] [fríkʃən]",
+      "version": "4字",
+      "kanji_hint": "□易□□",
+      "answer": "貿易摩擦",
+      "hint": "お互いが fair なルールで貿易をしようという約束が破られると…。いったんこじれると solution をみつけるのが大変。",
+      "vocab": "[形] 公正な / [名] 解決策",
+      "part2_id": 176
+    },
+    {
+      "id": 221,
+      "english": "eloquent speaker",
+      "phonetic": "[éləkwənt]",
+      "version": "3字",
+      "kanji_hint": "□□家",
+      "answer": "雄弁家",
+      "hint": "実に，情熱的にしゃべりしかも言語明瞭(めいりょう)で聞き手を persuade [pərswéid] するのが上手な人。",
+      "vocab": "[動] 説得する",
+      "part2_id": 258
+    },
+    {
+      "id": 222,
+      "english": "smuggled goods",
+      "phonetic": "[smʌ́gld] [gudz]",
+      "version": "3字",
+      "kanji_hint": "□□品",
+      "answer": "密輸品",
+      "hint": "麻薬や拳銃など法にふれる物を conceal [kənsíːl] して輸入したり輸出したりする。",
+      "vocab": "[動] 隠す",
+      "part2_id": 210
+    },
+    {
+      "id": 223,
+      "english": "cheering party",
+      "phonetic": "[tʃíəriŋ]",
+      "version": "3字",
+      "kanji_hint": "□□団",
+      "answer": "応援団",
+      "hint": "いろいろな競技会でひいきのチームや個人を encourage [inkə́ːridʒ] している人達。",
+      "vocab": "[動] 励ます",
+      "part2_id": 251
+    },
+    {
+      "id": 224,
+      "english": "reference book",
+      "phonetic": "[réfərəns]",
+      "version": "3字",
+      "kanji_hint": "□□書",
+      "answer": "参考書",
+      "hint": "教科書だけでは lack [læk] している部分も教えてくれる。",
+      "vocab": "[名][動] 欠如(している)",
+      "part2_id": 256
+    },
+    {
+      "id": 225,
+      "english": "theme song",
+      "phonetic": "[θiːm]",
+      "version": "3字",
+      "kanji_hint": "□□歌",
+      "answer": "主題歌",
+      "hint": "テレビのアニメーション program のものが有名。",
+      "vocab": "[名] 番組",
+      "part2_id": 336
+    },
+    {
+      "id": 226,
+      "english": "prefectural assembly",
+      "phonetic": "[priféktʃərəl] [əsémbli]",
+      "version": "3字",
+      "kanji_hint": "□□会",
+      "answer": "県議会",
+      "hint": "prefecture は province [právins] と同様に行政上，国を分ける場合に使う。",
+      "vocab": "[名] (カナダなどの)州",
+      "part2_id": 147
+    },
+    {
+      "id": 227,
+      "english": "water famine",
+      "phonetic": "[fǽmin]",
+      "version": "3字",
+      "kanji_hint": "□□足",
+      "answer": "水不足",
+      "hint": "水が thoroughly [θə́ːrəli] に欠乏している状態のこと。",
+      "vocab": "[副] 完全に",
+      "part2_id": 20
+    },
+    {
+      "id": 228,
+      "english": "income tax",
+      "phonetic": "[ínkʌm]",
+      "version": "3字",
+      "kanji_hint": "□□税",
+      "answer": "所得税",
+      "hint": "日本のサラリーマンは exception [iksépʃən] なしでこれを源泉徴収されている。",
+      "vocab": "[名] 例外",
+      "part2_id": 208
+    },
+    {
+      "id": 229,
+      "english": "honorific language",
+      "phonetic": "[ànərífik] [lǽŋgwidʒ]",
+      "version": "3字",
+      "kanji_hint": "□□語",
+      "answer": "尊敬語",
+      "hint": "目上の人に使うていねいな rude [ruːd] ではない言葉づかい。",
+      "vocab": "[形] 無礼な",
+      "part2_id": 246
+    },
+    {
+      "id": 230,
+      "english": "sensitive paper",
+      "phonetic": "[sénsətiv]",
+      "version": "3字",
+      "kanji_hint": "□□紙",
+      "answer": "感光紙",
+      "hint": "光に当たると promptly [prámptli] に色が変化する。",
+      "vocab": "[副] 即座に",
+      "part2_id": 328
+    },
+    {
+      "id": 231,
+      "english": "literal translation",
+      "phonetic": "[lítərəl] [træ̀nsléiʃən]",
+      "version": "2字",
+      "kanji_hint": "□訳",
+      "answer": "直訳",
+      "hint": "まったく tact をきかしていない訳。",
+      "vocab": "[名] 機転",
+      "part2_id": 301
+    },
+    {
+      "id": 232,
+      "english": "congratulatory telegram",
+      "phonetic": "[kəŋgrǽtʃulətəri] [téləgræ̀m]",
+      "version": "2字",
+      "kanji_hint": "□電",
+      "answer": "祝電",
+      "hint": "結婚式などに参列できない時に，これを利用して bless [bles] する。",
+      "vocab": "[動] 祝福する",
+      "part2_id": 306
+    },
+    {
+      "id": 233,
+      "english": "stomach cancer",
+      "phonetic": "[stʌ́mək] [kǽnsər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "胃癌",
+      "hint": "食生活，heredity [hirédəti]，過度のストレスなどが原因だと指摘されている。",
+      "vocab": "[名] 遺伝",
+      "part2_id": 375
+    },
+    {
+      "id": 234,
+      "english": "approximate estimate",
+      "phonetic": "[əpráksəmət] [éstəmət]",
+      "version": "2字",
+      "kanji_hint": "□算",
+      "answer": "概算",
+      "hint": "「今日の試合ずいぶん spectator [spékteitər] がいるね。どれくらいの収益かね」「だいたい1億くらいかな」",
+      "vocab": "[名] 見物人",
+      "part2_id": 422
+    },
+    {
+      "id": 235,
+      "english": "suspension bridge",
+      "phonetic": "[səspénʃən]",
+      "version": "2字",
+      "kanji_hint": "□橋",
+      "answer": "吊橋",
+      "hint": "「この橋，なんて spectacular [spèktǽkjulər] なの！」",
+      "vocab": "[形] 壮観な",
+      "part2_id": 426
+    },
+    {
+      "id": 236,
+      "english": "close friend",
+      "phonetic": "[klous]",
+      "version": "2字",
+      "kanji_hint": "□友",
+      "answer": "親友",
+      "hint": "とても intimate [íntəmət] で良好な関係を持っている人たち。",
+      "vocab": "[形] 親密な",
+      "part2_id": 320
+    },
+    {
+      "id": 237,
+      "english": "competent person",
+      "phonetic": "[kámpətənt]",
+      "version": "2字",
+      "kanji_hint": "人□",
+      "answer": "人材",
+      "hint": "企業は一生懸命優秀な社員を foster [fɔ́ːstər] しようと努めています。",
+      "vocab": "[動] 育成する",
+      "part2_id": 322
+    },
+    {
+      "id": 238,
+      "english": "penal servitude",
+      "phonetic": "[píːnəl] [sə́ːrvitjùːd]",
+      "version": "2字",
+      "kanji_hint": "□役",
+      "answer": "懲役",
+      "hint": "prison [prízn] の中で一定の労働をさせる刑。",
+      "vocab": "[名] 刑務所",
+      "part2_id": 203
+    },
+    {
+      "id": 239,
+      "english": "love suicide",
+      "phonetic": "[súːisaid]",
+      "version": "2字",
+      "kanji_hint": "□中",
+      "answer": "心中",
+      "hint": "この世では結ばれない2人の final choice。",
+      "vocab": "[名] 選択",
+      "part2_id": 206
+    },
+    {
+      "id": 240,
+      "english": "United Nations",
+      "phonetic": "[juːnáitid] [néiʃənz]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "国連",
+      "hint": "世界平和を実現させるために第2次世界大戦後 establish [istǽbliʃ] された。",
+      "vocab": "[動] 設立する",
+      "part2_id": 140
+    },
+    {
+      "id": 241,
+      "english": "prime minister",
+      "phonetic": "[praim] [mínistər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "首相",
+      "hint": "cabinet [kǽbənət] の中でリーダーシップを握っている人。正式名称は内閣総理大臣。",
+      "vocab": "[名] 内閣",
+      "part2_id": 137
+    },
+    {
+      "id": 242,
+      "english": "raw material",
+      "phonetic": "[rɔː] [mətíəriəl]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "原料",
+      "hint": "何を manufacture [mæ̀njəfǽktʃər] するにしてもこれがないと。",
+      "vocab": "[動] 製造する",
+      "part2_id": 76
+    },
+    {
+      "id": 243,
+      "english": "National Treasury",
+      "phonetic": "[nǽʃənəl] [tréʒəri]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "国宝",
+      "hint": "国が正式に invaluable [invǽljuəbl] なものだと認めたもの。",
+      "vocab": "[形] きわめて貴重な",
+      "part2_id": 305
+    },
+    {
+      "id": 244,
+      "english": "random number",
+      "phonetic": "[rǽndəm]",
+      "version": "2字",
+      "kanji_hint": "□数",
+      "answer": "乱数",
+      "hint": "まったく haphazard [hæ̀phǽzərd] な順に並んでいる数字。",
+      "vocab": "[形] でたらめな",
+      "part2_id": 237
+    },
+    {
+      "id": 245,
+      "english": "awkward position",
+      "phonetic": "[ɔ́ːkwərd] [pəzíʃən]",
+      "version": "2字",
+      "kanji_hint": "□地",
+      "answer": "窮地",
+      "hint": "進退きわまったとても annoying [ənɔ́iiŋ] な状況。",
+      "vocab": "[形] いらいらさせる",
+      "part2_id": 87
+    },
+    {
+      "id": 246,
+      "english": "opposition party",
+      "phonetic": "[àpəzíʃən]",
+      "version": "2字",
+      "kanji_hint": "□党",
+      "answer": "野党",
+      "hint": "国会において原案に amend [əménd] することを求めたり，反対意見を述べたりする。",
+      "vocab": "[動] 修正する",
+      "part2_id": 143
+    },
+    {
+      "id": 247,
+      "english": "constitutional law",
+      "phonetic": "[kànstətʃúːʃənəl] [lɔː]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "憲法",
+      "hint": "国が最も大切にすべき doctrine [dáktrin] を集めた法律。",
+      "vocab": "[名] 主義",
+      "part2_id": 196
+    },
+    {
+      "id": 248,
+      "english": "application form",
+      "phonetic": "[æ̀plikéiʃən]",
+      "version": "2字",
+      "kanji_hint": "□書",
+      "answer": "願書",
+      "hint": "「え，受験しなかったの」「うん，実は出し忘れちゃったんだ」「なんて silly [síli] なの」",
+      "vocab": "[形] 愚かな",
+      "part2_id": 242
+    },
+    {
+      "id": 249,
+      "english": "impractical argument",
+      "phonetic": "[imprǽktikəl] [áːrgjəmənt]",
+      "version": "2字",
+      "kanji_hint": "□論",
+      "answer": "空論",
+      "hint": "constructive [kənstrʌ́ktiv] ではなく，現実に則していない議論。",
+      "vocab": "[形] 建設的な",
+      "part2_id": 230
+    },
+    {
+      "id": 250,
+      "english": "stumbling block",
+      "phonetic": "[stʌ́mbliŋ] [blak]",
+      "version": "2字",
+      "kanji_hint": "□害",
+      "answer": "障害",
+      "hint": "人生いつも順調に行くとは限らない。obstacle [ábstəkl] があってあたりまえ。",
+      "vocab": "[名] 障害",
+      "part2_id": 325
+    },
+    {
+      "id": 251,
+      "english": "eye measurement",
+      "phonetic": "[méʒərmənt]",
+      "version": "3字",
+      "kanji_hint": "□□量",
+      "answer": "目分量",
+      "hint": "「ちょっとミリン入れ過ぎよ。計量カップ使ってよ」「glance [glæns] でだいたいの量はわかるよ」",
+      "vocab": "[名] ひと目",
+      "part2_id": 441
+    },
+    {
+      "id": 252,
+      "english": "audience rating",
+      "phonetic": "[ɔ́ːdiəns] [réitiŋ]",
+      "version": "3字",
+      "kanji_hint": "□□率",
+      "answer": "視聴率",
+      "hint": "「昨日の最終回みた？」「みたわよ。ほんと splendid [spléndid] だったわ。すごい数字が出るわよ」",
+      "vocab": "[形] すばらしい",
+      "part2_id": 435
+    },
+    {
+      "id": 253,
+      "english": "domestic flight",
+      "phonetic": "[dəméstik] [flait]",
+      "version": "3字",
+      "kanji_hint": "国□□",
+      "answer": "国内便",
+      "hint": "日本ではこれに乗っても時差はないが，アメリカやロシアでは frequent [fríːkwənt]。",
+      "vocab": "[形] 頻繁な",
+      "part2_id": 449
+    },
+    {
+      "id": 254,
+      "english": "second guessing",
+      "phonetic": "[gésiŋ]",
+      "version": "3字",
+      "kanji_hint": "□果□",
+      "answer": "結果論",
+      "hint": "『後の祭り』という proverb を思い出してしまう。",
+      "vocab": "[名] ことわざ",
+      "part2_id": 255
+    },
+    {
+      "id": 255,
+      "english": "tuition fees",
+      "phonetic": "[tjuːíʃən] [fiːz]",
+      "version": "3字",
+      "kanji_hint": "□□料",
+      "answer": "授業料",
+      "hint": "大学に入る時には入学金の他にこれが必要。年々 soar [sɔːr] している。",
+      "vocab": "[動] 急騰する",
+      "part2_id": 252
+    },
+    {
+      "id": 256,
+      "english": "conservative party",
+      "phonetic": "[kənsə́ːrvətiv]",
+      "version": "3字",
+      "kanji_hint": "□□党",
+      "answer": "保守党",
+      "hint": "国会において今まで通りの方針を continue しようとする党。ちょっといい過ぎかな…。",
+      "vocab": "[動] 続ける",
+      "part2_id": 152
+    },
+    {
+      "id": 257,
+      "english": "vicious circle",
+      "phonetic": "[víʃəs] [sə́ːrkl]",
+      "version": "3字",
+      "kanji_hint": "悪□□",
+      "answer": "悪循環",
+      "hint": "勉強が嫌いでテストでひどい点を取り，親を provoke [prəvóuk] して勉強しろと強制され，ますます勉強嫌いに。",
+      "vocab": "[動] 怒らせる",
+      "part2_id": 438
+    },
+    {
+      "id": 258,
+      "english": "business administration",
+      "phonetic": "[bíznəs] [ədmìnəstréiʃən]",
+      "version": "3字",
+      "kanji_hint": "□営□",
+      "answer": "経営学",
+      "hint": "商売というものは一体どうやってやっていくものなのか，学問的に instruct してくれる。",
+      "vocab": "[動] 教える",
+      "part2_id": 95
+    },
+    {
+      "id": 259,
+      "english": "supersonic wave",
+      "phonetic": "[sùːpərsánik] [weiv]",
+      "version": "3字",
+      "kanji_hint": "□□波",
+      "answer": "超音波",
+      "hint": "普通人間には audible [ɔ́ːdəbl] ではない。コウモリはこれを利用している。",
+      "vocab": "[形] 聞こえる",
+      "part2_id": 31
+    },
+    {
+      "id": 260,
+      "english": "power plant",
+      "phonetic": "[plænt]",
+      "version": "3字",
+      "kanji_hint": "□□所",
+      "answer": "発電所",
+      "hint": "今は原子力のものが多い。もっと風力とか地熱とか alternative source [ɔːltə́ːrnətiv] が増えるといい。",
+      "vocab": "[名] 選択肢",
+      "part2_id": 19
+    },
+    {
+      "id": 261,
+      "english": "additional charge",
+      "phonetic": "[ədíʃənəl] [tʃɑːrdʒ]",
+      "version": "4字",
+      "kanji_hint": "□加□□",
+      "answer": "追加料金",
+      "hint": "「コーヒーのおかわりご自由にどうぞ」今ではそう extraordinary [ikstrɔ́ːrdənèri] な風景ではない。",
+      "vocab": "[形] 異常な",
+      "part2_id": 479
+    },
+    {
+      "id": 262,
+      "english": "courtesy visit",
+      "phonetic": "[kə́ːrtəsi]",
+      "version": "4字",
+      "kanji_hint": "□□□問",
+      "answer": "表敬訪問",
+      "hint": "外国からの要人が日本の政治家と会うのは ritual [rítʃuəl] な場合もある。",
+      "vocab": "[形] 儀式的な",
+      "part2_id": 162
+    },
+    {
+      "id": 263,
+      "english": "personnel transfer",
+      "phonetic": "[pə̀ːrsənél] [trǽnsfəːr]",
+      "version": "4字",
+      "kanji_hint": "□□□動",
+      "answer": "人事異動",
+      "hint": "「うちの課長，今度部長に promote [prəmóut] されるってうわさよ」",
+      "vocab": "[動] 昇進させる",
+      "part2_id": 117
+    },
+    {
+      "id": 264,
+      "english": "sea dumping",
+      "phonetic": "[dʌ́mpiŋ]",
+      "version": "4字",
+      "kanji_hint": "海□□□",
+      "answer": "海洋投棄",
+      "hint": "処理に困ったゴミを海に捨てるというとても許す事のできない absurd [əbsə́ːrd] な行為。",
+      "vocab": "[形] おろかな",
+      "part2_id": 61
+    },
+    {
+      "id": 265,
+      "english": "financial deficit",
+      "phonetic": "[fənǽnʃəl] [défəsit]",
+      "version": "4字",
+      "kanji_hint": "□□□字",
+      "answer": "財政赤字",
+      "hint": "政府が歳入を大幅に越えて借金を続けると eventually [ivéntʃuəli] こうなる。",
+      "vocab": "[副] 結局は",
+      "part2_id": 163
+    },
+    {
+      "id": 266,
+      "english": "social convention",
+      "phonetic": "[sóuʃəl] [kənvénʃən]",
+      "version": "4字",
+      "kanji_hint": "□会□□",
+      "answer": "社会習慣",
+      "hint": "国や市民が長い歴史の中で繰り返し続けてきた institution [ìnstətʃúːʃən]。",
+      "vocab": "[名] 制度，施設",
+      "part2_id": 345
+    },
+    {
+      "id": 267,
+      "english": "visual defect",
+      "phonetic": "[víʒuəl] [difékt]",
+      "version": "4字",
+      "kanji_hint": "視□□□",
+      "answer": "視覚障害",
+      "hint": "見ることに関して inconvenience [ìnkənvíːnjəns] があること。",
+      "vocab": "[名] 不都合",
+      "part2_id": 398
+    },
+    {
+      "id": 268,
+      "english": "commercial treaty",
+      "phonetic": "[kəmə́ːrʃəl] [tríːti]",
+      "version": "4字",
+      "kanji_hint": "□商□□",
+      "answer": "通商条約",
+      "hint": "国と国とがお互いにビジネスをし合うことを guarantee [gæ̀rəntíː] した約束。",
+      "vocab": "[動] 保証する",
+      "part2_id": 175
+    },
+    {
+      "id": 269,
+      "english": "exclusive interview",
+      "phonetic": "[iksklúːsiv] [íntərvjùː]",
+      "version": "4字",
+      "kanji_hint": "□独□□",
+      "answer": "単独会見",
+      "hint": "他社のレポーターを prohibit して，自分だけがマイクを向けられるこの快感。",
+      "vocab": "[動] 禁止する",
+      "part2_id": 272
+    },
+    {
+      "id": 270,
+      "english": "bank deposit",
+      "phonetic": "[dipázət]",
+      "version": "4字",
+      "kanji_hint": "□□□金",
+      "answer": "銀行預金",
+      "hint": "銀行に accumulate [əkjúːmjəlèit] しているか，とりあえず入れてあるお金。",
+      "vocab": "[動] ためる",
+      "part2_id": 461
+    },
+    {
+      "id": 271,
+      "english": "weather report",
+      "phonetic": "[wéðər]",
+      "version": "4字",
+      "kanji_hint": "□気□□",
+      "answer": "天気予報",
+      "hint": "これから先の空模様を predict [pridíkt] する。",
+      "vocab": "[動] 予言する",
+      "part2_id": 459
+    },
+    {
+      "id": 272,
+      "english": "corporate warrior",
+      "phonetic": "[kɔ́ːrpərət] [wɔ́ːriər]",
+      "version": "4字",
+      "kanji_hint": "□業□□",
+      "answer": "企業戦士",
+      "hint": "まるで昔の武士のように滅私奉公して会社にすべてを devote しているサラリーマン。",
+      "vocab": "[動] 捧げる",
+      "part2_id": 358
+    },
+    {
+      "id": 273,
+      "english": "sensory organ",
+      "phonetic": "[sénsəri] [ɔ́ːrgən]",
+      "version": "4字",
+      "kanji_hint": "□□器□",
+      "answer": "感覚器官",
+      "hint": "眼や耳や鼻など。年をとってくるとだんだんその能力は dull になってくる。",
+      "vocab": "[形] 鈍い",
+      "part2_id": 407
+    },
+    {
+      "id": 274,
+      "english": "electrical appliance",
+      "phonetic": "[iléktrikəl] [əpláiəns]",
+      "version": "4字",
+      "kanji_hint": "□電□□",
+      "answer": "家電製品",
+      "hint": "買ったばかりの時はピカピカだが，やがて junk [dʒʌŋk] になるもの。",
+      "vocab": "[名] がらくた",
+      "part2_id": 486
+    },
+    {
+      "id": 275,
+      "english": "backdoor admission",
+      "phonetic": "[bæ̀kdɔ́ːr] [ədmíʃən]",
+      "version": "4字",
+      "kanji_hint": "□□入□",
+      "answer": "裏口入学",
+      "hint": "「お金で点を買って合格なんて許せない。あまりに cunning だわ」",
+      "vocab": "[形] ずるい",
+      "part2_id": 276
+    },
+    {
+      "id": 276,
+      "english": "attempted suicide",
+      "phonetic": "[ətémptid] [súːisaid]",
+      "version": "4字",
+      "kanji_hint": "自□□□",
+      "answer": "自殺未遂",
+      "hint": "人間そんなに簡単に自分の命を deprive [dipráiv] できるものではない。",
+      "vocab": "[動] 奪う",
+      "part2_id": 218
+    },
+    {
+      "id": 277,
+      "english": "pollen information",
+      "phonetic": "[pálən] [ìnfərméiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□情□",
+      "answer": "花粉情報",
+      "hint": "花粉症で苦しんでいる人にとっては最も significant [signífikənt] なニュース。",
+      "vocab": "[形] 意義深い",
+      "part2_id": 472
+    },
+    {
+      "id": 278,
+      "english": "civilian control",
+      "phonetic": "[sivíljən] [kəntróul]",
+      "version": "4字",
+      "kanji_hint": "□民□□",
+      "answer": "文民統治",
+      "hint": "軍人が武力で tyranny [tírəni] を行うことがないように市民がしっかり見守っていこう。",
+      "vocab": "[名] 圧政",
+      "part2_id": 168
+    },
+    {
+      "id": 279,
+      "english": "editorial policy",
+      "phonetic": "[èdətɔ́ːriəl] [páləsi]",
+      "version": "4字",
+      "kanji_hint": "□□方□",
+      "answer": "編集方針",
+      "hint": "新聞や雑誌でどういう記事を掲載し，またそれをどのように arrange していくか。",
+      "vocab": "[動] 並べる",
+      "part2_id": 288
+    },
+    {
+      "id": 280,
+      "english": "price manipulation",
+      "phonetic": "[prais] [mənìpjəléiʃən]",
+      "version": "4字",
+      "kanji_hint": "価□□□",
+      "answer": "価格操作",
+      "hint": "demand and supply [səplái] という市場原理で決まるはずの価格を不自然に。",
+      "vocab": "需要と供給",
+      "part2_id": 123
+    },
+    {
+      "id": 281,
+      "english": "proportional representation",
+      "phonetic": "[prəpɔ́ːrʃənəl] [rèprizentéiʃən]",
+      "version": "5字",
+      "kanji_hint": "□□□□制",
+      "answer": "比例代表制",
+      "hint": "選挙制度のひとつ。候補者名ではなく政党名を書き得票に link して当選が決まる。",
+      "vocab": "[動] 関連する",
+      "part2_id": 189
+    },
+    {
+      "id": 282,
+      "english": "concentration camp",
+      "phonetic": "[kànsəntréiʃən] [kæmp]",
+      "version": "5字",
+      "kanji_hint": "□□□□所",
+      "answer": "難民収容所",
+      "hint": "内戦や災害等で生じた大勢の家を失った人達を accommodate する所。",
+      "vocab": "[動] 宿泊させる",
+      "part2_id": 366
+    },
+    {
+      "id": 283,
+      "english": "presidential candidate",
+      "phonetic": "[prèzədénʃəl] [kǽndidèit]",
+      "version": "5字",
+      "kanji_hint": "大□□□□",
+      "answer": "大統領候補",
+      "hint": "ホワイトハウスの主人になることを seek する人。",
+      "vocab": "[動] 求める",
+      "part2_id": 187
+    },
+    {
+      "id": 284,
+      "english": "literary critic",
+      "phonetic": "[lítərèri] [krítik]",
+      "version": "5字",
+      "kanji_hint": "□芸□□□",
+      "answer": "文芸評論家",
+      "hint": "小説などの出来についていろいろ review [rivjúː] する事を仕事にしている人。",
+      "vocab": "[動] 批評する",
+      "part2_id": 365
+    },
+    {
+      "id": 285,
+      "english": "steam locomotive",
+      "phonetic": "[stiːm] [lòukəmóutiv]",
+      "version": "5字",
+      "kanji_hint": "□□□□車",
+      "answer": "蒸気機関車",
+      "hint": "「ねえ，日曜日 SL 見に行こうよ」「いいね。あの黒い massive なボディ大好きだよ」",
+      "vocab": "[形] どっしりした",
+      "part2_id": 67
+    },
+    {
+      "id": 286,
+      "english": "nonaggression pact",
+      "phonetic": "[nànəgréʃən] [pækt]",
+      "version": "5字",
+      "kanji_hint": "□可□□□",
+      "answer": "不可侵条約",
+      "hint": "お互いに相手の領土は invade [invéid] しないという，国と国とが交わした約束。",
+      "vocab": "[動] 侵略する",
+      "part2_id": 190
+    },
+    {
+      "id": 287,
+      "english": "subscription rate",
+      "phonetic": "[səbskrípʃən] [reit]",
+      "version": "5字",
+      "kanji_hint": "□約□□□",
+      "answer": "予約購読料",
+      "hint": "タイムやニューズウィークなど1年分前払いだとかなり generous [dʒénərəs] に discount してくれる。",
+      "vocab": "[形] 気前のよい",
+      "part2_id": 128
+    },
+    {
+      "id": 288,
+      "english": "unicellular animal",
+      "phonetic": "[jùːnəséljələr]",
+      "version": "5字",
+      "kanji_hint": "□細□□□",
+      "answer": "単細胞生物",
+      "hint": "一番最初に地球に generate [dʒénərèit] した生物はすべてこれ。",
+      "vocab": "[動] 発生する",
+      "part2_id": 68
+    },
+    {
+      "id": 289,
+      "english": "exchange student",
+      "phonetic": "[ikstʃéindʒ]",
+      "version": "5字",
+      "kanji_hint": "□換□□□",
+      "answer": "交換留学生",
+      "hint": "自分も外国へ勉強に行けるが，同じ opportunity [àpərtjúːnəti] を相手の国の人にも与える。",
+      "vocab": "[動] 機会",
+      "part2_id": 296
+    },
+    {
+      "id": 290,
+      "english": "Independence Day",
+      "phonetic": "[ìndipéndəns]",
+      "version": "5字",
+      "kanji_hint": "□□□□日",
+      "answer": "独立記念日",
+      "hint": "宗主国イギリスから colony だったアメリカがちゃんとした国になった日。",
+      "vocab": "[名] 植民地",
+      "part2_id": 363
+    },
+    {
+      "id": 291,
+      "english": "illegal possession",
+      "phonetic": "[ilíːgəl] [pəzéʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□持",
+      "answer": "不法所持",
+      "hint": "持ってはいけないものを身につけて convey [kənvéi] する犯罪。",
+      "vocab": "[動] 運ぶ",
+      "part2_id": 215
+    },
+    {
+      "id": 292,
+      "english": "atomic bomb",
+      "phonetic": "[ətámik] [bam]",
+      "version": "4字",
+      "kanji_hint": "□子□□",
+      "answer": "原子爆弾",
+      "hint": "以前のものとは比較にならないほど destructive な威力。",
+      "vocab": "[形] 破壊的な",
+      "part2_id": 173
+    },
+    {
+      "id": 293,
+      "english": "fixed asset",
+      "phonetic": "[fikst] [ǽset]",
+      "version": "4字",
+      "kanji_hint": "□□□産",
+      "answer": "固定資産",
+      "hint": "持ち運びができない家や土地といった real estate [estéit]。",
+      "vocab": "不動産",
+      "part2_id": 120
+    },
+    {
+      "id": 294,
+      "english": "remote control",
+      "phonetic": "[rimóut] [kəntróul]",
+      "version": "4字",
+      "kanji_hint": "□□□作",
+      "answer": "遠隔操作",
+      "hint": "今時テレビもステレオもすべてこれで動く。なんと lazy [léizi] な。",
+      "vocab": "[形] 怠惰な",
+      "part2_id": 48
+    },
+    {
+      "id": 295,
+      "english": "rain forest",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□□雨□",
+      "answer": "熱帯雨林",
+      "hint": "この地球の宝が伐採され，無くなっていくのは inevitable [inévətəbl] なのか。",
+      "vocab": "[形] 不可避の",
+      "part2_id": 47
+    },
+    {
+      "id": 296,
+      "english": "trade surplus",
+      "phonetic": "[treid] [sə́ːrpləs]",
+      "version": "4字",
+      "kanji_hint": "□易□□",
+      "answer": "貿易黒字",
+      "hint": "import よりも export の方が多いと当然こうなる。",
+      "vocab": "",
+      "part2_id": 111
+    },
+    {
+      "id": 297,
+      "english": "environmental pollution",
+      "phonetic": "[invaiərənméntl] [pəlúːʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□染",
+      "answer": "環境汚染",
+      "hint": "私達が日々暮らしている surroundings [səráundiŋz] が deteriorate [ditíriərèit] すること。",
+      "vocab": "[名] 環境 / [動] 悪化する",
+      "part2_id": 57
+    },
+    {
+      "id": 298,
+      "english": "mass production",
+      "phonetic": "[mæs] [prədʌ́kʃən]",
+      "version": "4字",
+      "kanji_hint": "大□□□",
+      "answer": "大量生産",
+      "hint": "同じものを短期間にたくさん作ること。最近では消費者の appetite [ǽpətait] も多様化し，すたれつつある。",
+      "vocab": "[名] 欲求，食欲",
+      "part2_id": 109
+    },
+    {
+      "id": 299,
+      "english": "lifetime employment",
+      "phonetic": "[implɔ́imənt]",
+      "version": "4字",
+      "kanji_hint": "□身□□",
+      "answer": "終身雇用",
+      "hint": "古くからの日本的な雇用形態。よほどのことがないかぎり，ある年齢までは会社から expel [ikspél] されることはない。",
+      "vocab": "[動] 追放する",
+      "part2_id": 114
+    },
+    {
+      "id": 300,
+      "english": "first impression",
+      "phonetic": "[impréʃən]",
+      "version": "4字",
+      "kanji_hint": "□一□□",
+      "answer": "第一印象",
+      "hint": "人と人が acquaintance [əkwéintəns] になる時はこれが大切。",
+      "vocab": "[名] 知人，面識",
+      "part2_id": 267
+    },
+    {
+      "id": 301,
+      "english": "preventive injection",
+      "phonetic": "[privéntiv] [indʒékʃən]",
+      "version": "4字",
+      "kanji_hint": "□防□□",
+      "answer": "予防注射",
+      "hint": "子供の頃，はしかやおたふく風邪にならないように，1)reluctantly [rilʌ́ktəntli] に受けた記憶が…。",
+      "vocab": "1) 副 いやいや",
+      "part2_id": 404
+    },
+    {
+      "id": 302,
+      "english": "conservation movement",
+      "phonetic": "[kənsə̀ːrvéiʃən] [múːvmənt]",
+      "version": "4字",
+      "kanji_hint": "□□運□",
+      "answer": "保護運動",
+      "hint": "2)endangered [indéindʒərd] な動植物を絶滅の危機から救わなければいけない。",
+      "vocab": "2) 形 絶滅が危惧される",
+      "part2_id": 55
+    },
+    {
+      "id": 303,
+      "english": "tongue twisters",
+      "phonetic": "[tʌŋ] [twístərs]",
+      "version": "4字",
+      "kanji_hint": "□口□□",
+      "answer": "早口言葉",
+      "hint": "「東京特許許可局」「よくそんなに舌が 3)precisely [prisáisli] に速く動くね」",
+      "vocab": "3) 副 正確に",
+      "part2_id": 465
+    },
+    {
+      "id": 304,
+      "english": "discomfort index",
+      "phonetic": "[dìskʌ́mfərt] [índeks]",
+      "version": "4字",
+      "kanji_hint": "□□指□",
+      "answer": "不快指数",
+      "hint": "「暑さは 4)endure [indjúər] できるけど，こう 5)humidity [hjuːmídəti] が高いと，まいるね」",
+      "vocab": "4) 動 耐える / 5) 名 湿度",
+      "part2_id": 471
+    },
+    {
+      "id": 305,
+      "english": "engagement ring",
+      "phonetic": "[ingéidʒmənt]",
+      "version": "4字",
+      "kanji_hint": "□□指□",
+      "answer": "婚約指輪",
+      "hint": "「このダイヤがいいわ」「そんな高いやつとても買う 6)afford がないよ」「私のこと愛してないの？」",
+      "vocab": "6) 動 余裕がある",
+      "part2_id": 482
+    },
+    {
+      "id": 306,
+      "english": "processed lumber",
+      "phonetic": "[prásest] [lʌ́mbər]",
+      "version": "4字",
+      "kanji_hint": "□□木□",
+      "answer": "加工木材",
+      "hint": "「7)marvelous [mɑ́ːrvələs] な家具だね。木目が実に美しい」「ベニヤ板なんですよ」",
+      "vocab": "7) 形 素晴らしい",
+      "part2_id": 121
+    },
+    {
+      "id": 307,
+      "english": "ripple effect",
+      "phonetic": "[rípl] [ifékt]",
+      "version": "4字",
+      "kanji_hint": "波□□□",
+      "answer": "波及効果",
+      "hint": "あるひとつの 8)occurrence [əkə́ːrəns] の影響が次から次へと範囲を広げ伝わっていく。",
+      "vocab": "8) 名 出来事",
+      "part2_id": 63
+    },
+    {
+      "id": 308,
+      "english": "assessed price",
+      "phonetic": "[əsést] [prais]",
+      "version": "4字",
+      "kanji_hint": "□定□□",
+      "answer": "査定価格",
+      "hint": "「先週出た新車，買うぞ」「じゃ，今乗ってる車いくらで下取ってくれるか 9)inquire [inkwáiər] しに行きましょう」",
+      "vocab": "9) 動 尋ねる",
+      "part2_id": 127
+    },
+    {
+      "id": 309,
+      "english": "air resistance",
+      "phonetic": "[rizístəns]",
+      "version": "4字",
+      "kanji_hint": "□気□□",
+      "answer": "空気抵抗",
+      "hint": "これがないと 10)kite [kait] を上げることも，パラシュートを 11)unfold [ʌ̀nfóuld] することもできない。",
+      "vocab": "10) 名 凧(たこ) / 11) 動 開く",
+      "part2_id": 42
+    },
+    {
+      "id": 310,
+      "english": "traffic regulations",
+      "phonetic": "[trǽfik] [règjuléiʃənz]",
+      "version": "4字",
+      "kanji_hint": "交□□□",
+      "answer": "交通法規",
+      "hint": "もしこれがなかったら道路の上はただただ 12)chaos [kéiɑs]。",
+      "vocab": "12) 名 大混乱",
+      "part2_id": 219
+    },
+    {
+      "id": 311,
+      "english": "internal medicine",
+      "phonetic": "[intə́ːrnəl] [médəsən]",
+      "version": "3字",
+      "kanji_hint": "□□薬",
+      "answer": "内服薬",
+      "hint": "ぬり薬ではなく 1)swallow [swálou] する薬。",
+      "vocab": "1) 動 飲み込む",
+      "part2_id": 394
+    },
+    {
+      "id": 312,
+      "english": "weather chart",
+      "phonetic": "[wéðər] [tʃɑːrt]",
+      "version": "3字",
+      "kanji_hint": "□気□",
+      "answer": "天気図",
+      "hint": "高気圧とか低気圧が 2)intricate [íntrikət] にひしめいている。",
+      "vocab": "2) 形 複雑に込み入った",
+      "part2_id": 455
+    },
+    {
+      "id": 313,
+      "english": "abstract painting",
+      "phonetic": "[ǽbstrækt]",
+      "version": "3字",
+      "kanji_hint": "□□画",
+      "answer": "抽象画",
+      "hint": "いったい何が描かれているのか，3)concrete [kɑnkríːt] にはわからない。",
+      "vocab": "3) 形 具体的な",
+      "part2_id": 330
+    },
+    {
+      "id": 314,
+      "english": "nursery school",
+      "phonetic": "[nə́ːrsəri]",
+      "version": "3字",
+      "kanji_hint": "□育□",
+      "answer": "保育園",
+      "hint": "両親とも 4)career [kəríər] に就いていると小学校に入る前の子供は…。",
+      "vocab": "4) 名 仕事",
+      "part2_id": 263
+    },
+    {
+      "id": 315,
+      "english": "revised edition",
+      "phonetic": "[riváizd] [idíʃən]",
+      "version": "3字",
+      "kanji_hint": "□訂□",
+      "answer": "改訂版",
+      "hint": "時の 5)current [kə́ːrənt] とともに 6)old-fashioned になった本の内容を。",
+      "vocab": "5) 名 流れ / 6) 形 流行遅れの",
+      "part2_id": 249
+    },
+    {
+      "id": 316,
+      "english": "disgraceful affair",
+      "phonetic": "[disgréisfəl] [əféər]",
+      "version": "3字",
+      "kanji_hint": "□□事",
+      "answer": "不祥事",
+      "hint": "「母さん。俺タバコ喫ってるところ見つかって 7)suspended になっちゃった」「なんてことを…」",
+      "vocab": "7) 停学処分になった",
+      "part2_id": 157
+    },
+    {
+      "id": 317,
+      "english": "floating vote",
+      "phonetic": "[flóutiŋ] [vout]",
+      "version": "3字",
+      "kanji_hint": "□□票",
+      "answer": "浮動票",
+      "hint": "8)specifically [spəsífikəli] には支持する政党もなく，誰に投票するか決めかねている。",
+      "vocab": "8) 副 特に，とりわけ",
+      "part2_id": 153
+    },
+    {
+      "id": 318,
+      "english": "trade fair",
+      "phonetic": "[treid] [feər]",
+      "version": "3字",
+      "kanji_hint": "□本□",
+      "answer": "見本市",
+      "hint": "いろいろな新製品が一堂に 9)gather し，おひろめをする。",
+      "vocab": "9) 動 集まる",
+      "part2_id": 99
+    },
+    {
+      "id": 319,
+      "english": "continental shelf",
+      "phonetic": "[kəntənéntl] [ʃɛlf]",
+      "version": "3字",
+      "kanji_hint": "□陸□",
+      "answer": "大陸棚",
+      "hint": "海中で広範囲にわたって高台で，端が 10)steep [stiːp] な坂か 11)cliff [klif] になっている所。",
+      "vocab": "10) 形 険しい / 11) 名 がけ",
+      "part2_id": 35
+    },
+    {
+      "id": 320,
+      "english": "thermal efficiency",
+      "phonetic": "[θə́ːrməl] [ifíʃənsi]",
+      "version": "3字",
+      "kanji_hint": "熱□□",
+      "answer": "熱効率",
+      "hint": "カーテンを2重にして，ドアを 12)tight [tait] に閉めると熱がなかなか逃げなくなる。",
+      "vocab": "12) 副 しっかりと",
+      "part2_id": 28
+    },
+    {
+      "id": 321,
+      "english": "liquid crystal",
+      "phonetic": "[líkwid] [kristl]",
+      "version": "2字",
+      "kanji_hint": "□晶",
+      "answer": "液晶",
+      "hint": "電卓，ノートタイプパソコン等の画面には，この技術を使ったものが 1)install [instɔ́ːl] されている。",
+      "vocab": "1) 動 取り付ける",
+      "part2_id": 9
+    },
+    {
+      "id": 322,
+      "english": "customs duty",
+      "phonetic": "[kʌ́stəmz] [djuːti]",
+      "version": "2字",
+      "kanji_hint": "関□",
+      "answer": "関税",
+      "hint": "商品を輸出入する時にはこれから 2)escape することはできない。",
+      "vocab": "2) 動 逃げる",
+      "part2_id": 84
+    },
+    {
+      "id": 323,
+      "english": "share certificate",
+      "phonetic": "[ʃeə] [sərtífikət]",
+      "version": "2字",
+      "kanji_hint": "株□",
+      "answer": "株券",
+      "hint": "株主であることを 3)justify する紙。",
+      "vocab": "3) 動 正当化する",
+      "part2_id": 89
+    },
+    {
+      "id": 324,
+      "english": "alternating current",
+      "phonetic": "[ɔ́ːltərnèitiŋ] [kə́ːrənt]",
+      "version": "2字",
+      "kanji_hint": "□流",
+      "answer": "交流",
+      "hint": "電気の流れ方には2種類ある。DCのDはdirect (直流の)の 4)abbreviation [əbrìːviéiʃən]。",
+      "vocab": "4) 名 省略(形)",
+      "part2_id": 1
+    },
+    {
+      "id": 325,
+      "english": "political opinions",
+      "phonetic": "[pəlítikəl] [əpínjən]",
+      "version": "2字",
+      "kanji_hint": "政□",
+      "answer": "政見",
+      "hint": "5)statesman として，どういう 6)vision を持って仕事をしていくのか。",
+      "vocab": "5) 名 政治家 / 6) 名 見解",
+      "part2_id": 145
+    },
+    {
+      "id": 326,
+      "english": "prosecuting attorney",
+      "phonetic": "[prɑ́səkjuːtiŋ] [ətə́ːrni]",
+      "version": "2字",
+      "kanji_hint": "□事",
+      "answer": "検事",
+      "hint": "7)lawyer [lɔ́ːjər] の中でも告訴するのが主な仕事の人。",
+      "vocab": "7) 名 法律家",
+      "part2_id": 200
+    },
+    {
+      "id": 327,
+      "english": "vehement anger",
+      "phonetic": "[víːəmənt] [ǽŋgər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "激怒",
+      "hint": "「私以外の人とデートするなんて絶対許せない！」「そんなに 8)furious [fjúriəs] にならないでよ」",
+      "vocab": "8) 形 怒り狂った",
+      "part2_id": 239
+    },
+    {
+      "id": 328,
+      "english": "extensive reading",
+      "phonetic": "[iksténsiv]",
+      "version": "2字",
+      "kanji_hint": "□読",
+      "answer": "多読",
+      "hint": "9)cartoon [kɑːrtúːn] から 10)classic まで幅広くたくさん読むこと。",
+      "vocab": "9) 名 漫画 / 10) 名 古典",
+      "part2_id": 235
+    },
+    {
+      "id": 329,
+      "english": "musical instrument",
+      "phonetic": "[mjúzikəl] [ínstrumənt]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "楽器",
+      "hint": "11)pastime [pǽstàim] のひとつとしてピアノぐらい弾けたらと思う。",
+      "vocab": "11) 名 気晴らし",
+      "part2_id": 312
+    },
+    {
+      "id": 330,
+      "english": "blood pressure",
+      "phonetic": "[blʌd] [préʃər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "血圧",
+      "hint": "好きな人の前に出ると 12)strained [streind] して胸が高鳴り…。",
+      "vocab": "12) 形 緊張した",
+      "part2_id": 383
+    },
+    {
+      "id": 331,
+      "english": "mercy killing",
+      "phonetic": "[mə́ːrsi]",
+      "version": "3字",
+      "kanji_hint": "□□死",
+      "answer": "安楽死",
+      "hint": "骨折してしまったサラブレッドは，1)slaughter [slɔ́ːtər] されてしまうことがある。",
+      "vocab": "1) 動 殺す",
+      "part2_id": 386
+    },
+    {
+      "id": 332,
+      "english": "boarding pass",
+      "phonetic": "[bɔ́ːrdiŋ]",
+      "version": "3字",
+      "kanji_hint": "□□券",
+      "answer": "搭乗券",
+      "hint": "航空券とは違う。大きな 2)vehicle [víːikl] に乗る時に必要。",
+      "vocab": "2) 名 乗り物",
+      "part2_id": 436
+    },
+    {
+      "id": 333,
+      "english": "nutritional value",
+      "phonetic": "[njuːtríʃənəl] [vǽlju]",
+      "version": "3字",
+      "kanji_hint": "□□価",
+      "answer": "栄養価",
+      "hint": "これに富むものを 3)nourish [nə́ːriʃ] してあげると丈夫になる。",
+      "vocab": "3) 動 養う",
+      "part2_id": 392
+    },
+    {
+      "id": 334,
+      "english": "orthodox method",
+      "phonetic": "[ɔ́ːrθədɑ̀ks] [méθəd]",
+      "version": "3字",
+      "kanji_hint": "□攻□",
+      "answer": "正攻法",
+      "hint": "奇をてらうことなく，4)dignity [dígnəti] を持って攻める。",
+      "vocab": "4) 名 威厳",
+      "part2_id": 444
+    },
+    {
+      "id": 335,
+      "english": "notice board",
+      "phonetic": "[nóutis] [bɔːrd]",
+      "version": "3字",
+      "kanji_hint": "□□板",
+      "answer": "掲示板",
+      "hint": "5)corridor [kɔ́ːrədər] で目にすることが多い。",
+      "vocab": "5) 名 廊下",
+      "part2_id": 452
+    },
+    {
+      "id": 336,
+      "english": "terminal cancer",
+      "phonetic": "[tə́ːrmənl] [kǽnsər]",
+      "version": "3字",
+      "kanji_hint": "□期□",
+      "answer": "末期癌",
+      "hint": "痛みを和らげてあげるべきか，命を 6)prolong [prəlɔ́ːŋ] してあげるべきか。",
+      "vocab": "6) 動 引き延ばす",
+      "part2_id": 389
+    },
+    {
+      "id": 337,
+      "english": "tremendous success",
+      "phonetic": "[triméndəs] [səksés]",
+      "version": "3字",
+      "kanji_hint": "□□功",
+      "answer": "大成功",
+      "hint": "たとえば製作した映画に 7)presume [prizjúːm] していた10倍の観客が入った。",
+      "vocab": "7) 動 推定する",
+      "part2_id": 453
+    },
+    {
+      "id": 338,
+      "english": "volcanic ashes",
+      "phonetic": "[vɑlkǽnik] [ǽʃiz]",
+      "version": "3字",
+      "kanji_hint": "□山□",
+      "answer": "火山灰",
+      "hint": "噴火の後，空から降ってくる 8)dust のようなもの。",
+      "vocab": "8) 名 ちり，ほこり",
+      "part2_id": 17
+    },
+    {
+      "id": 339,
+      "english": "irregular pulse",
+      "phonetic": "[irégjələr] [pʌls]",
+      "version": "3字",
+      "kanji_hint": "□整□",
+      "answer": "不整脈",
+      "hint": "心臓に 9)disorder のある人は心音でわかるそうです。",
+      "vocab": "9) 名 不調，混乱",
+      "part2_id": 388
+    },
+    {
+      "id": 340,
+      "english": "optical communication",
+      "phonetic": "[ɑ́ptikəl] [kəmjùːnəkéiʃən]",
+      "version": "3字",
+      "kanji_hint": "□通□",
+      "answer": "光通信",
+      "hint": "地球上で最も速いものを 10)cable [keibl] の中を通して電話やインターネットで利用する。",
+      "vocab": "10) 名 ケーブル線",
+      "part2_id": 36
+    },
+    {
+      "id": 341,
+      "english": "joint responsibility",
+      "phonetic": "[dʒɔint] [rispɑ̀nsəbíləti]",
+      "version": "4字",
+      "kanji_hint": "□□責□",
+      "answer": "連帯責任",
+      "hint": "自分が犯した間違いではないが，それを償う 1)obligation [ɑ̀bləgéiʃən] がある。",
+      "vocab": "1) 名 義務",
+      "part2_id": 476
+    },
+    {
+      "id": 342,
+      "english": "artificial respiration",
+      "phonetic": "[ɑ́ːrtəfíʃəl] [rèspəréiʃən]",
+      "version": "4字",
+      "kanji_hint": "□工□□",
+      "answer": "人工呼吸",
+      "hint": "溺れて 2)choke [tʃouk] してしまい，死にかかっている人を救う。",
+      "vocab": "2) 動 息が詰まる",
+      "part2_id": 402
+    },
+    {
+      "id": 343,
+      "english": "ancient civilization",
+      "phonetic": "[éinʃənt] [sìvəlaizéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□文□",
+      "answer": "古代文明",
+      "hint": "今では 3)legend [lédʒənd] や 4)ruin [rúːən] でその存在を知るのみである。",
+      "vocab": "3) 名 伝説 / 4) 名 廃墟",
+      "part2_id": 349
+    },
+    {
+      "id": 344,
+      "english": "phantom pregnancy",
+      "phonetic": "[fǽntəm] [prégnənsi]",
+      "version": "4字",
+      "kanji_hint": "□像□□",
+      "answer": "想像妊娠",
+      "hint": "実際におなかが 5)swell してくることもあるそうです。",
+      "vocab": "5) 動 ふくれる",
+      "part2_id": 406
+    },
+    {
+      "id": 345,
+      "english": "surface tension",
+      "phonetic": "[sə́ːrfəs] [ténʃən]",
+      "version": "4字",
+      "kanji_hint": "□□張□",
+      "answer": "表面張力",
+      "hint": "100ccの計量カップに100cc以上の水を 6)pour [pɔːr] することができるのはなぜか。",
+      "vocab": "6) 動 注ぐ",
+      "part2_id": 56
+    },
+    {
+      "id": 346,
+      "english": "souvenir picture",
+      "phonetic": "[sùːvəníːər]",
+      "version": "4字",
+      "kanji_hint": "□□写□",
+      "answer": "記念写真",
+      "hint": "そうなかなか行けない所に行った時 7)commemorate [kəmémərèit] して撮ることが多い。",
+      "vocab": "7) 動 記念する",
+      "part2_id": 489
+    },
+    {
+      "id": 347,
+      "english": "technical terms",
+      "phonetic": "[téknikəl] [təːrmz]",
+      "version": "4字",
+      "kanji_hint": "□□用□",
+      "answer": "専門用語",
+      "hint": "パソコンを始めようと思っても難解なこれを，なかなか 8)conquer できない。",
+      "vocab": "8) 動 征服する",
+      "part2_id": 271
+    },
+    {
+      "id": 348,
+      "english": "regional conflict",
+      "phonetic": "[ríːdʒənəl] [kɑ́nflikt]",
+      "version": "4字",
+      "kanji_hint": "□域□□",
+      "answer": "地域紛争",
+      "hint": "世界的な規模の戦争は 9)avoid できたとしても。",
+      "vocab": "9) 動 避ける",
+      "part2_id": 186
+    },
+    {
+      "id": 349,
+      "english": "secret maneuver",
+      "phonetic": "[síːkrit] [mənúːvə]",
+      "version": "4字",
+      "kanji_hint": "□□工□",
+      "answer": "秘密工作",
+      "hint": "たとえば大使館で 10)hostage [hɑ́stidʒ] 事件が起きたとき，救出のために。",
+      "vocab": "10) 動 人質",
+      "part2_id": 181
+    },
+    {
+      "id": 350,
+      "english": "distribution upheaval",
+      "phonetic": "[dìstrəbjúːʃən] [ʌphíːvəl]",
+      "version": "4字",
+      "kanji_hint": "□通□□",
+      "answer": "流通革命",
+      "hint": "生産者から直接消費者へ届けると言った 11)drastic [drǽstik] な変化。",
+      "vocab": "11) 形 急激な",
+      "part2_id": 124
+    },
+    {
+      "id": 351,
+      "english": "disposable income",
+      "phonetic": "[dispóuzəbl]",
+      "version": "5字",
+      "kanji_hint": "□□分□□",
+      "answer": "可処分所得",
+      "hint": "税金や借金や保険料を払った後に，自由に 1)spend できるお金。",
+      "vocab": "1) 動 使う",
+      "part2_id": 135
+    },
+    {
+      "id": 352,
+      "english": "urban renewal",
+      "phonetic": "[ə́ːrbən] [rinjúːəl]",
+      "version": "5字",
+      "kanji_hint": "□市□□□",
+      "answer": "都市再開発",
+      "hint": "道路の拡張，公園の整備，ビルの建てかえなどを通して 2)metropolis を美しく変える。",
+      "vocab": "2) 名 大都市",
+      "part2_id": 367
+    },
+    {
+      "id": 353,
+      "english": "digestive system",
+      "phonetic": "[daidʒéstiv] [sístəm]",
+      "version": "5字",
+      "kanji_hint": "□□□系□",
+      "answer": "消化器系統",
+      "hint": "食べたものを 3)transform し，栄養分を吸収する一連の臓器。",
+      "vocab": "3) 動 変化させる",
+      "part2_id": 409
+    },
+    {
+      "id": 354,
+      "english": "instruction manual",
+      "phonetic": "[instrʌ́kʃən] [mǽnjuəl]",
+      "version": "5字",
+      "kanji_hint": "□□□□書",
+      "answer": "取扱説明書",
+      "hint": "「このパソコン私にも使えるかしら」「この本，4)dependable だよ」",
+      "vocab": "4) 形 頼りになる",
+      "part2_id": 494
+    },
+    {
+      "id": 355,
+      "english": "intercultural education",
+      "phonetic": "[intərkʌ́ltʃərəl] [èdʒəkéiʃən]",
+      "version": "5字",
+      "kanji_hint": "□□□教□",
+      "answer": "異文化教育",
+      "hint": "外国の人たちの文化や習慣や 5)view point を教える。",
+      "vocab": "5) 名 観点",
+      "part2_id": 300
+    },
+    {
+      "id": 356,
+      "english": "consumer movement",
+      "phonetic": "[kənsjúːmər] [múːvmənt]",
+      "version": "5字",
+      "kanji_hint": "□□者□□",
+      "answer": "消費者運動",
+      "hint": "今まで 6)passive [pǽsiv] にただ買うだけだった人々が，7)positive [pɑ́zətiv] に企業と戦い始めた。",
+      "vocab": "6) 形 受動的な / 7) 形 積極的な",
+      "part2_id": 295
+    },
+    {
+      "id": 357,
+      "english": "direction indicator",
+      "phonetic": "[dirékʃən] [índəkèitər]",
+      "version": "5字",
+      "kanji_hint": "□向□□□",
+      "answer": "方向指示器",
+      "hint": "「どっちに曲がるのよ？ 8)swiftly にださないと後の車が困るでしょう！」",
+      "vocab": "8) 副 すみやかに",
+      "part2_id": 496
+    },
+    {
+      "id": 358,
+      "english": "supreme court",
+      "phonetic": "[supríːm] [kɔːrt]",
+      "version": "5字",
+      "kanji_hint": "□□□□所",
+      "answer": "最高裁判所",
+      "hint": "法と正義を守る 9)hierarchy [háiərɑ̀ːrki] の頂点に立つ機関。",
+      "vocab": "9) 名 階級制度",
+      "part2_id": 223
+    },
+    {
+      "id": 359,
+      "english": "emigrant laborer",
+      "phonetic": "[émigrənt] [léibərər]",
+      "version": "5字",
+      "kanji_hint": "□□□働□",
+      "answer": "移民労働者",
+      "hint": "祖国を離れお金を稼ぐために 10)diligent [dílədʒənt] に働いている人たち。",
+      "vocab": "10) 形 勤勉な",
+      "part2_id": 188
+    },
+    {
+      "id": 360,
+      "english": "non-tariff barrier",
+      "phonetic": "[nɑ̀ntǽrif] [bǽriər]",
+      "version": "5字",
+      "kanji_hint": "非□□□□",
+      "answer": "非関税障壁",
+      "hint": "貿易において税を 11)impose するといった直接的なものではなく，もっと不透明な障害。",
+      "vocab": "11) 動 課す",
+      "part2_id": 133
+    },
+    {
+      "id": 361,
+      "english": "solid geometry",
+      "phonetic": "[sɑ́lid] [dʒiɑ́mətri]",
+      "version": "5字",
+      "kanji_hint": "□体□□□",
+      "answer": "立体幾何学",
+      "hint": "1)mathematics [mæ̀θəmǽtiks] のひとつ。2)cube [kjuːb] の位置関係や性質・体積などについて研究するもの。",
+      "vocab": "1) 名 数学 / 2) 名 立体",
+      "part2_id": 70
+    },
+    {
+      "id": 362,
+      "english": "industrial waste",
+      "phonetic": "[indʌ́striəl] [weist]",
+      "version": "5字",
+      "kanji_hint": "□□□□物",
+      "answer": "産業廃棄物",
+      "hint": "建設現場や生産工場などからでる大量の 3)trash [træʃ]。",
+      "vocab": "3) 名 ごみ",
+      "part2_id": 74
+    },
+    {
+      "id": 363,
+      "english": "chartered accountant",
+      "phonetic": "[tʃɑ́ːrtərd] [əkáuntənt]",
+      "version": "5字",
+      "kanji_hint": "□認□□□",
+      "answer": "公認会計士",
+      "hint": "国から正式に認められた，企業や個人の 4)account を管理する人。",
+      "vocab": "4) 名 会計",
+      "part2_id": 132
+    },
+    {
+      "id": 364,
+      "english": "high-explosive bomb",
+      "phonetic": "[hái iksplóusiv] [bɑm]",
+      "version": "5字",
+      "kanji_hint": "□□能□□",
+      "answer": "高性能爆弾",
+      "hint": "5)burst してダメージを与える力がとてつもなく大きい。",
+      "vocab": "5) 動 爆発する",
+      "part2_id": 191
+    },
+    {
+      "id": 365,
+      "english": "global warming",
+      "phonetic": "[glóubəl] [wɔ́ːrmiŋ]",
+      "version": "5字",
+      "kanji_hint": "□球□□□",
+      "answer": "地球温暖化",
+      "hint": "6)ozone layer [óuzoun] の破壊と並ぶ人類全体で解決しなければならない大きな問題。",
+      "vocab": "6) 名 オゾン層",
+      "part2_id": 75
+    },
+    {
+      "id": 366,
+      "english": "secret vote",
+      "phonetic": "[síːkrət] [vout]",
+      "version": "5字",
+      "kanji_hint": "□□□投□",
+      "answer": "無記名投票",
+      "hint": "誰がどういう人を支持したのか，7)anonymous [ənɑ́nəməs] にする方法。",
+      "vocab": "7) 形 匿名の",
+      "part2_id": 224
+    },
+    {
+      "id": 367,
+      "english": "critical situation",
+      "phonetic": "[krítikəl] [sìtʃuéiʃən]",
+      "version": "5字",
+      "kanji_hint": "□□的□□",
+      "answer": "危機的状況",
+      "hint": "このまま放っておけば 8)fatal [feitl] な事態になってしまう。",
+      "vocab": "8) 形 致命的な",
+      "part2_id": 195
+    },
+    {
+      "id": 368,
+      "english": "executive committee",
+      "phonetic": "[igzékjutiv] [kəmíti]",
+      "version": "5字",
+      "kanji_hint": "□行□□□",
+      "answer": "実行委員会",
+      "hint": "大規模な催し物が行われる時は必ず組織されて，運営上のさまざまな 9)chores [tʃɔːrz] を引き受ける。",
+      "vocab": "9) 名 雑務",
+      "part2_id": 369
+    },
+    {
+      "id": 369,
+      "english": "organic compound",
+      "phonetic": "[ɔːgǽnik] [kɑ́mpaund]",
+      "version": "5字",
+      "kanji_hint": "□□□合□",
+      "answer": "有機化合物",
+      "hint": "炭素を中心に 10)element [éləmənt] が結びついた 11)molecule [mɑ́likjùːl]。",
+      "vocab": "10) 名 元素，要素 / 11) 名 分子",
+      "part2_id": 72
+    },
+    {
+      "id": 370,
+      "english": "aging society",
+      "phonetic": "[éidʒiŋ] [səsáiəti]",
+      "version": "5字",
+      "kanji_hint": "□□化□□",
+      "answer": "高齢化社会",
+      "hint": "「最近このあたりで子供を見かけることも 12)scarce [skéərs] になったわね」「お年寄りばかりね」",
+      "vocab": "12) 形 まれな",
+      "part2_id": 492
+    },
+    {
+      "id": 371,
+      "english": "religious reformation",
+      "phonetic": "[rilídʒəs] [rifɔ́ːrmeiʃən]",
+      "version": "4字",
+      "kanji_hint": "□教□□",
+      "answer": "宗教改革",
+      "hint": "プロテスタントの由来は堕落した旧教に 1)protest し，よりよいものをつくろうとしたことから。",
+      "vocab": "1) 動 抗議する",
+      "part2_id": 291
+    },
+    {
+      "id": 372,
+      "english": "compulsory education",
+      "phonetic": "[kəmpʌ́lsəri] [èdʒəkéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□教□",
+      "answer": "義務教育",
+      "hint": "いくら 2)liberty [líbərti] は人間の権利だといっても，受けなきゃいけないものもある。",
+      "vocab": "2) 名 自由",
+      "part2_id": 277
+    },
+    {
+      "id": 373,
+      "english": "population census",
+      "phonetic": "[pɑ̀pjuléiʃən] [sénsəs]",
+      "version": "4字",
+      "kanji_hint": "□勢□□",
+      "answer": "国勢調査",
+      "hint": "「この間，役所の人が来て来月までに 3)questionnaire [kwèstʃənéər] に記入してくれですって」「うちにも来たわ」",
+      "vocab": "3) 名 アンケート(用紙)",
+      "part2_id": 182
+    },
+    {
+      "id": 374,
+      "english": "supplementary budget",
+      "phonetic": "[sʌ̀pləméntəri] [bʌ́dʒət]",
+      "version": "4字",
+      "kanji_hint": "□□予□",
+      "answer": "補正予算",
+      "hint": "経済情勢の変化や災害などで，すでに決まっている 4)revenue [révənjuː] や 5)expenditure [ikspénditʃər] を変更する。",
+      "vocab": "4) 名 歳入 / 5) 名 支出",
+      "part2_id": 169
+    },
+    {
+      "id": 375,
+      "english": "racial segregation",
+      "phonetic": "[réiʃəl] [sègrigeiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□離",
+      "answer": "人種隔離",
+      "hint": "白人の使うバスには黒人は乗せないというような 6)separation [sèpəréiʃən]。",
+      "vocab": "6) 名 分離",
+      "part2_id": 166
+    },
+    {
+      "id": 376,
+      "english": "trade deficit",
+      "phonetic": "[treid] [défəsit]",
+      "version": "4字",
+      "kanji_hint": "□易□□",
+      "answer": "貿易赤字",
+      "hint": "これが続くと国が 7)poverty [pɑ́vərti] に苦しむ。",
+      "vocab": "7) 名 貧困",
+      "part2_id": 104
+    },
+    {
+      "id": 377,
+      "english": "labor union",
+      "phonetic": "[léibər] [júːnjən]",
+      "version": "4字",
+      "kanji_hint": "□働□□",
+      "answer": "労働組合",
+      "hint": "経営側からの 8)suppression [səpréʃən] に対抗するための働く側の 9)alliance [əláiəns]。",
+      "vocab": "8) 名 抑圧 / 9) 名 同盟",
+      "part2_id": 115
+    },
+    {
+      "id": 378,
+      "english": "fossil fuel",
+      "phonetic": "[fɔsl] [fjúːəl]",
+      "version": "4字",
+      "kanji_hint": "□□□料",
+      "answer": "化石燃料",
+      "hint": "石油，10)coal [koul]，天然ガスなど。",
+      "vocab": "10) 名 石炭",
+      "part2_id": 40
+    },
+    {
+      "id": 379,
+      "english": "feudal system",
+      "phonetic": "[fjuːdl] [sístəm]",
+      "version": "4字",
+      "kanji_hint": "□□制□",
+      "answer": "封建制度",
+      "hint": "11)medieval [mìːdiíːvəl] の頃の社会体制。",
+      "vocab": "11) 名 中世",
+      "part2_id": 341
+    },
+    {
+      "id": 380,
+      "english": "harmful substance",
+      "phonetic": "[hɑ́ːrmfəl] [sʌ́bstəns]",
+      "version": "4字",
+      "kanji_hint": "□害□□",
+      "answer": "有害物質",
+      "hint": "人体に 12)poisonous [pɔ́izənəs] で危険なもの。",
+      "vocab": "12) 形 有毒な",
+      "part2_id": 44
+    },
+    {
+      "id": 381,
+      "english": "verbal promise",
+      "phonetic": "[və́ːrbəl] [prɑ́mis]",
+      "version": "3字",
+      "kanji_hint": "□□束",
+      "answer": "口約束",
+      "hint": "なんとなく 1)connotation [kɑ̀nətéiʃən] として，守ってくれるかどうか不安。",
+      "vocab": "1) 名 言外の意味",
+      "part2_id": 432
+    },
+    {
+      "id": 382,
+      "english": "regular customer",
+      "phonetic": "[régjulər] [kʌ́stmər]",
+      "version": "3字",
+      "kanji_hint": "□定□",
+      "answer": "固定客",
+      "hint": "「今日，洋服でも買いに行かない？」「私，2)favorite [féivərət] のお店があるの。いつもそこで買うのよ」",
+      "vocab": "2) 形 大好きな",
+      "part2_id": 442
+    },
+    {
+      "id": 383,
+      "english": "chronic disease",
+      "phonetic": "[krɑ́nik] [dizíːz]",
+      "version": "3字",
+      "kanji_hint": "□□病",
+      "answer": "慢性病",
+      "hint": "「まったく 3)obstinate [ɑ́bstənət] な水虫だ，いったいいつ治るんだ」",
+      "vocab": "3) 形 頑固な",
+      "part2_id": 390
+    },
+    {
+      "id": 384,
+      "english": "excursion ticket",
+      "phonetic": "[ikskə́ːrʃən] [tíkit]",
+      "version": "3字",
+      "kanji_hint": "□遊□",
+      "answer": "周遊券",
+      "hint": "4)sightseeing [sáitsìːiŋ] 旅行の時，バスや電車のチケットが一枚になっている便利なもの。",
+      "vocab": "4) 名 観光",
+      "part2_id": 335
+    },
+    {
+      "id": 385,
+      "english": "maintenance fee",
+      "phonetic": "[méintənəns] [fiː]",
+      "version": "3字",
+      "kanji_hint": "□□費",
+      "answer": "維持費",
+      "hint": "車や家などを保有すると，税金やその他もろもろの 5)incidental [insədéntl] なお金がかかる。",
+      "vocab": "5) 形 付随的な",
+      "part2_id": 448
+    },
+    {
+      "id": 386,
+      "english": "sleeping pill",
+      "phonetic": "[pil]",
+      "version": "3字",
+      "kanji_hint": "□眠□",
+      "answer": "睡眠薬",
+      "hint": "「なんか最近ぐっすり眠れないのよね」「それは 6)pity だわ。飲んでみれば」",
+      "vocab": "6) 名 残念",
+      "part2_id": 393
+    },
+    {
+      "id": 387,
+      "english": "art exhibition",
+      "phonetic": "[èksəbíʃən]",
+      "version": "3字",
+      "kanji_hint": "美□□",
+      "answer": "美術展",
+      "hint": "絵画や 7)sculpture [skʌ́lptʃər] がたくさん鑑賞できる。",
+      "vocab": "7) 名 彫刻",
+      "part2_id": 333
+    },
+    {
+      "id": 388,
+      "english": "daily necessity",
+      "phonetic": "[déili] [nəsésəti]",
+      "version": "3字",
+      "kanji_hint": "日□□",
+      "answer": "日用品",
+      "hint": "日々の生活を送るのに 8)essential [isénʃəl] なもの。",
+      "vocab": "8) 形 なくてはならない",
+      "part2_id": 450
+    },
+    {
+      "id": 389,
+      "english": "elementary school",
+      "phonetic": "[eləméntəri]",
+      "version": "3字",
+      "kanji_hint": "□□校",
+      "answer": "小学校",
+      "hint": "「お子さんいくつになったの？」「もう6歳。ずいぶん 9)mature [mət(j)úər] してきたわ」",
+      "vocab": "9) 形 成熟した",
+      "part2_id": 262
+    },
+    {
+      "id": 390,
+      "english": "magnifying glass",
+      "phonetic": "[mǽgnəfaiiŋ]",
+      "version": "3字",
+      "kanji_hint": "□眼□",
+      "answer": "虫眼鏡",
+      "hint": "とても 10)minute [mainjúːt] なものを見る時に使う。",
+      "vocab": "10) 形 こまかい",
+      "part2_id": 454
+    },
+    {
+      "id": 391,
+      "english": "plain diet",
+      "phonetic": "[plein] [daiət]",
+      "version": "2字",
+      "kanji_hint": "□食",
+      "answer": "粗食",
+      "hint": "「あなた，今日はビフテキよ」「なに，1)luxury [lʌ́kʃəri] は敵だ！めざしとごはんで十分」",
+      "vocab": "1) 名 ぜいたく",
+      "part2_id": 419
+    },
+    {
+      "id": 392,
+      "english": "artificial leg",
+      "phonetic": "[ɑ̀ːrtəfíʃəl]",
+      "version": "2字",
+      "kanji_hint": "□足",
+      "answer": "義足",
+      "hint": "ケガや病気で足を失った人が体に 2)connect [kənékt] して使う。",
+      "vocab": "2) 動 つなぐ",
+      "part2_id": 385
+    },
+    {
+      "id": 393,
+      "english": "adopted child",
+      "phonetic": "[ədɑ́ptid]",
+      "version": "2字",
+      "kanji_hint": "□子",
+      "answer": "養子",
+      "hint": "血のつながりはないが法的な手続きをして 3)nurture [nə́ːrtʃər] している子供。",
+      "vocab": "3) 動 養育する",
+      "part2_id": 420
+    },
+    {
+      "id": 394,
+      "english": "professional skill",
+      "phonetic": "[prəféʃnəl] [skil]",
+      "version": "2字",
+      "kanji_hint": "□技",
+      "answer": "特技",
+      "hint": "人を 4)astonish [əstɑ́niʃ] させるくらい上手な技。",
+      "vocab": "4) 動 驚かす",
+      "part2_id": 307
+    },
+    {
+      "id": 395,
+      "english": "various accomplishments",
+      "phonetic": "[véəriəs] [əkɑ́mpliʃmənt]",
+      "version": "2字",
+      "kanji_hint": "□芸",
+      "answer": "多芸",
+      "hint": "5)diverse [dəvə́ːrs] な芸能に通じていて，それを実際人に見せられる。",
+      "vocab": "5) 形 さまざまな",
+      "part2_id": 304
+    },
+    {
+      "id": 396,
+      "english": "maternity leave",
+      "phonetic": "[mətə́ːrnəti]",
+      "version": "2字",
+      "kanji_hint": "□休",
+      "answer": "産(育)休",
+      "hint": "赤ちゃんの誕生のために 6)temporary [témpərèri] に取る休み。",
+      "vocab": "6) 形 一時的な",
+      "part2_id": 427
+    },
+    {
+      "id": 397,
+      "english": "physical education",
+      "phonetic": "[fízikəl] [èdʒəkéiʃən]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "体育",
+      "hint": "健康な身心を育成するという面に 7)emphasis [émfəsəs] が置かれている。",
+      "vocab": "7) 名 強調",
+      "part2_id": 236
+    },
+    {
+      "id": 398,
+      "english": "decisive evidence",
+      "phonetic": "[disáisiv] [évədəns]",
+      "version": "2字",
+      "kanji_hint": "□証",
+      "answer": "確証",
+      "hint": "この人が犯人だと 8)define [difáin] できるだけの証拠。",
+      "vocab": "8) 動 はっきり示す",
+      "part2_id": 201
+    },
+    {
+      "id": 399,
+      "english": "branch office",
+      "phonetic": "[bræntʃ]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "支店(社)",
+      "hint": "「高橋課長，こんど左遷されるそうよ。どこにとばされるのかしら？」「上司に 9)envy [énvi] されると怖いわね」",
+      "vocab": "9) 名 動 ねたみ，ねたむ",
+      "part2_id": 81
+    },
+    {
+      "id": 400,
+      "english": "life span",
+      "phonetic": "[spæn]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "寿命",
+      "hint": "生まれてから 10)expire [ikspáiər] するまでの年月の長さ。",
+      "vocab": "10) 動 息を引き取る",
+      "part2_id": 423
+    },
+    {
+      "id": 401,
+      "english": "atmospheric pressure",
+      "phonetic": "[æ̀tməsférik] [préʃər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "気圧",
+      "hint": "riddle でいってみよう…。高くなると晴れて低くなると雨になるものは何か。",
+      "vocab": "riddle [ridl] [名] なぞなぞ",
+      "part2_id": 4
+    },
+    {
+      "id": 402,
+      "english": "government bond",
+      "phonetic": "[gʌ́vərnmənt] [bɑnd]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "国債",
+      "hint": "政府がお金を借りる時に発行する紙。長期のものほど interest が良い。",
+      "vocab": "interest [名] 利息",
+      "part2_id": 78
+    },
+    {
+      "id": 403,
+      "english": "deliberate murder",
+      "phonetic": "[dilíbərət] [mə́ːrdər]",
+      "version": "2字",
+      "kanji_hint": "□殺",
+      "answer": "謀殺",
+      "hint": "人を conspiracy で亡き者にすること。",
+      "vocab": "conspiracy [kənspírəsi] [名] 陰謀",
+      "part2_id": 204
+    },
+    {
+      "id": 404,
+      "english": "slight bow",
+      "phonetic": "[slait] [bau]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "会釈",
+      "hint": "軽くおじぎをする greeting。この意味では [bau] と発音するが bow and arrow の時は [bou] となる。",
+      "vocab": "greeting [gríːtiŋ] [名] あいさつ / bow and arrow 弓と矢",
+      "part2_id": 425
+    },
+    {
+      "id": 405,
+      "english": "financial resource",
+      "phonetic": "[fənǽnʃəl] [ríːsɔːrs]",
+      "version": "2字",
+      "kanji_hint": "□源",
+      "answer": "財源",
+      "hint": "新しいビジネスの scheme を立てても，これをまず確保しなければ。",
+      "vocab": "scheme [skiːm] [名] 計画",
+      "part2_id": 91
+    },
+    {
+      "id": 406,
+      "english": "annual income",
+      "phonetic": "[ǽnjuəl]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "年収",
+      "hint": "これを聞かれるとだいたいみな roughly に答える。",
+      "vocab": "roughly [rʌ́fli] [副] ざっと",
+      "part2_id": 413
+    },
+    {
+      "id": 407,
+      "english": "nursery rhyme",
+      "phonetic": "[nə́ːrsəri] [raim]",
+      "version": "2字",
+      "kanji_hint": "□謡",
+      "answer": "童謡",
+      "hint": "子供向けに作られたメロディーのある verse。",
+      "vocab": "verse [vəːrs] [名] 韻文",
+      "part2_id": 302
+    },
+    {
+      "id": 408,
+      "english": "grave responsibility",
+      "phonetic": "[greiv] [rispɑ̀nsəbíləti]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "重責",
+      "hint": "社長に就任した人が，よく「社長としてのこれを痛感しています」なんて humble なあいさつをする。",
+      "vocab": "humble [hʌmbl] [形] 謙遜した",
+      "part2_id": 142
+    },
+    {
+      "id": 409,
+      "english": "Chinese medicine",
+      "phonetic": "[tʃàiníːz] [médəsən]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "漢方",
+      "hint": "中国の人たちが使っている病気を治す医学。herb を使うことが多い。",
+      "vocab": "herb [həːrb] [名] 薬草",
+      "part2_id": 379
+    },
+    {
+      "id": 410,
+      "english": "opposite sex",
+      "phonetic": "[ɑ́pəzit]",
+      "version": "2字",
+      "kanji_hint": "□性",
+      "answer": "異性",
+      "hint": "男性にとっても，女性にとってもこの人たちがいるから bliss を感じ，deplore したりする。",
+      "vocab": "bliss [名] この上ない喜び / deplore [diplɔ́ːr] [動] 嘆き悲しむ",
+      "part2_id": 318
+    },
+    {
+      "id": 411,
+      "english": "scholarship student",
+      "phonetic": "[skɑ́lərʃìp]",
+      "version": "3字",
+      "kanji_hint": "□□生",
+      "answer": "特待(奨学)生",
+      "hint": "academic の成績が優秀で奨学金をもらっている学生。",
+      "vocab": "academic [æ̀kədémik] [形] 教養科目の",
+      "part2_id": 265
+    },
+    {
+      "id": 412,
+      "english": "hay fever",
+      "phonetic": "[hei]",
+      "version": "3字",
+      "kanji_hint": "□□症",
+      "answer": "花粉症",
+      "hint": "もともとは wither してしまった草が原因と考えられていた。春先に多くの人が suffer する。",
+      "vocab": "wither [wíðər] [動] 枯れる / suffer [sʌ́fər] [動] 苦しむ",
+      "part2_id": 391
+    },
+    {
+      "id": 413,
+      "english": "reform bill",
+      "phonetic": "[rifɔ́ːrm]",
+      "version": "3字",
+      "kanji_hint": "□革□",
+      "answer": "改革案",
+      "hint": "現行の法律や条令を，もっとよいものに improve することを求めている。",
+      "vocab": "improve [imprúːv] [動] 改良する",
+      "part2_id": 156
+    },
+    {
+      "id": 414,
+      "english": "admission fee",
+      "phonetic": "[ədmíʃən]",
+      "version": "3字",
+      "kanji_hint": "□□料",
+      "answer": "入場料",
+      "hint": "なにかのイベントや建物の中に access するためのお金。",
+      "vocab": "access [ǽkses] [名] 接近",
+      "part2_id": 434
+    },
+    {
+      "id": 415,
+      "english": "square root",
+      "phonetic": "[skweər] [ruːt]",
+      "version": "3字",
+      "kanji_hint": "□方□",
+      "answer": "平方根",
+      "hint": "「25は5，64は8，まったく数学はむずかしい。ほんとに hate するわ」",
+      "vocab": "hate [heit] [動] ひどく嫌う",
+      "part2_id": 250
+    },
+    {
+      "id": 416,
+      "english": "honorary post",
+      "phonetic": "[ɑ́nəreri]",
+      "version": "3字",
+      "kanji_hint": "□□職",
+      "answer": "名誉職",
+      "hint": "「会長なんていったって，実際に会社を reign するのは社長だ。つまらんもんだよ」",
+      "vocab": "reign [rein] [名][動] 統治(する)",
+      "part2_id": 430
+    },
+    {
+      "id": 417,
+      "english": "superiority complex",
+      "phonetic": "[supìəríɔ́rəti] [kɑ́mpleks]",
+      "version": "3字",
+      "kanji_hint": "□□感",
+      "answer": "優越感",
+      "hint": "「ちょっと，リナったら美人で smart なのを鼻にかけてない？」「たしかにそうよね」",
+      "vocab": "smart [smɑːrt] [形] 利口な",
+      "part2_id": 339
+    },
+    {
+      "id": 418,
+      "english": "under construction",
+      "phonetic": "[kənstrʌ́kʃən]",
+      "version": "3字",
+      "kanji_hint": "□□中",
+      "answer": "工事中",
+      "hint": "「あの有名な architect の設計した橋，もうできたの？」「まだよ」",
+      "vocab": "architect [ɑ́ːrkətekt] [名] 建築家",
+      "part2_id": 443
+    },
+    {
+      "id": 419,
+      "english": "publishing company",
+      "phonetic": "[pʌ́bliʃiŋ] [kʌ́mpəni]",
+      "version": "3字",
+      "kanji_hint": "□□社",
+      "answer": "出版社",
+      "hint": "「わが予備校も事業を expand するために本を出す会社を作るぞ」",
+      "vocab": "expand [ikspǽnd] [動] 拡大する",
+      "part2_id": 93
+    },
+    {
+      "id": 420,
+      "english": "lost property",
+      "phonetic": "[prɑ́pərti]",
+      "version": "3字",
+      "kanji_hint": "□□物",
+      "answer": "遺失物",
+      "hint": "この property は不動産みたいな大きなものではなく，belongings といった感じ。",
+      "vocab": "belongings [名] 持ち物",
+      "part2_id": 445
+    },
+    {
+      "id": 421,
+      "english": "scientific experiment",
+      "phonetic": "[saiəntífik] [ikspérəmənt]",
+      "version": "4字",
+      "kanji_hint": "□学□□",
+      "answer": "科学実験",
+      "hint": "innumerable なほどこれを繰り返し，文明は progress してきた。",
+      "vocab": "innumerable [injúːmərəbl] [形] 数えきれない / progress [prɑ́gres] [名] 進歩",
+      "part2_id": 37
+    },
+    {
+      "id": 422,
+      "english": "foreign exchange",
+      "phonetic": "[ikstʃéindʒ]",
+      "version": "4字",
+      "kanji_hint": "□国□□",
+      "answer": "外国為替",
+      "hint": "ドルに対して100円だったものが90円になると円高という。今だにこれを comprehend できない。",
+      "vocab": "comprehend [kɑ̀mprihénd] [動] 理解する",
+      "part2_id": 106
+    },
+    {
+      "id": 423,
+      "english": "conventional weapon",
+      "phonetic": "[kənvénʃənəl] [wépən]",
+      "version": "4字",
+      "kanji_hint": "□□兵□",
+      "answer": "通常兵器",
+      "hint": "核兵器や biochemical の技術を使った生物化学兵器以外の在来の兵器。",
+      "vocab": "biochemical [bàioukémikəl] [形] 生化学の",
+      "part2_id": 159
+    },
+    {
+      "id": 424,
+      "english": "language acquisition",
+      "phonetic": "[lǽŋgwidʒ] [æ̀kwəzíʃən]",
+      "version": "4字",
+      "kanji_hint": "□□習□",
+      "answer": "言語習得",
+      "hint": "子供の時には難なくできるが，大人になってからだと formidable。",
+      "vocab": "formidable [fɔ́ːrmədəbl] [形] 手ごわい",
+      "part2_id": 274
+    },
+    {
+      "id": 425,
+      "english": "examination hell",
+      "phonetic": "[igzæ̀mənéiʃən]",
+      "version": "4字",
+      "kanji_hint": "□験□□",
+      "answer": "受験地獄",
+      "hint": "名門校に入るためには dawn まで勉強する位，頑張らなければいけないのか。",
+      "vocab": "dawn [dɔːn] [名] 夜明け",
+      "part2_id": 285
+    },
+    {
+      "id": 426,
+      "english": "declining industry",
+      "phonetic": "[dikláiniŋ] [índəstri]",
+      "version": "4字",
+      "kanji_hint": "□□産□",
+      "answer": "斜陽産業",
+      "hint": "時代の流れとともに prosper する産業もあれば，vice versa もある。",
+      "vocab": "prosper [prɑ́spər] [動] 繁栄する / vice versa [vàis-və́ːrsə] [副] 逆に",
+      "part2_id": 116
+    },
+    {
+      "id": 427,
+      "english": "nervous system",
+      "phonetic": "[nə́ːrvəs]",
+      "version": "4字",
+      "kanji_hint": "□□□統",
+      "answer": "神経系統",
+      "hint": "「すごいケガですが，脊髄から脳にかけては intact でしたよ」",
+      "vocab": "intact [intǽkt] [形] 無傷で",
+      "part2_id": 401
+    },
+    {
+      "id": 428,
+      "english": "hydrogen bomb",
+      "phonetic": "[háidrədʒən] [bɑm]",
+      "version": "4字",
+      "kanji_hint": "□素□□",
+      "answer": "水素爆弾",
+      "hint": "元素名の勉強：nitrogen, sulfur, oxygen。[答] 窒素，硫黄，酸素。",
+      "vocab": "nitrogen [náitrədʒən] 窒素 / sulfur [sʌ́lfər] 硫黄 / oxygen [ɑ́ksidʒən] 酸素",
+      "part2_id": 185
+    },
+    {
+      "id": 429,
+      "english": "cellular phone",
+      "phonetic": "[séljələr]",
+      "version": "4字",
+      "kanji_hint": "□□電□",
+      "answer": "携帯電話",
+      "hint": "最近とても多くの人たちに普及した gadget。",
+      "vocab": "gadget [gǽdʒət] [名] ちょっとした機械",
+      "part2_id": 460
+    },
+    {
+      "id": 430,
+      "english": "case study",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□例□□",
+      "answer": "事例研究",
+      "hint": "ひとつひとつのケースについて detailed な情報を積み重ねていく。",
+      "vocab": "detailed [ditéild] [形] 詳細な",
+      "part2_id": 283
+    },
+    {
+      "id": 431,
+      "english": "class consciousness",
+      "phonetic": "[kɑ́nʃəsnis]",
+      "version": "4字",
+      "kanji_hint": "□級□□",
+      "answer": "階級意識",
+      "hint": "自分が社会的な階層のどこに属しているのか aware であること。",
+      "vocab": "aware [形] 気づいて",
+      "part2_id": 468
+    },
+    {
+      "id": 432,
+      "english": "preventive medicine",
+      "phonetic": "[privéntiv] [médəsən]",
+      "version": "4字",
+      "kanji_hint": "□□□学",
+      "answer": "予防医学",
+      "hint": "epidemic の発生や成人病などをどのようにして未然に食い止めるか。",
+      "vocab": "epidemic [èpədémik] [名] 流行病",
+      "part2_id": 399
+    },
+    {
+      "id": 433,
+      "english": "value judgement",
+      "phonetic": "[vǽlju] [dʒʌ́dʒmənt]",
+      "version": "4字",
+      "kanji_hint": "□値□□",
+      "answer": "価値判断",
+      "hint": "自国の文化を base にして他国の文化を論じるようなことをしてはいけない。",
+      "vocab": "base [名] 根拠",
+      "part2_id": 289
+    },
+    {
+      "id": 434,
+      "english": "household commodity",
+      "phonetic": "[háushòuld] [kəmɑ́dəti]",
+      "version": "4字",
+      "kanji_hint": "□□□品",
+      "answer": "家庭用品",
+      "hint": "100円ショップで売場の aisles の大半を occupy している品。",
+      "vocab": "aisles [ailz] [名] 通路 / occupy [ɑ́kjupai] [動] 占める",
+      "part2_id": 467
+    },
+    {
+      "id": 435,
+      "english": "intelligence quotient",
+      "phonetic": "[intélədʒəns] [kwóuʃənt]",
+      "version": "4字",
+      "kanji_hint": "□能□□",
+      "answer": "知能指数",
+      "hint": "いわゆる IQ。しかしこの頃 IQ よりも EQ が大切だという人たちもいる。E は emotional の略。",
+      "vocab": "emotional [imóuʃnəl] [形] 感情の",
+      "part2_id": 281
+    },
+    {
+      "id": 436,
+      "english": "potential adversary",
+      "phonetic": "[pəténʃəl] [ǽdvərsəri]",
+      "version": "4字",
+      "kanji_hint": "□□□国",
+      "answer": "仮想敵国",
+      "hint": "もしかすると戦うことになる probability のある国。",
+      "vocab": "probability [prɑ̀bəbíləti] [名] 見込み",
+      "part2_id": 184
+    },
+    {
+      "id": 437,
+      "english": "fire-proof building",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□□建□",
+      "answer": "耐火建築",
+      "hint": "proof を語尾につけた合成語：waterproof, childproof, windproof。",
+      "vocab": "",
+      "part2_id": 477
+    },
+    {
+      "id": 438,
+      "english": "dormant faculty",
+      "phonetic": "[dɔ́ːrmənt] [fǽkəlti]",
+      "version": "4字",
+      "kanji_hint": "□在□□",
+      "answer": "潜在能力",
+      "hint": "まだ awake していない，可能性をひめた competence。",
+      "vocab": "awake [əwéik] [動] 目を覚ます / competence [kɑ́mpətəns] [名] 能力",
+      "part2_id": 357
+    },
+    {
+      "id": 439,
+      "english": "recreation facility",
+      "phonetic": "[rekriéiʃən] [fəsíliti]",
+      "version": "4字",
+      "kanji_hint": "□楽□□",
+      "answer": "娯楽施設(設備)",
+      "hint": "「おい，このホテル，ゲームセンターもプールもカラオケも entertainment は何もないぞ！」",
+      "vocab": "entertainment [èntərtéimənt] [名] 娯楽",
+      "part2_id": 354
+    },
+    {
+      "id": 440,
+      "english": "dismissal notice",
+      "phonetic": "[dismísəl] [nóutis]",
+      "version": "4字",
+      "kanji_hint": "□□通□",
+      "answer": "解雇通知",
+      "hint": "「バイト中，彼女と embrace しあっていたら，店からもう来なくていいって手紙が来た」",
+      "vocab": "embrace [imbréis] [動] 抱きしめる",
+      "part2_id": 487
+    },
+    {
+      "id": 441,
+      "english": "casualty list",
+      "phonetic": "[kǽʒuəlti]",
+      "version": "5字",
+      "kanji_hint": "□□□名□",
+      "answer": "被害者名簿",
+      "hint": "unfortunately に事故でケガをしたり，亡くなった方の一覧。",
+      "vocab": "unfortunately [ʌnfɔ́ːrtʃənətli] [副] 不幸にも",
+      "part2_id": 225
+    },
+    {
+      "id": 442,
+      "english": "vacuum cleaner",
+      "phonetic": "[vǽkjuəm]",
+      "version": "5字",
+      "kanji_hint": "□気□□□",
+      "answer": "電気掃除機",
+      "hint": "roar しながら部屋をきれいにする機械。",
+      "vocab": "roar [rɔːr] [動] うなる",
+      "part2_id": 500
+    },
+    {
+      "id": 443,
+      "english": "constitutional monarchy",
+      "phonetic": "[kɑ̀nstətjúːʃənəl] [mɑ́nərki]",
+      "version": "5字",
+      "kanji_hint": "□憲□□□",
+      "answer": "立憲君主国",
+      "hint": "sovereignty は皇帝が握っているが，国は憲法によって統治されている。",
+      "vocab": "sovereignty [sɑ́vərənti] [名] 主権",
+      "part2_id": 194
+    },
+    {
+      "id": 444,
+      "english": "immigration bureau",
+      "phonetic": "[ìməgréiʃən] [bjúərou]",
+      "version": "5字",
+      "kanji_hint": "入□□□□",
+      "answer": "入国管理局",
+      "hint": "移民としてやって来る人たちを受け入れるかどうか決める役所。アメリカでは最近基準が strict。",
+      "vocab": "strict [strikt] [形] 厳格な",
+      "part2_id": 193
+    },
+    {
+      "id": 445,
+      "english": "person concerned",
+      "phonetic": "[kənsə́ːrnd]",
+      "version": "5字",
+      "kanji_hint": "□□当□□",
+      "answer": "関係当事者",
+      "hint": "なんらかの relation を持っている人たち。",
+      "vocab": "relation [riléiʃən] [名] 関係",
+      "part2_id": 498
+    },
+    {
+      "id": 446,
+      "english": "racial prejudice",
+      "phonetic": "[réiʃəl] [prédʒudis]",
+      "version": "5字",
+      "kanji_hint": "□□的□□",
+      "answer": "人種的偏見",
+      "hint": "同じ肌の色をしているから sympathy を感じ，違うと antipathy を感じる。",
+      "vocab": "sympathy [símpəθi] [名] 共感 / antipathy [æntípəθi] [名] 反感",
+      "part2_id": 370
+    },
+    {
+      "id": 447,
+      "english": "child psychology",
+      "phonetic": "[saikɑ́lədʒi]",
+      "version": "5字",
+      "kanji_hint": "□童□□□",
+      "answer": "児童心理学",
+      "hint": "子供の心を研究する科学。学校が bully で困っている今，ひとりでも多くの専門家がほしい。",
+      "vocab": "bully [búli] [名][動] いじめ(る)",
+      "part2_id": 294
+    },
+    {
+      "id": 448,
+      "english": "annual yield",
+      "phonetic": "[ǽnjuəl] [jiːld]",
+      "version": "5字",
+      "kanji_hint": "□□□□高",
+      "answer": "年間収穫高",
+      "hint": "一年にどれだけの量の grain などが取れたか。",
+      "vocab": "grain [grein] [名] 穀物",
+      "part2_id": 130
+    },
+    {
+      "id": 449,
+      "english": "hotel register",
+      "phonetic": "[rédʒistər]",
+      "version": "5字",
+      "kanji_hint": "□□□名□",
+      "answer": "宿泊人名簿",
+      "hint": "ホテルに泊まる時 signature を求められるのはなぜ。",
+      "vocab": "signature [sígnətʃər] [名] 署名",
+      "part2_id": 499
+    },
+    {
+      "id": 450,
+      "english": "automobile insurance",
+      "phonetic": "[ɔ́ːtəməbìːl] [inʃúərəns]",
+      "version": "5字",
+      "kanji_hint": "□□車□□",
+      "answer": "自動車保険",
+      "hint": "これに入っていないと，とても insecure な感じで運転できない。",
+      "vocab": "insecure [ìnsikjúər] [形] 不安な",
+      "part2_id": 495
+    },
+    {
+      "id": 451,
+      "english": "office marriage",
+      "phonetic": "[mǽridʒ]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "職場結婚",
+      "hint": "職場の colleague どうしが結ばれる。",
+      "vocab": "colleague [kɑ́liːg] [名] 同僚",
+      "part2_id": 474
+    },
+    {
+      "id": 452,
+      "english": "mail-order selling",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "通信販売",
+      "hint": "よくダイレクトメールでぶ厚い brochure が送られてくる。",
+      "vocab": "brochure [brouʃúər] [名] パンフレット",
+      "part2_id": 478
+    },
+    {
+      "id": 453,
+      "english": "solar battery",
+      "phonetic": "[sóulər] [bǽtəri]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "太陽電池",
+      "hint": "wristwatch など，これで動いているものがけっこうある。",
+      "vocab": "wristwatch [rístwɑ̀tʃ] [名] 腕時計",
+      "part2_id": 41
+    },
+    {
+      "id": 454,
+      "english": "natural phenomenon",
+      "phonetic": "[finɑ́mənɑ̀n]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "自然現象",
+      "hint": "frost が降りるのも mist がかかるのも，fog が出るのもすべてこれ。",
+      "vocab": "frost [名] 霜 / mist [名] かすみ / fog [名] 霧",
+      "part2_id": 52
+    },
+    {
+      "id": 455,
+      "english": "working conditions",
+      "phonetic": "",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "労働条件",
+      "hint": "働く時間を flexible に決めていいとか，週に3日休んでいいとか。",
+      "vocab": "flexible [fléksəbl] [形] 柔軟な",
+      "part2_id": 108
+    },
+    {
+      "id": 456,
+      "english": "grocery store",
+      "phonetic": "[gróusəri]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "食料品店",
+      "hint": "どんな rural な町でもひとつやふたつくらいはある。",
+      "vocab": "rural [rúːrəl] [形] いなかの",
+      "part2_id": 473
+    },
+    {
+      "id": 457,
+      "english": "focal distance",
+      "phonetic": "[fóukəl] [dístəns]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "焦点距離",
+      "hint": "レンズを通った光が一点に集まるまでの長さ。要するに focus のこと。",
+      "vocab": "focus [名] 焦点(距離)",
+      "part2_id": 49
+    },
+    {
+      "id": 458,
+      "english": "campaign fund",
+      "phonetic": "[kæmpéin] [fʌnd]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "選挙資金",
+      "hint": "representative になるのにどうして大金が必要なのか。",
+      "vocab": "representative [rèprizéntətiv] [名] 代議士",
+      "part2_id": 170
+    },
+    {
+      "id": 459,
+      "english": "price index",
+      "phonetic": "[índeks]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "物価指数",
+      "hint": "これを見ることで inflation, deflation どちらの傾向かわかる。",
+      "vocab": "inflation [infléiʃən] [名] インフレ / deflation [difléiʃən] [名] デフレ",
+      "part2_id": 112
+    },
+    {
+      "id": 460,
+      "english": "Antarctic exploration",
+      "phonetic": "[æntɑ́ːrktik] [ikspləréiʃən]",
+      "version": "4字",
+      "kanji_hint": "□□□□",
+      "answer": "南極探検",
+      "hint": "極寒の地を expedition すること。",
+      "vocab": "expedition [èkspədíʃən] [名] 探検",
+      "part2_id": 279
+    },
+    {
+      "id": 461,
+      "english": "private enterprise",
+      "phonetic": "[práivət] [éntərpràiz]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "私企業",
+      "hint": "国営と違い利益という incentive がある。",
+      "vocab": "incentive [inséntiv] [名] 励み",
+      "part2_id": 94
+    },
+    {
+      "id": 462,
+      "english": "launching pad",
+      "phonetic": "[lɔ́ːntʃiŋ]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "発射台",
+      "hint": "ロケットやミサイルを release する所。",
+      "vocab": "release [rilíːs] [動] 放つ",
+      "part2_id": 23
+    },
+    {
+      "id": 463,
+      "english": "flash flood",
+      "phonetic": "[flæʃ] [flʌd]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "鉄砲水",
+      "hint": "度を超えた torrent。",
+      "vocab": "torrent [tɔ́ːrənt] [名] 激流",
+      "part2_id": 21
+    },
+    {
+      "id": 464,
+      "english": "deputy governor",
+      "phonetic": "[dépjuti] [gʌ́vərnər]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "副知事",
+      "hint": "会社でいったら，vice-president。",
+      "vocab": "vice-president [vais] [名] 副社長",
+      "part2_id": 155
+    },
+    {
+      "id": 465,
+      "english": "witness stand",
+      "phonetic": "[wítnəs]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "証言台",
+      "hint": "裁判所で，真実だけを confess すると宣誓した後，陳述する場所。",
+      "vocab": "confess [kənfés] [動] 告白する",
+      "part2_id": 211
+    },
+    {
+      "id": 466,
+      "english": "commercial transaction",
+      "phonetic": "[kəmə́ːrʃəl] [trænzǽkʃən]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "商取引",
+      "hint": "慈善行為ではなく，会社と会社がお互いが利益を求め deal すること。",
+      "vocab": "deal [動] 取引する",
+      "part2_id": 96
+    },
+    {
+      "id": 467,
+      "english": "protective coloring",
+      "phonetic": "[prətéktiv]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "保護色",
+      "hint": "predator から身を守るひとつの方法。",
+      "vocab": "predator [prédətər] [名] 捕食動物",
+      "part2_id": 32
+    },
+    {
+      "id": 468,
+      "english": "school expenses",
+      "phonetic": "[ikspénsiz]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "教育費",
+      "hint": "「子供が理工系の institute に行きたいっていうのよ。お金がかかるわ」",
+      "vocab": "institute [ínstətjùːt] [名] 理工系大学，研究所",
+      "part2_id": 259
+    },
+    {
+      "id": 469,
+      "english": "revenge tragedy",
+      "phonetic": "[rivéndʒ] [trǽdʒədi]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "復讐劇",
+      "hint": "grudge を晴らす物語。",
+      "vocab": "grudge [grʌdʒ] [名] うらみ",
+      "part2_id": 331
+    },
+    {
+      "id": 470,
+      "english": "nuclear fusion",
+      "phonetic": "[njúːkliər] [fjúːʒən]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "核融合",
+      "hint": "原子核が combine して大きなエネルギーを生むこと。",
+      "vocab": "combine [kəmbáin] [動] 結合する",
+      "part2_id": 34
+    },
+    {
+      "id": 471,
+      "english": "baby carriage",
+      "phonetic": "[kǽridʒ]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "乳母車",
+      "hint": "おすわりのできるようになった赤ちゃんを乗せるのは stroller。",
+      "vocab": "stroller [stróulər] [名] ベビーカー",
+      "part2_id": 439
+    },
+    {
+      "id": 472,
+      "english": "administration building",
+      "phonetic": "[ədmìnəstréiʃən]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "管理棟",
+      "hint": "大学のキャンパスにはいろいろな建物がある。図書館とか dormitory とか事務手続きをする棟とか。",
+      "vocab": "dormitory [dɔ́ːrmətəri] [名] 寮",
+      "part2_id": 429
+    },
+    {
+      "id": 473,
+      "english": "bank clerk",
+      "phonetic": "[kləːrk]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "銀行員",
+      "hint": "一般的に decent な服装というイメージ。",
+      "vocab": "decent [díːsnt] [形] きちんとした",
+      "part2_id": 440
+    },
+    {
+      "id": 474,
+      "english": "water vapor",
+      "phonetic": "[véipər]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "水蒸気",
+      "hint": "水はこの状態から雲になり，そして雨になり，またこれになるという cycle をくり返す。",
+      "vocab": "cycle [saikl] [名] 循環",
+      "part2_id": 22
+    },
+    {
+      "id": 475,
+      "english": "bullet train",
+      "phonetic": "[búlət]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "新幹線",
+      "hint": "「飛行機にしようか，それともこっちにしようか ponder しているんだ」。",
+      "vocab": "ponder [pɑ́ndər] [動] じっくり考える",
+      "part2_id": 447
+    },
+    {
+      "id": 476,
+      "english": "department store",
+      "phonetic": "[dipɑ́ːrtmənt]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "百貨店",
+      "hint": "「何もない田舎から出て来て生まれてはじめて新宿のここに入った時，exaggeration でなくすごいと思った」",
+      "vocab": "exaggeration [igzæ̀dʒəréiʃən] [名] 誇張",
+      "part2_id": 451
+    },
+    {
+      "id": 477,
+      "english": "pressure gauge",
+      "phonetic": "[préʃər] [geidʒ]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "圧力計",
+      "hint": "この gauge は meter と同じような意味。",
+      "vocab": "meter [míːtər] [名] メーター，計器",
+      "part2_id": 33
+    },
+    {
+      "id": 478,
+      "english": "fatal wound",
+      "phonetic": "[feitl] [wúːnd]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "致命傷",
+      "hint": "この fatal は mortal と同じような意味。",
+      "vocab": "mortal [mɔːrtl] [形] 致命的な",
+      "part2_id": 395
+    },
+    {
+      "id": 479,
+      "english": "astronomical observatory",
+      "phonetic": "[æ̀strənɑ́mikəl] [əbzə́ːrvətɔ̀ːri]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "天文台",
+      "hint": "observatory だけでも同じ意味。特に星を見る所だと specify する時はこの表現。",
+      "vocab": "specify [spésəfài] [動] 明確に言う",
+      "part2_id": 25
+    },
+    {
+      "id": 480,
+      "english": "emergency landing",
+      "phonetic": "[imə́ːrdʒənsi]",
+      "version": "3字",
+      "kanji_hint": "□□□",
+      "answer": "不時着",
+      "hint": "機長がこのまま飛び続けることは無理と判断した時の command。",
+      "vocab": "command [kəmǽnd] [名][動] 命令(する)",
+      "part2_id": 437
+    },
+    {
+      "id": 481,
+      "english": "lucky guess",
+      "phonetic": "[ges]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "図星",
+      "hint": "「最近つきあい悪いね。彼女でもできたの？」「keen だね」",
+      "vocab": "keen [kiːn] [形] 鋭い",
+      "part2_id": 417
+    },
+    {
+      "id": 482,
+      "english": "cruel winter",
+      "phonetic": "[krúːəl]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "厳冬",
+      "hint": "「今年の寒さは例年と compare してちょっと異常だね」",
+      "vocab": "compare [kəmpéər] [動] 比較する",
+      "part2_id": 7
+    },
+    {
+      "id": 483,
+      "english": "market price",
+      "phonetic": "",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "市価",
+      "hint": "実際にわれわれが wallet から払う金額。",
+      "vocab": "wallet [wɑ́lət] [名] 札入れ",
+      "part2_id": 77
+    },
+    {
+      "id": 484,
+      "english": "wealthy person",
+      "phonetic": "[wélθi]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "富豪",
+      "hint": "こういう人になるには venture ビジネスが一番速い。",
+      "vocab": "venture [véntʃər] [名] 冒険的事業",
+      "part2_id": 317
+    },
+    {
+      "id": 485,
+      "english": "musical performance",
+      "phonetic": "[pərfɔ́ːrməns]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "演奏",
+      "hint": "上手にできると applause する。",
+      "vocab": "applause [əplɔ́ːz] [名] 拍手喝采",
+      "part2_id": 314
+    },
+    {
+      "id": 486,
+      "english": "financial circle",
+      "phonetic": "[fənǽnʃəl] [səːrkl]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "財界",
+      "hint": "金融業者や entrepreneur の社会。",
+      "vocab": "entrepreneur [ɑ̀ːntrəprənə́ːr] [名] 企業家",
+      "part2_id": 82
+    },
+    {
+      "id": 487,
+      "english": "birth control",
+      "phonetic": "",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "避妊",
+      "hint": "子供の数が adequate だと考えている夫婦。",
+      "vocab": "adequate [ǽdikwət] [形] 適当な",
+      "part2_id": 10
+    },
+    {
+      "id": 488,
+      "english": "meal coupon",
+      "phonetic": "[kúːpɑn]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "食券",
+      "hint": "「給料の他に，タダで昼ごはんも食べさせてくれる。なんて社員に considerate な会社だ」",
+      "vocab": "considerate [kənsídərət] [形] 思いやりのある",
+      "part2_id": 416
+    },
+    {
+      "id": 489,
+      "english": "Frigid Zone",
+      "phonetic": "[frídʒid] [zoun]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "寒帯",
+      "hint": "frigi は語源で冷やすという意味。refrigerator は何度でも冷やせる機械。",
+      "vocab": "refrigerator [rifrídʒərèitər] [名] 冷蔵庫",
+      "part2_id": 14
+    },
+    {
+      "id": 490,
+      "english": "living creature",
+      "phonetic": "[kríːtʃər]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "生物(動物)",
+      "hint": "biology は教科・学問の名前。",
+      "vocab": "biology [baiɑ́lədʒi] [名] 生物学",
+      "part2_id": 13
+    },
+    {
+      "id": 491,
+      "english": "wise decision",
+      "phonetic": "[disídʒən]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "英断",
+      "hint": "困難な状況の中で下した sensible な決定。",
+      "vocab": "sensible [sénsəbl] [形] 分別のある",
+      "part2_id": 414
+    },
+    {
+      "id": 492,
+      "english": "heavenly body",
+      "phonetic": "[hévənli]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "天体",
+      "hint": "cosmos にある恒星，惑星，流星すべて。",
+      "vocab": "cosmos [kɑ́zməs] [名] 宇宙",
+      "part2_id": 2
+    },
+    {
+      "id": 493,
+      "english": "sweat gland",
+      "phonetic": "[swet] [glænd]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "汗腺",
+      "hint": "汗の出てくる源。sweat の同義語に perspiration があるが，この語には『努力』という意味もある。",
+      "vocab": "perspiration [pə̀ːrspəréiʃən] [名] 汗",
+      "part2_id": 373
+    },
+    {
+      "id": 494,
+      "english": "blood donation",
+      "phonetic": "[blʌd] [dounéiʃən]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "献血",
+      "hint": "「ちょっと痛いけど，困っている人の役に立つんだったら rewarding」",
+      "vocab": "rewarding [riwɔ́ːrdiŋ] [形] しがいのある",
+      "part2_id": 372
+    },
+    {
+      "id": 495,
+      "english": "death penalty",
+      "phonetic": "[pénəlti]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "死刑",
+      "hint": "capital punishment も同じ意味。",
+      "vocab": "",
+      "part2_id": 198
+    },
+    {
+      "id": 496,
+      "english": "mistaken diagnosis",
+      "phonetic": "[daiəgnóusis]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "誤診",
+      "hint": "人間だれでも innately に完ぺきということはありえないが，医者が患者を診る時には…。",
+      "vocab": "innately [inéitli] [副] 生まれつき",
+      "part2_id": 376
+    },
+    {
+      "id": 497,
+      "english": "sudden illness",
+      "phonetic": "",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "急病",
+      "hint": "遠慮しないで ambulance を呼ぶべき。",
+      "vocab": "ambulance [ǽmbjələns] [名] 救急車",
+      "part2_id": 384
+    },
+    {
+      "id": 498,
+      "english": "primary color",
+      "phonetic": "[práiməri]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "原色",
+      "hint": "この洋服を着るとまわりの人から gaze されるかも。",
+      "vocab": "gaze [geiz] [動] 見つめる",
+      "part2_id": 315
+    },
+    {
+      "id": 499,
+      "english": "similar instance",
+      "phonetic": "[símələr] [ínstəns]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "類例",
+      "hint": "parallel な example。",
+      "vocab": "parallel [pǽrəlèl] [形] 類似の / example [igzǽmpl] [名] 例",
+      "part2_id": 228
+    },
+    {
+      "id": 500,
+      "english": "vital energy",
+      "phonetic": "[vaitl] [énərdʒi]",
+      "version": "2字",
+      "kanji_hint": "□□",
+      "answer": "活力",
+      "hint": "これからの世の中，英語に対する confidence は大きなバイタリティーをもたらしてくれるはず。",
+      "vocab": "confidence [kɑ́nfədəns] [名] 自信",
+      "part2_id": 377
+    }
+  ],
+  "part2": [
+    {
+      "id": 1,
+      "category": "環境・自然・科学",
+      "kanji": "交流",
+      "prompt_template": "a___ing current",
+      "answer_word": "alternating",
+      "part1_id": 324
+    },
+    {
+      "id": 2,
+      "category": "環境・自然・科学",
+      "kanji": "天体",
+      "prompt_template": "h___ly body",
+      "answer_word": "heavenly",
+      "part1_id": 492
+    },
+    {
+      "id": 3,
+      "category": "環境・自然・科学",
+      "kanji": "天災",
+      "prompt_template": "natural d___",
+      "answer_word": "disaster",
+      "part1_id": 136
+    },
+    {
+      "id": 4,
+      "category": "環境・自然・科学",
+      "kanji": "気圧",
+      "prompt_template": "a___ pressure",
+      "answer_word": "atmospheric",
+      "part1_id": 401
+    },
+    {
+      "id": 5,
+      "category": "環境・自然・科学",
+      "kanji": "磁力",
+      "prompt_template": "magnetic a___",
+      "answer_word": "attraction",
+      "part1_id": 3
+    },
+    {
+      "id": 6,
+      "category": "環境・自然・科学",
+      "kanji": "原油",
+      "prompt_template": "c___ oil",
+      "answer_word": "crude",
+      "part1_id": 22
+    },
+    {
+      "id": 7,
+      "category": "環境・自然・科学",
+      "kanji": "厳冬",
+      "prompt_template": "c___ winter",
+      "answer_word": "cruel",
+      "part1_id": 482
+    },
+    {
+      "id": 8,
+      "category": "環境・自然・科学",
+      "kanji": "現状",
+      "prompt_template": "___ quo",
+      "answer_word": "status",
+      "part1_id": 25
+    },
+    {
+      "id": 9,
+      "category": "環境・自然・科学",
+      "kanji": "液晶",
+      "prompt_template": "l___ crystal",
+      "answer_word": "liquid",
+      "part1_id": 321
+    },
+    {
+      "id": 10,
+      "category": "環境・自然・科学",
+      "kanji": "避妊",
+      "prompt_template": "b___ control",
+      "answer_word": "birth",
+      "part1_id": 487
+    },
+    {
+      "id": 11,
+      "category": "環境・自然・科学",
+      "kanji": "農薬",
+      "prompt_template": "a___ chemical",
+      "answer_word": "agricultural",
+      "part1_id": 6
+    },
+    {
+      "id": 12,
+      "category": "環境・自然・科学",
+      "kanji": "公害",
+      "prompt_template": "public h___",
+      "answer_word": "hazard",
+      "part1_id": 153
+    },
+    {
+      "id": 13,
+      "category": "環境・自然・科学",
+      "kanji": "生物",
+      "prompt_template": "living c___",
+      "answer_word": "creatures",
+      "part1_id": 490
+    },
+    {
+      "id": 14,
+      "category": "環境・自然・科学",
+      "kanji": "寒帯",
+      "prompt_template": "F___ Zone",
+      "answer_word": "Frigid",
+      "part1_id": 489
+    },
+    {
+      "id": 15,
+      "category": "環境・自然・科学",
+      "kanji": "酸性雨",
+      "prompt_template": "a___ rain",
+      "answer_word": "acid",
+      "part1_id": 42
+    },
+    {
+      "id": 16,
+      "category": "環境・自然・科学",
+      "kanji": "保護鳥",
+      "prompt_template": "p___ed bird",
+      "answer_word": "protected",
+      "part1_id": 167
+    },
+    {
+      "id": 17,
+      "category": "環境・自然・科学",
+      "kanji": "火山灰",
+      "prompt_template": "v___ ashes",
+      "answer_word": "volcanic",
+      "part1_id": 338
+    },
+    {
+      "id": 18,
+      "category": "環境・自然・科学",
+      "kanji": "生態系",
+      "prompt_template": "e___ system",
+      "answer_word": "ecological",
+      "part1_id": 38
+    },
+    {
+      "id": 19,
+      "category": "環境・自然・科学",
+      "kanji": "発電所",
+      "prompt_template": "power p___",
+      "answer_word": "plant",
+      "part1_id": 260
+    },
+    {
+      "id": 20,
+      "category": "環境・自然・科学",
+      "kanji": "水不足",
+      "prompt_template": "water f___",
+      "answer_word": "famine",
+      "part1_id": 227
+    },
+    {
+      "id": 21,
+      "category": "環境・自然・科学",
+      "kanji": "鉄砲水",
+      "prompt_template": "flash f___",
+      "answer_word": "flood",
+      "part1_id": 463
+    },
+    {
+      "id": 22,
+      "category": "環境・自然・科学",
+      "kanji": "水蒸気",
+      "prompt_template": "water v___",
+      "answer_word": "vapor",
+      "part1_id": 474
+    },
+    {
+      "id": 23,
+      "category": "環境・自然・科学",
+      "kanji": "発射台",
+      "prompt_template": "l___ing pad",
+      "answer_word": "launching",
+      "part1_id": 462
+    },
+    {
+      "id": 24,
+      "category": "環境・自然・科学",
+      "kanji": "血液型",
+      "prompt_template": "blood t___",
+      "answer_word": "type",
+      "part1_id": 37
+    },
+    {
+      "id": 25,
+      "category": "環境・自然・科学",
+      "kanji": "天文台",
+      "prompt_template": "astronomical o___",
+      "answer_word": "observatory",
+      "part1_id": 479
+    },
+    {
+      "id": 26,
+      "category": "環境・自然・科学",
+      "kanji": "核燃料",
+      "prompt_template": "n___ fuel",
+      "answer_word": "nuclear",
+      "part1_id": 43
+    },
+    {
+      "id": 27,
+      "category": "環境・自然・科学",
+      "kanji": "無人島",
+      "prompt_template": "u___ed island",
+      "answer_word": "uninhabited",
+      "part1_id": 165
+    },
+    {
+      "id": 28,
+      "category": "環境・自然・科学",
+      "kanji": "熱効率",
+      "prompt_template": "thermal e___",
+      "answer_word": "efficiency",
+      "part1_id": 320
+    },
+    {
+      "id": 29,
+      "category": "環境・自然・科学",
+      "kanji": "氷河期",
+      "prompt_template": "g___ epoch",
+      "answer_word": "glacial",
+      "part1_id": 166
+    },
+    {
+      "id": 30,
+      "category": "環境・自然・科学",
+      "kanji": "避雷針",
+      "prompt_template": "l___ing rod",
+      "answer_word": "lightning",
+      "part1_id": 126
+    },
+    {
+      "id": 31,
+      "category": "環境・自然・科学",
+      "kanji": "超音波",
+      "prompt_template": "supersonic w___",
+      "answer_word": "wave",
+      "part1_id": 259
+    },
+    {
+      "id": 32,
+      "category": "環境・自然・科学",
+      "kanji": "保護色",
+      "prompt_template": "p___ coloring",
+      "answer_word": "protective",
+      "part1_id": 467
+    },
+    {
+      "id": 33,
+      "category": "環境・自然・科学",
+      "kanji": "圧力計",
+      "prompt_template": "p___ gauge",
+      "answer_word": "pressure",
+      "part1_id": 477
+    },
+    {
+      "id": 34,
+      "category": "環境・自然・科学",
+      "kanji": "核融合",
+      "prompt_template": "nuclear f___",
+      "answer_word": "fusion",
+      "part1_id": 470
+    },
+    {
+      "id": 35,
+      "category": "環境・自然・科学",
+      "kanji": "大陸棚",
+      "prompt_template": "c___ shelf",
+      "answer_word": "continental",
+      "part1_id": 319
+    },
+    {
+      "id": 36,
+      "category": "環境・自然・科学",
+      "kanji": "光通信",
+      "prompt_template": "o___ communication",
+      "answer_word": "optical",
+      "part1_id": 340
+    },
+    {
+      "id": 37,
+      "category": "環境・自然・科学",
+      "kanji": "科学実験",
+      "prompt_template": "scientific e___",
+      "answer_word": "experiment",
+      "part1_id": 421
+    },
+    {
+      "id": 38,
+      "category": "環境・自然・科学",
+      "kanji": "天然資源",
+      "prompt_template": "natural r___s",
+      "answer_word": "resources",
+      "part1_id": 213
+    },
+    {
+      "id": 39,
+      "category": "環境・自然・科学",
+      "kanji": "人工知能",
+      "prompt_template": "artificial i___",
+      "answer_word": "intelligence",
+      "part1_id": 106
+    },
+    {
+      "id": 40,
+      "category": "環境・自然・科学",
+      "kanji": "化石燃料",
+      "prompt_template": "f___ fuel",
+      "answer_word": "fossil",
+      "part1_id": 378
+    },
+    {
+      "id": 41,
+      "category": "環境・自然・科学",
+      "kanji": "太陽電池",
+      "prompt_template": "s___ battery",
+      "answer_word": "solar",
+      "part1_id": 453
+    },
+    {
+      "id": 42,
+      "category": "環境・自然・科学",
+      "kanji": "空気抵抗",
+      "prompt_template": "air r___",
+      "answer_word": "resistance",
+      "part1_id": 309
+    },
+    {
+      "id": 43,
+      "category": "環境・自然・科学",
+      "kanji": "集積回路",
+      "prompt_template": "integrated c___",
+      "answer_word": "circuit",
+      "part1_id": 212
+    },
+    {
+      "id": 44,
+      "category": "環境・自然・科学",
+      "kanji": "有害物質",
+      "prompt_template": "h___ substance",
+      "answer_word": "harmful",
+      "part1_id": 380
+    },
+    {
+      "id": 45,
+      "category": "環境・自然・科学",
+      "kanji": "自然淘汰",
+      "prompt_template": "natural s___",
+      "answer_word": "selection",
+      "part1_id": 70
+    },
+    {
+      "id": 46,
+      "category": "環境・自然・科学",
+      "kanji": "技術革新",
+      "prompt_template": "technical i___",
+      "answer_word": "innovation",
+      "part1_id": 174
+    },
+    {
+      "id": 47,
+      "category": "環境・自然・科学",
+      "kanji": "熱帯雨林",
+      "prompt_template": "rain f___",
+      "answer_word": "forest",
+      "part1_id": 295
+    },
+    {
+      "id": 48,
+      "category": "環境・自然・科学",
+      "kanji": "遠隔操作",
+      "prompt_template": "remote c___",
+      "answer_word": "control",
+      "part1_id": 294
+    },
+    {
+      "id": 49,
+      "category": "環境・自然・科学",
+      "kanji": "焦点距離",
+      "prompt_template": "focal d___",
+      "answer_word": "distance",
+      "part1_id": 457
+    },
+    {
+      "id": 50,
+      "category": "環境・自然・科学",
+      "kanji": "金属疲労",
+      "prompt_template": "metal f___",
+      "answer_word": "fatigue",
+      "part1_id": 103
+    },
+    {
+      "id": 51,
+      "category": "環境・自然・科学",
+      "kanji": "人工衛星",
+      "prompt_template": "artificial s___",
+      "answer_word": "satellite",
+      "part1_id": 189
+    },
+    {
+      "id": 52,
+      "category": "環境・自然・科学",
+      "kanji": "自然現象",
+      "prompt_template": "natural p___non",
+      "answer_word": "phenomenon",
+      "part1_id": 454
+    },
+    {
+      "id": 53,
+      "category": "環境・自然・科学",
+      "kanji": "火山噴火",
+      "prompt_template": "volcanic e___",
+      "answer_word": "eruption",
+      "part1_id": 175
+    },
+    {
+      "id": 54,
+      "category": "環境・自然・科学",
+      "kanji": "避難命令",
+      "prompt_template": "e___ order",
+      "answer_word": "evacuation",
+      "part1_id": 214
+    },
+    {
+      "id": 55,
+      "category": "環境・自然・科学",
+      "kanji": "保護運動",
+      "prompt_template": "c___ movement",
+      "answer_word": "conservation",
+      "part1_id": 302
+    },
+    {
+      "id": 56,
+      "category": "環境・自然・科学",
+      "kanji": "表面張力",
+      "prompt_template": "surface t___",
+      "answer_word": "tension",
+      "part1_id": 345
+    },
+    {
+      "id": 57,
+      "category": "環境・自然・科学",
+      "kanji": "環境汚染",
+      "prompt_template": "e___ pollution",
+      "answer_word": "environmental",
+      "part1_id": 297
+    },
+    {
+      "id": 58,
+      "category": "環境・自然・科学",
+      "kanji": "連鎖反応",
+      "prompt_template": "chain r___",
+      "answer_word": "reaction",
+      "part1_id": 176
+    },
+    {
+      "id": 59,
+      "category": "環境・自然・科学",
+      "kanji": "温室効果",
+      "prompt_template": "greenhouse e___",
+      "answer_word": "effect",
+      "part1_id": 78
+    },
+    {
+      "id": 60,
+      "category": "環境・自然・科学",
+      "kanji": "人口密度",
+      "prompt_template": "p___ density",
+      "answer_word": "population",
+      "part1_id": 107
+    },
+    {
+      "id": 61,
+      "category": "環境・自然・科学",
+      "kanji": "海洋投棄",
+      "prompt_template": "sea d___ing",
+      "answer_word": "dumping",
+      "part1_id": 264
+    },
+    {
+      "id": 62,
+      "category": "環境・自然・科学",
+      "kanji": "大気汚染",
+      "prompt_template": "a___ pollution",
+      "answer_word": "atmospheric",
+      "part1_id": 188
+    },
+    {
+      "id": 63,
+      "category": "環境・自然・科学",
+      "kanji": "波及効果",
+      "prompt_template": "r___ effect",
+      "answer_word": "ripple",
+      "part1_id": 307
+    },
+    {
+      "id": 64,
+      "category": "環境・自然・科学",
+      "kanji": "交通渋滞",
+      "prompt_template": "t___ congestion",
+      "answer_word": "traffic",
+      "part1_id": 215
+    },
+    {
+      "id": 65,
+      "category": "環境・自然・科学",
+      "kanji": "人口爆発",
+      "prompt_template": "population e___",
+      "answer_word": "explosion",
+      "part1_id": 79
+    },
+    {
+      "id": 66,
+      "category": "環境・自然・科学",
+      "kanji": "合成洗剤",
+      "prompt_template": "s___ detergent",
+      "answer_word": "synthetic",
+      "part1_id": 198
+    },
+    {
+      "id": 67,
+      "category": "環境・自然・科学",
+      "kanji": "蒸気機関車",
+      "prompt_template": "steam l___",
+      "answer_word": "locomotive",
+      "part1_id": 285
+    },
+    {
+      "id": 68,
+      "category": "環境・自然・科学",
+      "kanji": "単細胞生物",
+      "prompt_template": "u___ animal",
+      "answer_word": "unicellular",
+      "part1_id": 288
+    },
+    {
+      "id": 69,
+      "category": "環境・自然・科学",
+      "kanji": "応用物理学",
+      "prompt_template": "applied p___",
+      "answer_word": "physics",
+      "part1_id": 205
+    },
+    {
+      "id": 70,
+      "category": "環境・自然・科学",
+      "kanji": "立体幾何学",
+      "prompt_template": "solid g___",
+      "answer_word": "geometry",
+      "part1_id": 361
+    },
+    {
+      "id": 71,
+      "category": "環境・自然・科学",
+      "kanji": "二酸化炭素",
+      "prompt_template": "c___ dioxide",
+      "answer_word": "carbon",
+      "part1_id": 81
+    },
+    {
+      "id": 72,
+      "category": "環境・自然・科学",
+      "kanji": "有機化合物",
+      "prompt_template": "organic c___",
+      "answer_word": "compound",
+      "part1_id": 369
+    },
+    {
+      "id": 73,
+      "category": "環境・自然・科学",
+      "kanji": "放射能汚染",
+      "prompt_template": "radioactive c___",
+      "answer_word": "contamination",
+      "part1_id": 206
+    },
+    {
+      "id": 74,
+      "category": "環境・自然・科学",
+      "kanji": "産業廃棄物",
+      "prompt_template": "i___ waste",
+      "answer_word": "industrial",
+      "part1_id": 362
+    },
+    {
+      "id": 75,
+      "category": "環境・自然・科学",
+      "kanji": "地球温暖化",
+      "prompt_template": "g___ warming",
+      "answer_word": "global",
+      "part1_id": 365
+    },
+    {
+      "id": 76,
+      "category": "経済・産業",
+      "kanji": "原料",
+      "prompt_template": "raw m___",
+      "answer_word": "material",
+      "part1_id": 242
+    },
+    {
+      "id": 77,
+      "category": "経済・産業",
+      "kanji": "市価",
+      "prompt_template": "m___ price",
+      "answer_word": "market",
+      "part1_id": 483
+    },
+    {
+      "id": 78,
+      "category": "経済・産業",
+      "kanji": "国債",
+      "prompt_template": "g___ bond",
+      "answer_word": "government",
+      "part1_id": 402
+    },
+    {
+      "id": 79,
+      "category": "経済・産業",
+      "kanji": "社債",
+      "prompt_template": "c___ bond",
+      "answer_word": "corporate",
+      "part1_id": 21
+    },
+    {
+      "id": 80,
+      "category": "経済・産業",
+      "kanji": "偽札",
+      "prompt_template": "fake b___",
+      "answer_word": "bill",
+      "part1_id": 135
+    },
+    {
+      "id": 81,
+      "category": "経済・産業",
+      "kanji": "支店",
+      "prompt_template": "b___ office",
+      "answer_word": "branch",
+      "part1_id": 399
+    },
+    {
+      "id": 82,
+      "category": "経済・産業",
+      "kanji": "財界",
+      "prompt_template": "f___ circle",
+      "answer_word": "financial",
+      "part1_id": 486
+    },
+    {
+      "id": 83,
+      "category": "経済・産業",
+      "kanji": "公金",
+      "prompt_template": "p___ money",
+      "answer_word": "public",
+      "part1_id": 24
+    },
+    {
+      "id": 84,
+      "category": "経済・産業",
+      "kanji": "関税",
+      "prompt_template": "c___s duty",
+      "answer_word": "customs",
+      "part1_id": 322
+    },
+    {
+      "id": 85,
+      "category": "経済・産業",
+      "kanji": "純益",
+      "prompt_template": "net p___",
+      "answer_word": "profit",
+      "part1_id": 19
+    },
+    {
+      "id": 86,
+      "category": "経済・産業",
+      "kanji": "商社",
+      "prompt_template": "t___ing firm",
+      "answer_word": "trading",
+      "part1_id": 154
+    },
+    {
+      "id": 87,
+      "category": "経済・産業",
+      "kanji": "窮地",
+      "prompt_template": "a___ position",
+      "answer_word": "awkward",
+      "part1_id": 245
+    },
+    {
+      "id": 88,
+      "category": "経済・産業",
+      "kanji": "乳牛",
+      "prompt_template": "d___ cattle",
+      "answer_word": "dairy",
+      "part1_id": 23
+    },
+    {
+      "id": 89,
+      "category": "経済・産業",
+      "kanji": "株券",
+      "prompt_template": "share c___",
+      "answer_word": "certificate",
+      "part1_id": 323
+    },
+    {
+      "id": 90,
+      "category": "経済・産業",
+      "kanji": "豊作",
+      "prompt_template": "good h___",
+      "answer_word": "harvest",
+      "part1_id": 20
+    },
+    {
+      "id": 91,
+      "category": "経済・産業",
+      "kanji": "財源",
+      "prompt_template": "financial r___",
+      "answer_word": "resource",
+      "part1_id": 405
+    },
+    {
+      "id": 92,
+      "category": "経済・産業",
+      "kanji": "節税",
+      "prompt_template": "tax a___",
+      "answer_word": "avoidance",
+      "part1_id": 155
+    },
+    {
+      "id": 93,
+      "category": "経済・産業",
+      "kanji": "出版社",
+      "prompt_template": "p___ing company",
+      "answer_word": "publishing",
+      "part1_id": 419
+    },
+    {
+      "id": 94,
+      "category": "経済・産業",
+      "kanji": "私企業",
+      "prompt_template": "private e___",
+      "answer_word": "enterprise",
+      "part1_id": 461
+    },
+    {
+      "id": 95,
+      "category": "経済・産業",
+      "kanji": "経営学",
+      "prompt_template": "business a___",
+      "answer_word": "administration",
+      "part1_id": 258
+    },
+    {
+      "id": 96,
+      "category": "経済・産業",
+      "kanji": "商取引",
+      "prompt_template": "commercial t___",
+      "answer_word": "transaction",
+      "part1_id": 466
+    },
+    {
+      "id": 97,
+      "category": "経済・産業",
+      "kanji": "先進国",
+      "prompt_template": "a___ed country",
+      "answer_word": "advanced",
+      "part1_id": 127
+    },
+    {
+      "id": 98,
+      "category": "経済・産業",
+      "kanji": "総収入",
+      "prompt_template": "g___ income",
+      "answer_word": "gross",
+      "part1_id": 164
+    },
+    {
+      "id": 99,
+      "category": "経済・産業",
+      "kanji": "見本市",
+      "prompt_template": "trade f___",
+      "answer_word": "fair",
+      "part1_id": 318
+    },
+    {
+      "id": 100,
+      "category": "経済・産業",
+      "kanji": "消費税",
+      "prompt_template": "c___ tax",
+      "answer_word": "consumption",
+      "part1_id": 34
+    },
+    {
+      "id": 101,
+      "category": "経済・産業",
+      "kanji": "小売価格",
+      "prompt_template": "r___ price",
+      "answer_word": "retail",
+      "part1_id": 181
+    },
+    {
+      "id": 102,
+      "category": "経済・産業",
+      "kanji": "海外投資",
+      "prompt_template": "overseas i___",
+      "answer_word": "investment",
+      "part1_id": 115
+    },
+    {
+      "id": 103,
+      "category": "経済・産業",
+      "kanji": "市場調査",
+      "prompt_template": "market r___",
+      "answer_word": "research",
+      "part1_id": 186
+    },
+    {
+      "id": 104,
+      "category": "経済・産業",
+      "kanji": "貿易赤字",
+      "prompt_template": "trade d___",
+      "answer_word": "deficit",
+      "part1_id": 376
+    },
+    {
+      "id": 105,
+      "category": "経済・産業",
+      "kanji": "自主規制",
+      "prompt_template": "v___ restraint",
+      "answer_word": "voluntary",
+      "part1_id": 111
+    },
+    {
+      "id": 106,
+      "category": "経済・産業",
+      "kanji": "外国為替",
+      "prompt_template": "foreign e___",
+      "answer_word": "exchange",
+      "part1_id": 422
+    },
+    {
+      "id": 107,
+      "category": "経済・産業",
+      "kanji": "品質管理",
+      "prompt_template": "q___ control",
+      "answer_word": "quality",
+      "part1_id": 216
+    },
+    {
+      "id": 108,
+      "category": "経済・産業",
+      "kanji": "労働条件",
+      "prompt_template": "working c___s",
+      "answer_word": "conditions",
+      "part1_id": 455
+    },
+    {
+      "id": 109,
+      "category": "経済・産業",
+      "kanji": "大量生産",
+      "prompt_template": "m___ production",
+      "answer_word": "mass",
+      "part1_id": 298
+    },
+    {
+      "id": 110,
+      "category": "経済・産業",
+      "kanji": "株式市場",
+      "prompt_template": "s___ market",
+      "answer_word": "stock",
+      "part1_id": 173
+    },
+    {
+      "id": 111,
+      "category": "経済・産業",
+      "kanji": "貿易黒字",
+      "prompt_template": "trade s___",
+      "answer_word": "surplus",
+      "part1_id": 296
+    },
+    {
+      "id": 112,
+      "category": "経済・産業",
+      "kanji": "物価指数",
+      "prompt_template": "price i___",
+      "answer_word": "index",
+      "part1_id": 459
+    },
+    {
+      "id": 113,
+      "category": "経済・産業",
+      "kanji": "組立工場",
+      "prompt_template": "a___ plant",
+      "answer_word": "assembly",
+      "part1_id": 69
+    },
+    {
+      "id": 114,
+      "category": "経済・産業",
+      "kanji": "終身雇用",
+      "prompt_template": "lifetime e___",
+      "answer_word": "employment",
+      "part1_id": 299
+    },
+    {
+      "id": 115,
+      "category": "経済・産業",
+      "kanji": "労働組合",
+      "prompt_template": "labor u___",
+      "answer_word": "union",
+      "part1_id": 377
+    },
+    {
+      "id": 116,
+      "category": "経済・産業",
+      "kanji": "斜陽産業",
+      "prompt_template": "d___ing industry",
+      "answer_word": "declining",
+      "part1_id": 426
+    },
+    {
+      "id": 117,
+      "category": "経済・産業",
+      "kanji": "人事異動",
+      "prompt_template": "personnel t___",
+      "answer_word": "transfer",
+      "part1_id": 263
+    },
+    {
+      "id": 118,
+      "category": "経済・産業",
+      "kanji": "対外債務",
+      "prompt_template": "external d___",
+      "answer_word": "debt",
+      "part1_id": 76
+    },
+    {
+      "id": 119,
+      "category": "経済・産業",
+      "kanji": "集約農業",
+      "prompt_template": "intensive a___",
+      "answer_word": "agriculture",
+      "part1_id": 105
+    },
+    {
+      "id": 120,
+      "category": "経済・産業",
+      "kanji": "固定資産",
+      "prompt_template": "f___ed asset",
+      "answer_word": "fixed",
+      "part1_id": 293
+    },
+    {
+      "id": 121,
+      "category": "経済・産業",
+      "kanji": "加工木材",
+      "prompt_template": "p___ed lumber",
+      "answer_word": "processed",
+      "part1_id": 306
+    },
+    {
+      "id": 122,
+      "category": "経済・産業",
+      "kanji": "経営工学",
+      "prompt_template": "management e___ing",
+      "answer_word": "engineering",
+      "part1_id": 102
+    },
+    {
+      "id": 123,
+      "category": "経済・産業",
+      "kanji": "価格操作",
+      "prompt_template": "price m___",
+      "answer_word": "manipulation",
+      "part1_id": 280
+    },
+    {
+      "id": 124,
+      "category": "経済・産業",
+      "kanji": "流通革命",
+      "prompt_template": "d___ upheaval",
+      "answer_word": "distribution",
+      "part1_id": 350
+    },
+    {
+      "id": 125,
+      "category": "経済・産業",
+      "kanji": "経済制裁",
+      "prompt_template": "economic s___s",
+      "answer_word": "sanctions",
+      "part1_id": 217
+    },
+    {
+      "id": 126,
+      "category": "経済・産業",
+      "kanji": "販売促進",
+      "prompt_template": "sales p___",
+      "answer_word": "promotion",
+      "part1_id": 187
+    },
+    {
+      "id": 127,
+      "category": "経済・産業",
+      "kanji": "査定価格",
+      "prompt_template": "a___ed price",
+      "answer_word": "assessed",
+      "part1_id": 308
+    },
+    {
+      "id": 128,
+      "category": "経済・産業",
+      "kanji": "予約購読料",
+      "prompt_template": "s___ rate",
+      "answer_word": "subscription",
+      "part1_id": 287
+    },
+    {
+      "id": 129,
+      "category": "経済・産業",
+      "kanji": "広告代理店",
+      "prompt_template": "a___ing agency",
+      "answer_word": "advertising",
+      "part1_id": 82
+    },
+    {
+      "id": 130,
+      "category": "経済・産業",
+      "kanji": "年間収穫高",
+      "prompt_template": "annual y___",
+      "answer_word": "yield",
+      "part1_id": 448
+    },
+    {
+      "id": 131,
+      "category": "経済・産業",
+      "kanji": "経済評論家",
+      "prompt_template": "economic a___",
+      "answer_word": "analyst",
+      "part1_id": 204
+    },
+    {
+      "id": 132,
+      "category": "経済・産業",
+      "kanji": "公認会計士",
+      "prompt_template": "chartered a___",
+      "answer_word": "accountant",
+      "part1_id": 363
+    },
+    {
+      "id": 133,
+      "category": "経済・産業",
+      "kanji": "非関税障壁",
+      "prompt_template": "non-tariff b___",
+      "answer_word": "barrier",
+      "part1_id": 360
+    },
+    {
+      "id": 134,
+      "category": "経済・産業",
+      "kanji": "知的所有権",
+      "prompt_template": "intellectual p___",
+      "answer_word": "property",
+      "part1_id": 84
+    },
+    {
+      "id": 135,
+      "category": "経済・産業",
+      "kanji": "可処分所得",
+      "prompt_template": "d___ income",
+      "answer_word": "disposable",
+      "part1_id": 351
+    },
+    {
+      "id": 136,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "政党",
+      "prompt_template": "political p___",
+      "answer_word": "party",
+      "part1_id": 157
+    },
+    {
+      "id": 137,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "首相",
+      "prompt_template": "p___ minister",
+      "answer_word": "Prime",
+      "part1_id": 241
+    },
+    {
+      "id": 138,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "激戦",
+      "prompt_template": "f___ battle",
+      "answer_word": "fierce",
+      "part1_id": 156
+    },
+    {
+      "id": 139,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "軍縮",
+      "prompt_template": "army r___",
+      "answer_word": "regulation",
+      "part1_id": 18
+    },
+    {
+      "id": 140,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "国連",
+      "prompt_template": "U___ Nations",
+      "answer_word": "United",
+      "part1_id": 240
+    },
+    {
+      "id": 141,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "政局",
+      "prompt_template": "political s___",
+      "answer_word": "situation",
+      "part1_id": 5
+    },
+    {
+      "id": 142,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "重責",
+      "prompt_template": "grave r___",
+      "answer_word": "responsibility",
+      "part1_id": 408
+    },
+    {
+      "id": 143,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "野党",
+      "prompt_template": "o___ party",
+      "answer_word": "opposition",
+      "part1_id": 246
+    },
+    {
+      "id": 144,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "空襲",
+      "prompt_template": "air r___",
+      "answer_word": "raid",
+      "part1_id": 143
+    },
+    {
+      "id": 145,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "政見",
+      "prompt_template": "political o___s",
+      "answer_word": "opinions",
+      "part1_id": 325
+    },
+    {
+      "id": 146,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "半壊",
+      "prompt_template": "partially d___",
+      "answer_word": "destroyed",
+      "part1_id": 134
+    },
+    {
+      "id": 147,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "県議会",
+      "prompt_template": "prefectural a___",
+      "answer_word": "assembly",
+      "part1_id": 226
+    },
+    {
+      "id": 148,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "公務員",
+      "prompt_template": "public s___",
+      "answer_word": "servant",
+      "part1_id": 35
+    },
+    {
+      "id": 149,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "機動隊",
+      "prompt_template": "r___ police",
+      "answer_word": "riot",
+      "part1_id": 45
+    },
+    {
+      "id": 150,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "戒厳令",
+      "prompt_template": "m___ law",
+      "answer_word": "martial",
+      "part1_id": 163
+    },
+    {
+      "id": 151,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "核軍縮",
+      "prompt_template": "nuclear d___",
+      "answer_word": "disarmament",
+      "part1_id": 128
+    },
+    {
+      "id": 152,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "保守党",
+      "prompt_template": "c___ party",
+      "answer_word": "conservative",
+      "part1_id": 256
+    },
+    {
+      "id": 153,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "浮動票",
+      "prompt_template": "f___ing vote",
+      "answer_word": "floating",
+      "part1_id": 317
+    },
+    {
+      "id": 154,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "海兵隊",
+      "prompt_template": "Marine C___s",
+      "answer_word": "Corps",
+      "part1_id": 36
+    },
+    {
+      "id": 155,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "副知事",
+      "prompt_template": "deputy g___",
+      "answer_word": "governor",
+      "part1_id": 464
+    },
+    {
+      "id": 156,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "改革案",
+      "prompt_template": "r___ bill",
+      "answer_word": "reform",
+      "part1_id": 413
+    },
+    {
+      "id": 157,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "不祥事",
+      "prompt_template": "disgraceful a___",
+      "answer_word": "affair",
+      "part1_id": 316
+    },
+    {
+      "id": 158,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "絶対多数",
+      "prompt_template": "absolute m___",
+      "answer_word": "majority",
+      "part1_id": 184
+    },
+    {
+      "id": 159,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "通常兵器",
+      "prompt_template": "c___ weapon",
+      "answer_word": "conventional",
+      "part1_id": 423
+    },
+    {
+      "id": 160,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "選挙運動",
+      "prompt_template": "election c___",
+      "answer_word": "campaign",
+      "part1_id": 172
+    },
+    {
+      "id": 161,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "世論調査",
+      "prompt_template": "general s___",
+      "answer_word": "survey",
+      "part1_id": 171
+    },
+    {
+      "id": 162,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "表敬訪問",
+      "prompt_template": "c___ visit",
+      "answer_word": "courtesy",
+      "part1_id": 262
+    },
+    {
+      "id": 163,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "財政赤字",
+      "prompt_template": "f___ deficit",
+      "answer_word": "financial",
+      "part1_id": 265
+    },
+    {
+      "id": 164,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "福祉国家",
+      "prompt_template": "w___ state",
+      "answer_word": "welfare",
+      "part1_id": 73
+    },
+    {
+      "id": 165,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "難民救済",
+      "prompt_template": "r___ relief",
+      "answer_word": "refugee",
+      "part1_id": 177
+    },
+    {
+      "id": 166,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "人種隔離",
+      "prompt_template": "racial s___",
+      "answer_word": "segregation",
+      "part1_id": 375
+    },
+    {
+      "id": 167,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "予備交渉",
+      "prompt_template": "preliminary n___",
+      "answer_word": "negotiation",
+      "part1_id": 219
+    },
+    {
+      "id": 168,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "文民統制",
+      "prompt_template": "c___ control",
+      "answer_word": "civilian",
+      "part1_id": 278
+    },
+    {
+      "id": 169,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "補正予算",
+      "prompt_template": "supplementary b___",
+      "answer_word": "budget",
+      "part1_id": 374
+    },
+    {
+      "id": 170,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "選挙資金",
+      "prompt_template": "campaign f___",
+      "answer_word": "fund",
+      "part1_id": 458
+    },
+    {
+      "id": 171,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "外交特権",
+      "prompt_template": "diplomatic p___",
+      "answer_word": "privilege",
+      "part1_id": 101
+    },
+    {
+      "id": 172,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "条約改正",
+      "prompt_template": "treaty r___",
+      "answer_word": "revision",
+      "part1_id": 104
+    },
+    {
+      "id": 173,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "原子爆弾",
+      "prompt_template": "a___ bomb",
+      "answer_word": "atomic",
+      "part1_id": 292
+    },
+    {
+      "id": 174,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "危機管理",
+      "prompt_template": "c___ management",
+      "answer_word": "crisis",
+      "part1_id": 74
+    },
+    {
+      "id": 175,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "通商条約",
+      "prompt_template": "c___ treaty",
+      "answer_word": "commercial",
+      "part1_id": 268
+    },
+    {
+      "id": 176,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "貿易摩擦",
+      "prompt_template": "trade f___",
+      "answer_word": "friction",
+      "part1_id": 220
+    },
+    {
+      "id": 177,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "領土紛争",
+      "prompt_template": "territorial d___",
+      "answer_word": "dispute",
+      "part1_id": 75
+    },
+    {
+      "id": 178,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "連立政権",
+      "prompt_template": "c___ government",
+      "answer_word": "coalition",
+      "part1_id": 116
+    },
+    {
+      "id": 179,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "世界市場",
+      "prompt_template": "g___ market",
+      "answer_word": "global",
+      "part1_id": 191
+    },
+    {
+      "id": 180,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "差別待遇",
+      "prompt_template": "d___ treatment",
+      "answer_word": "discriminatory",
+      "part1_id": 190
+    },
+    {
+      "id": 181,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "秘密工作",
+      "prompt_template": "secret m___",
+      "answer_word": "maneuver",
+      "part1_id": 349
+    },
+    {
+      "id": 182,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "国勢調査",
+      "prompt_template": "population c___",
+      "answer_word": "census",
+      "part1_id": 373
+    },
+    {
+      "id": 183,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "政治献金",
+      "prompt_template": "political d___",
+      "answer_word": "donation",
+      "part1_id": 72
+    },
+    {
+      "id": 184,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "仮想敵国",
+      "prompt_template": "p___ adversary",
+      "answer_word": "potential",
+      "part1_id": 436
+    },
+    {
+      "id": 185,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "水素爆弾",
+      "prompt_template": "h___ bomb",
+      "answer_word": "hydrogen",
+      "part1_id": 428
+    },
+    {
+      "id": 186,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "地域紛争",
+      "prompt_template": "regional c___",
+      "answer_word": "conflict",
+      "part1_id": 348
+    },
+    {
+      "id": 187,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "大統領候補",
+      "prompt_template": "presidential c___",
+      "answer_word": "candidate",
+      "part1_id": 283
+    },
+    {
+      "id": 188,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "移民労働者",
+      "prompt_template": "emigrant l___",
+      "answer_word": "laborer",
+      "part1_id": 359
+    },
+    {
+      "id": 189,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "比例代表制",
+      "prompt_template": "proportional r___",
+      "answer_word": "representation",
+      "part1_id": 281
+    },
+    {
+      "id": 190,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "不可侵条約",
+      "prompt_template": "nonaggression p___",
+      "answer_word": "pact",
+      "part1_id": 286
+    },
+    {
+      "id": 191,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "高性能爆弾",
+      "prompt_template": "hign- e___ bomb",
+      "answer_word": "explosive",
+      "part1_id": 364
+    },
+    {
+      "id": 192,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "資本主義国",
+      "prompt_template": "c___ country",
+      "answer_word": "capitalistic",
+      "part1_id": 83
+    },
+    {
+      "id": 193,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "入国管理局",
+      "prompt_template": "i___ bureau",
+      "answer_word": "immigration",
+      "part1_id": 444
+    },
+    {
+      "id": 194,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "立憲君主国",
+      "prompt_template": "c___ monarchy",
+      "answer_word": "constitutional",
+      "part1_id": 443
+    },
+    {
+      "id": 195,
+      "category": "政治・選挙・外交・紛争",
+      "kanji": "危機的状況",
+      "prompt_template": "c___ situation",
+      "answer_word": "critical",
+      "part1_id": 367
+    },
+    {
+      "id": 196,
+      "category": "法律・犯罪",
+      "kanji": "憲法",
+      "prompt_template": "c___ law",
+      "answer_word": "constitutional",
+      "part1_id": 247
+    },
+    {
+      "id": 197,
+      "category": "法律・犯罪",
+      "kanji": "前科",
+      "prompt_template": "c___ record",
+      "answer_word": "criminal",
+      "part1_id": 158
+    },
+    {
+      "id": 198,
+      "category": "法律・犯罪",
+      "kanji": "死刑",
+      "prompt_template": "death p___",
+      "answer_word": "penalty",
+      "part1_id": 495
+    },
+    {
+      "id": 199,
+      "category": "法律・犯罪",
+      "kanji": "脱税",
+      "prompt_template": "tax e___",
+      "answer_word": "evasion",
+      "part1_id": 17
+    },
+    {
+      "id": 200,
+      "category": "法律・犯罪",
+      "kanji": "検事",
+      "prompt_template": "p___ing attorney",
+      "answer_word": "prosecuting",
+      "part1_id": 326
+    },
+    {
+      "id": 201,
+      "category": "法律・犯罪",
+      "kanji": "確証",
+      "prompt_template": "decisive e___",
+      "answer_word": "evidence",
+      "part1_id": 398
+    },
+    {
+      "id": 202,
+      "category": "法律・犯罪",
+      "kanji": "凶器",
+      "prompt_template": "l___ weapon",
+      "answer_word": "lethal",
+      "part1_id": 137
+    },
+    {
+      "id": 203,
+      "category": "法律・犯罪",
+      "kanji": "懲役",
+      "prompt_template": "p___ servitude",
+      "answer_word": "penal",
+      "part1_id": 238
+    },
+    {
+      "id": 204,
+      "category": "法律・犯罪",
+      "kanji": "謀殺",
+      "prompt_template": "d___ murder",
+      "answer_word": "deliberate",
+      "part1_id": 403
+    },
+    {
+      "id": 205,
+      "category": "法律・犯罪",
+      "kanji": "刑法",
+      "prompt_template": "c___ law",
+      "answer_word": "criminal",
+      "part1_id": 7
+    },
+    {
+      "id": 206,
+      "category": "法律・犯罪",
+      "kanji": "心中",
+      "prompt_template": "love s___",
+      "answer_word": "suicide",
+      "part1_id": 239
+    },
+    {
+      "id": 207,
+      "category": "法律・犯罪",
+      "kanji": "脅迫状",
+      "prompt_template": "t___ing letter",
+      "answer_word": "threatening",
+      "part1_id": 39
+    },
+    {
+      "id": 208,
+      "category": "法律・犯罪",
+      "kanji": "所得税",
+      "prompt_template": "i___ tax",
+      "answer_word": "income",
+      "part1_id": 228
+    },
+    {
+      "id": 209,
+      "category": "法律・犯罪",
+      "kanji": "知能犯",
+      "prompt_template": "i___ crime",
+      "answer_word": "intellectual",
+      "part1_id": 46
+    },
+    {
+      "id": 210,
+      "category": "法律・犯罪",
+      "kanji": "密輸品",
+      "prompt_template": "s___ed goods",
+      "answer_word": "smuggled",
+      "part1_id": 222
+    },
+    {
+      "id": 211,
+      "category": "法律・犯罪",
+      "kanji": "証言台",
+      "prompt_template": "w___ stand",
+      "answer_word": "witness",
+      "part1_id": 465
+    },
+    {
+      "id": 212,
+      "category": "法律・犯罪",
+      "kanji": "常習犯",
+      "prompt_template": "h___ criminal",
+      "answer_word": "habitual",
+      "part1_id": 129
+    },
+    {
+      "id": 213,
+      "category": "法律・犯罪",
+      "kanji": "私立探偵",
+      "prompt_template": "private d___",
+      "answer_word": "detective",
+      "part1_id": 192
+    },
+    {
+      "id": 214,
+      "category": "法律・犯罪",
+      "kanji": "連続殺人",
+      "prompt_template": "s___ murders",
+      "answer_word": "successive",
+      "part1_id": 60
+    },
+    {
+      "id": 215,
+      "category": "法律・犯罪",
+      "kanji": "不法所持",
+      "prompt_template": "illegal p___",
+      "answer_word": "possession",
+      "part1_id": 291
+    },
+    {
+      "id": 216,
+      "category": "法律・犯罪",
+      "kanji": "汚職事件",
+      "prompt_template": "c___ case",
+      "answer_word": "corruption",
+      "part1_id": 68
+    },
+    {
+      "id": 217,
+      "category": "法律・犯罪",
+      "kanji": "銀行強盗",
+      "prompt_template": "bank r___",
+      "answer_word": "robbery",
+      "part1_id": 77
+    },
+    {
+      "id": 218,
+      "category": "法律・犯罪",
+      "kanji": "自殺未遂",
+      "prompt_template": "a___ed suicide",
+      "answer_word": "attempted",
+      "part1_id": 276
+    },
+    {
+      "id": 219,
+      "category": "法律・犯罪",
+      "kanji": "交通法規",
+      "prompt_template": "traffic r___s",
+      "answer_word": "regulations",
+      "part1_id": 310
+    },
+    {
+      "id": 220,
+      "category": "法律・犯罪",
+      "kanji": "不文憲法",
+      "prompt_template": "unwritten c___",
+      "answer_word": "constitution",
+      "part1_id": 100
+    },
+    {
+      "id": 221,
+      "category": "法律・犯罪",
+      "kanji": "状況証拠",
+      "prompt_template": "c___ evidence",
+      "answer_word": "circumstantial",
+      "part1_id": 117
+    },
+    {
+      "id": 222,
+      "category": "法律・犯罪",
+      "kanji": "無謀運転",
+      "prompt_template": "r___ driving",
+      "answer_word": "reckless",
+      "part1_id": 178
+    },
+    {
+      "id": 223,
+      "category": "法律・犯罪",
+      "kanji": "最高裁判所",
+      "prompt_template": "s___ court",
+      "answer_word": "supreme",
+      "part1_id": 358
+    },
+    {
+      "id": 224,
+      "category": "法律・犯罪",
+      "kanji": "無記名投票",
+      "prompt_template": "secret v___",
+      "answer_word": "vote",
+      "part1_id": 366
+    },
+    {
+      "id": 225,
+      "category": "法律・犯罪",
+      "kanji": "被害者名簿",
+      "prompt_template": "c___ list",
+      "answer_word": "casualty",
+      "part1_id": 441
+    },
+    {
+      "id": 226,
+      "category": "言語・教育・学問・思想",
+      "kanji": "皆勤",
+      "prompt_template": "perfect a___",
+      "answer_word": "attendance",
+      "part1_id": 26
+    },
+    {
+      "id": 227,
+      "category": "言語・教育・学問・思想",
+      "kanji": "知力",
+      "prompt_template": "m___ ability",
+      "answer_word": "mental",
+      "part1_id": 133
+    },
+    {
+      "id": 228,
+      "category": "言語・教育・学問・思想",
+      "kanji": "類例",
+      "prompt_template": "s___ instance",
+      "answer_word": "similar",
+      "part1_id": 499
+    },
+    {
+      "id": 229,
+      "category": "言語・教育・学問・思想",
+      "kanji": "世論",
+      "prompt_template": "public o___",
+      "answer_word": "opinion",
+      "part1_id": 141
+    },
+    {
+      "id": 230,
+      "category": "言語・教育・学問・思想",
+      "kanji": "空論",
+      "prompt_template": "impractical a___",
+      "answer_word": "argument",
+      "part1_id": 249
+    },
+    {
+      "id": 231,
+      "category": "言語・教育・学問・思想",
+      "kanji": "手話",
+      "prompt_template": "sign l___",
+      "answer_word": "language",
+      "part1_id": 8
+    },
+    {
+      "id": 232,
+      "category": "言語・教育・学問・思想",
+      "kanji": "故意",
+      "prompt_template": "d___ intention",
+      "answer_word": "deliberate",
+      "part1_id": 142
+    },
+    {
+      "id": 233,
+      "category": "言語・教育・学問・思想",
+      "kanji": "補習",
+      "prompt_template": "s___ lesson",
+      "answer_word": "supplementary",
+      "part1_id": 1
+    },
+    {
+      "id": 234,
+      "category": "言語・教育・学問・思想",
+      "kanji": "読経",
+      "prompt_template": "sutra c___ing",
+      "answer_word": "chanting",
+      "part1_id": 159
+    },
+    {
+      "id": 235,
+      "category": "言語・教育・学問・思想",
+      "kanji": "多読",
+      "prompt_template": "e___ reading",
+      "answer_word": "extensive",
+      "part1_id": 328
+    },
+    {
+      "id": 236,
+      "category": "言語・教育・学問・思想",
+      "kanji": "体育",
+      "prompt_template": "p___ education",
+      "answer_word": "physical",
+      "part1_id": 397
+    },
+    {
+      "id": 237,
+      "category": "言語・教育・学問・思想",
+      "kanji": "乱数",
+      "prompt_template": "r___ number",
+      "answer_word": "random",
+      "part1_id": 244
+    },
+    {
+      "id": 238,
+      "category": "言語・教育・学問・思想",
+      "kanji": "民放",
+      "prompt_template": "commercial b___ing",
+      "answer_word": "broadcasting",
+      "part1_id": 152
+    },
+    {
+      "id": 239,
+      "category": "言語・教育・学問・思想",
+      "kanji": "激怒",
+      "prompt_template": "v___ anger",
+      "answer_word": "vehement",
+      "part1_id": 327
+    },
+    {
+      "id": 240,
+      "category": "言語・教育・学問・思想",
+      "kanji": "好感",
+      "prompt_template": "favorable i___",
+      "answer_word": "impression",
+      "part1_id": 131
+    },
+    {
+      "id": 241,
+      "category": "言語・教育・学問・思想",
+      "kanji": "校風",
+      "prompt_template": "school c___",
+      "answer_word": "characteristic",
+      "part1_id": 16
+    },
+    {
+      "id": 242,
+      "category": "言語・教育・学問・思想",
+      "kanji": "願書",
+      "prompt_template": "a___ form",
+      "answer_word": "application",
+      "part1_id": 248
+    },
+    {
+      "id": 243,
+      "category": "言語・教育・学問・思想",
+      "kanji": "暗算",
+      "prompt_template": "mental c___",
+      "answer_word": "calculation",
+      "part1_id": 160
+    },
+    {
+      "id": 244,
+      "category": "言語・教育・学問・思想",
+      "kanji": "母国語",
+      "prompt_template": "n___ language",
+      "answer_word": "native",
+      "part1_id": 130
+    },
+    {
+      "id": 245,
+      "category": "言語・教育・学問・思想",
+      "kanji": "調査中",
+      "prompt_template": "under i___",
+      "answer_word": "investigation",
+      "part1_id": 32
+    },
+    {
+      "id": 246,
+      "category": "言語・教育・学問・思想",
+      "kanji": "尊敬語",
+      "prompt_template": "h___ language",
+      "answer_word": "honorific",
+      "part1_id": 229
+    },
+    {
+      "id": 247,
+      "category": "言語・教育・学問・思想",
+      "kanji": "野心作",
+      "prompt_template": "a___ work",
+      "answer_word": "ambitious",
+      "part1_id": 40
+    },
+    {
+      "id": 248,
+      "category": "言語・教育・学問・思想",
+      "kanji": "参加国",
+      "prompt_template": "p___ing nation",
+      "answer_word": "participating",
+      "part1_id": 33
+    },
+    {
+      "id": 249,
+      "category": "言語・教育・学問・思想",
+      "kanji": "改訂版",
+      "prompt_template": "r___ edition",
+      "answer_word": "revised",
+      "part1_id": 315
+    },
+    {
+      "id": 250,
+      "category": "言語・教育・学問・思想",
+      "kanji": "平方根",
+      "prompt_template": "s___ root",
+      "answer_word": "square",
+      "part1_id": 415
+    },
+    {
+      "id": 251,
+      "category": "言語・教育・学問・思想",
+      "kanji": "応援団",
+      "prompt_template": "c___ party",
+      "answer_word": "cheering",
+      "part1_id": 223
+    },
+    {
+      "id": 252,
+      "category": "言語・教育・学問・思想",
+      "kanji": "授業料",
+      "prompt_template": "t___ fees",
+      "answer_word": "tuition",
+      "part1_id": 255
+    },
+    {
+      "id": 253,
+      "category": "言語・教育・学問・思想",
+      "kanji": "助教授",
+      "prompt_template": "assistant p___",
+      "answer_word": "professor",
+      "part1_id": 168
+    },
+    {
+      "id": 254,
+      "category": "言語・教育・学問・思想",
+      "kanji": "名門校",
+      "prompt_template": "p___ school",
+      "answer_word": "prestigious",
+      "part1_id": 161
+    },
+    {
+      "id": 255,
+      "category": "言語・教育・学問・思想",
+      "kanji": "結果論",
+      "prompt_template": "second g___ing",
+      "answer_word": "guessing",
+      "part1_id": 254
+    },
+    {
+      "id": 256,
+      "category": "言語・教育・学問・思想",
+      "kanji": "参考書",
+      "prompt_template": "r___ book",
+      "answer_word": "reference",
+      "part1_id": 224
+    },
+    {
+      "id": 257,
+      "category": "言語・教育・学問・思想",
+      "kanji": "猛反対",
+      "prompt_template": "f___ opposition",
+      "answer_word": "fierce",
+      "part1_id": 44
+    },
+    {
+      "id": 258,
+      "category": "言語・教育・学問・思想",
+      "kanji": "雄弁家",
+      "prompt_template": "e___ speaker",
+      "answer_word": "eloquent",
+      "part1_id": 221
+    },
+    {
+      "id": 259,
+      "category": "言語・教育・学問・思想",
+      "kanji": "教育費",
+      "prompt_template": "school e___s",
+      "answer_word": "expenses",
+      "part1_id": 468
+    },
+    {
+      "id": 260,
+      "category": "言語・教育・学問・思想",
+      "kanji": "大学院",
+      "prompt_template": "g___ school",
+      "answer_word": "graduate",
+      "part1_id": 47
+    },
+    {
+      "id": 261,
+      "category": "言語・教育・学問・思想",
+      "kanji": "予備校",
+      "prompt_template": "c___ school",
+      "answer_word": "cram",
+      "part1_id": 124
+    },
+    {
+      "id": 262,
+      "category": "言語・教育・学問・思想",
+      "kanji": "小学校",
+      "prompt_template": "e___ school",
+      "answer_word": "elementary",
+      "part1_id": 389
+    },
+    {
+      "id": 263,
+      "category": "言語・教育・学問・思想",
+      "kanji": "保育園",
+      "prompt_template": "n___ school",
+      "answer_word": "nursery",
+      "part1_id": 314
+    },
+    {
+      "id": 264,
+      "category": "言語・教育・学問・思想",
+      "kanji": "反抗期",
+      "prompt_template": "r___ age",
+      "answer_word": "rebellious",
+      "part1_id": 162
+    },
+    {
+      "id": 265,
+      "category": "言語・教育・学問・思想",
+      "kanji": "特待生",
+      "prompt_template": "a s___ student",
+      "answer_word": "scholarship",
+      "part1_id": 411
+    },
+    {
+      "id": 266,
+      "category": "言語・教育・学問・思想",
+      "kanji": "相互理解",
+      "prompt_template": "m___ understanding",
+      "answer_word": "mutual",
+      "part1_id": 185
+    },
+    {
+      "id": 267,
+      "category": "言語・教育・学問・思想",
+      "kanji": "第一印象",
+      "prompt_template": "first i___",
+      "answer_word": "impression",
+      "part1_id": 300
+    },
+    {
+      "id": 268,
+      "category": "言語・教育・学問・思想",
+      "kanji": "同時通訳",
+      "prompt_template": "simultaneous i___",
+      "answer_word": "interpretation",
+      "part1_id": 193
+    },
+    {
+      "id": 269,
+      "category": "言語・教育・学問・思想",
+      "kanji": "原稿用紙",
+      "prompt_template": "m___ paper",
+      "answer_word": "manuscript",
+      "part1_id": 99
+    },
+    {
+      "id": 270,
+      "category": "言語・教育・学問・思想",
+      "kanji": "記者会見",
+      "prompt_template": "press c___",
+      "answer_word": "conference",
+      "part1_id": 59
+    },
+    {
+      "id": 271,
+      "category": "言語・教育・学問・思想",
+      "kanji": "専門用語",
+      "prompt_template": "technical t___s",
+      "answer_word": "terms",
+      "part1_id": 347
+    },
+    {
+      "id": 272,
+      "category": "言語・教育・学問・思想",
+      "kanji": "単独会見",
+      "prompt_template": "e___ interview",
+      "answer_word": "exclusive",
+      "part1_id": 269
+    },
+    {
+      "id": 273,
+      "category": "言語・教育・学問・思想",
+      "kanji": "地方記事",
+      "prompt_template": "l___ item",
+      "answer_word": "local",
+      "part1_id": 179
+    },
+    {
+      "id": 274,
+      "category": "言語・教育・学問・思想",
+      "kanji": "言語習得",
+      "prompt_template": "language a___",
+      "answer_word": "acquisition",
+      "part1_id": 424
+    },
+    {
+      "id": 275,
+      "category": "言語・教育・学問・思想",
+      "kanji": "課外活動",
+      "prompt_template": "extracurricular a___",
+      "answer_word": "activity",
+      "part1_id": 108
+    },
+    {
+      "id": 276,
+      "category": "言語・教育・学問・思想",
+      "kanji": "裏口入学",
+      "prompt_template": "backdoor a___",
+      "answer_word": "admission",
+      "part1_id": 275
+    },
+    {
+      "id": 277,
+      "category": "言語・教育・学問・思想",
+      "kanji": "義務教育",
+      "prompt_template": "c___ education",
+      "answer_word": "compulsory",
+      "part1_id": 372
+    },
+    {
+      "id": 278,
+      "category": "言語・教育・学問・思想",
+      "kanji": "選択科目",
+      "prompt_template": "o___ subject",
+      "answer_word": "optional",
+      "part1_id": 67
+    },
+    {
+      "id": 279,
+      "category": "言語・教育・学問・思想",
+      "kanji": "南極探検",
+      "prompt_template": "Antarctic e___",
+      "answer_word": "exploration",
+      "part1_id": 460
+    },
+    {
+      "id": 280,
+      "category": "言語・教育・学問・思想",
+      "kanji": "職業教育",
+      "prompt_template": "v___ education",
+      "answer_word": "vocational",
+      "part1_id": 58
+    },
+    {
+      "id": 281,
+      "category": "言語・教育・学問・思想",
+      "kanji": "知能指数",
+      "prompt_template": "i___ quotient",
+      "answer_word": "intelligence",
+      "part1_id": 435
+    },
+    {
+      "id": 282,
+      "category": "言語・教育・学問・思想",
+      "kanji": "卒業論文",
+      "prompt_template": "graduation t___",
+      "answer_word": "thesis",
+      "part1_id": 194
+    },
+    {
+      "id": 283,
+      "category": "言語・教育・学問・思想",
+      "kanji": "事例研究",
+      "prompt_template": "c___ study",
+      "answer_word": "case",
+      "part1_id": 430
+    },
+    {
+      "id": 284,
+      "category": "言語・教育・学問・思想",
+      "kanji": "道徳教育",
+      "prompt_template": "m___ education",
+      "answer_word": "moral",
+      "part1_id": 98
+    },
+    {
+      "id": 285,
+      "category": "言語・教育・学問・思想",
+      "kanji": "受験地獄",
+      "prompt_template": "examination h___",
+      "answer_word": "hell",
+      "part1_id": 425
+    },
+    {
+      "id": 286,
+      "category": "言語・教育・学問・思想",
+      "kanji": "協同研究",
+      "prompt_template": "c___ research",
+      "answer_word": "cooperative",
+      "part1_id": 112
+    },
+    {
+      "id": 287,
+      "category": "言語・教育・学問・思想",
+      "kanji": "幼児教育",
+      "prompt_template": "i___ education",
+      "answer_word": "infant",
+      "part1_id": 180
+    },
+    {
+      "id": 288,
+      "category": "言語・教育・学問・思想",
+      "kanji": "編集方針",
+      "prompt_template": "e___ policy",
+      "answer_word": "editorial",
+      "part1_id": 279
+    },
+    {
+      "id": 289,
+      "category": "言語・教育・学問・思想",
+      "kanji": "価値判断",
+      "prompt_template": "v___ judgement",
+      "answer_word": "value",
+      "part1_id": 433
+    },
+    {
+      "id": 290,
+      "category": "言語・教育・学問・思想",
+      "kanji": "固定観念",
+      "prompt_template": "f___ed idea",
+      "answer_word": "fixed",
+      "part1_id": 51
+    },
+    {
+      "id": 291,
+      "category": "言語・教育・学問・思想",
+      "kanji": "宗教改革",
+      "prompt_template": "r___ reformation",
+      "answer_word": "religious",
+      "part1_id": 371
+    },
+    {
+      "id": 292,
+      "category": "言語・教育・学問・思想",
+      "kanji": "被害妄想",
+      "prompt_template": "p___ complex",
+      "answer_word": "persecution",
+      "part1_id": 66
+    },
+    {
+      "id": 293,
+      "category": "言語・教育・学問・思想",
+      "kanji": "海外特派員",
+      "prompt_template": "foreign c___",
+      "answer_word": "correspondent",
+      "part1_id": 85
+    },
+    {
+      "id": 294,
+      "category": "言語・教育・学問・思想",
+      "kanji": "児童心理学",
+      "prompt_template": "child p___",
+      "answer_word": "psychology",
+      "part1_id": 447
+    },
+    {
+      "id": 295,
+      "category": "言語・教育・学問・思想",
+      "kanji": "消費者運動",
+      "prompt_template": "c___ movement",
+      "answer_word": "consumer",
+      "part1_id": 356
+    },
+    {
+      "id": 296,
+      "category": "言語・教育・学問・思想",
+      "kanji": "交換留学生",
+      "prompt_template": "e___ student",
+      "answer_word": "exchange",
+      "part1_id": 289
+    },
+    {
+      "id": 297,
+      "category": "言語・教育・学問・思想",
+      "kanji": "検定教科書",
+      "prompt_template": "a___ed textbook",
+      "answer_word": "authorized",
+      "part1_id": 86
+    },
+    {
+      "id": 298,
+      "category": "言語・教育・学問・思想",
+      "kanji": "教員免許状",
+      "prompt_template": "teaching c___",
+      "answer_word": "certificate",
+      "part1_id": 203
+    },
+    {
+      "id": 299,
+      "category": "言語・教育・学問・思想",
+      "kanji": "文化人類学",
+      "prompt_template": "cultural a___",
+      "answer_word": "anthropology",
+      "part1_id": 90
+    },
+    {
+      "id": 300,
+      "category": "言語・教育・学問・思想",
+      "kanji": "異文化教育",
+      "prompt_template": "i___ education",
+      "answer_word": "intercultural",
+      "part1_id": 355
+    },
+    {
+      "id": 301,
+      "category": "文化・娯楽・人間",
+      "kanji": "直訳",
+      "prompt_template": "l___ translation",
+      "answer_word": "literal",
+      "part1_id": 231
+    },
+    {
+      "id": 302,
+      "category": "文化・娯楽・人間",
+      "kanji": "童謡",
+      "prompt_template": "nursery r___",
+      "answer_word": "rhyme",
+      "part1_id": 407
+    },
+    {
+      "id": 303,
+      "category": "文化・娯楽・人間",
+      "kanji": "童話",
+      "prompt_template": "f___ tale",
+      "answer_word": "fairy",
+      "part1_id": 2
+    },
+    {
+      "id": 304,
+      "category": "文化・娯楽・人間",
+      "kanji": "多芸",
+      "prompt_template": "various a___s",
+      "answer_word": "accomplishments",
+      "part1_id": 395
+    },
+    {
+      "id": 305,
+      "category": "文化・娯楽・人間",
+      "kanji": "国宝",
+      "prompt_template": "National T___",
+      "answer_word": "Treasury",
+      "part1_id": 243
+    },
+    {
+      "id": 306,
+      "category": "文化・娯楽・人間",
+      "kanji": "祝電",
+      "prompt_template": "congratulatory t___",
+      "answer_word": "telegram",
+      "part1_id": 232
+    },
+    {
+      "id": 307,
+      "category": "文化・娯楽・人間",
+      "kanji": "特技",
+      "prompt_template": "professional s___",
+      "answer_word": "skill",
+      "part1_id": 394
+    },
+    {
+      "id": 308,
+      "category": "文化・娯楽・人間",
+      "kanji": "燃費",
+      "prompt_template": "gas m___",
+      "answer_word": "mileage",
+      "part1_id": 9
+    },
+    {
+      "id": 309,
+      "category": "文化・娯楽・人間",
+      "kanji": "脇役",
+      "prompt_template": "s___ing role",
+      "answer_word": "supporting",
+      "part1_id": 132
+    },
+    {
+      "id": 310,
+      "category": "文化・娯楽・人間",
+      "kanji": "予選",
+      "prompt_template": "e___ matches",
+      "answer_word": "elimination",
+      "part1_id": 151
+    },
+    {
+      "id": 311,
+      "category": "文化・娯楽・人間",
+      "kanji": "圧勝",
+      "prompt_template": "o___ing victory",
+      "answer_word": "overwhelming",
+      "part1_id": 144
+    },
+    {
+      "id": 312,
+      "category": "文化・娯楽・人間",
+      "kanji": "楽器",
+      "prompt_template": "musical i___",
+      "answer_word": "instrument",
+      "part1_id": 329
+    },
+    {
+      "id": 313,
+      "category": "文化・娯楽・人間",
+      "kanji": "講堂",
+      "prompt_template": "l___ hall",
+      "answer_word": "lecture",
+      "part1_id": 139
+    },
+    {
+      "id": 314,
+      "category": "文化・娯楽・人間",
+      "kanji": "演奏",
+      "prompt_template": "musical p___",
+      "answer_word": "performance",
+      "part1_id": 485
+    },
+    {
+      "id": 315,
+      "category": "文化・娯楽・人間",
+      "kanji": "原色",
+      "prompt_template": "p___ color",
+      "answer_word": "primary",
+      "part1_id": 498
+    },
+    {
+      "id": 316,
+      "category": "文化・娯楽・人間",
+      "kanji": "盲従",
+      "prompt_template": "blind o___",
+      "answer_word": "obedience",
+      "part1_id": 147
+    },
+    {
+      "id": 317,
+      "category": "文化・娯楽・人間",
+      "kanji": "富豪",
+      "prompt_template": "w___ person",
+      "answer_word": "wealthy",
+      "part1_id": 484
+    },
+    {
+      "id": 318,
+      "category": "文化・娯楽・人間",
+      "kanji": "異性",
+      "prompt_template": "o___ sex",
+      "answer_word": "opposite",
+      "part1_id": 410
+    },
+    {
+      "id": 319,
+      "category": "文化・娯楽・人間",
+      "kanji": "純愛",
+      "prompt_template": "g___ love",
+      "answer_word": "genuine",
+      "part1_id": 11
+    },
+    {
+      "id": 320,
+      "category": "文化・娯楽・人間",
+      "kanji": "親友",
+      "prompt_template": "c___ friend",
+      "answer_word": "close",
+      "part1_id": 236
+    },
+    {
+      "id": 321,
+      "category": "文化・娯楽・人間",
+      "kanji": "悪事",
+      "prompt_template": "e___ deed",
+      "answer_word": "evil",
+      "part1_id": 30
+    },
+    {
+      "id": 322,
+      "category": "文化・娯楽・人間",
+      "kanji": "人材",
+      "prompt_template": "c___ person",
+      "answer_word": "competent",
+      "part1_id": 237
+    },
+    {
+      "id": 323,
+      "category": "文化・娯楽・人間",
+      "kanji": "短気",
+      "prompt_template": "short t___",
+      "answer_word": "temper",
+      "part1_id": 12
+    },
+    {
+      "id": 324,
+      "category": "文化・娯楽・人間",
+      "kanji": "男性",
+      "prompt_template": "m___ gender",
+      "answer_word": "masculine",
+      "part1_id": 148
+    },
+    {
+      "id": 325,
+      "category": "文化・娯楽・人間",
+      "kanji": "障害",
+      "prompt_template": "s___ing block",
+      "answer_word": "stumbling",
+      "part1_id": 250
+    },
+    {
+      "id": 326,
+      "category": "文化・娯楽・人間",
+      "kanji": "偉業",
+      "prompt_template": "great a___",
+      "answer_word": "achievement",
+      "part1_id": 27
+    },
+    {
+      "id": 327,
+      "category": "文化・娯楽・人間",
+      "kanji": "原住民",
+      "prompt_template": "original i___",
+      "answer_word": "inhabitant",
+      "part1_id": 48
+    },
+    {
+      "id": 328,
+      "category": "文化・娯楽・人間",
+      "kanji": "感光紙",
+      "prompt_template": "s___ paper",
+      "answer_word": "sensitive",
+      "part1_id": 230
+    },
+    {
+      "id": 329,
+      "category": "文化・娯楽・人間",
+      "kanji": "実物大",
+      "prompt_template": "a___ size",
+      "answer_word": "actual",
+      "part1_id": 169
+    },
+    {
+      "id": 330,
+      "category": "文化・娯楽・人間",
+      "kanji": "抽象画",
+      "prompt_template": "a___ painting",
+      "answer_word": "abstract",
+      "part1_id": 313
+    },
+    {
+      "id": 331,
+      "category": "文化・娯楽・人間",
+      "kanji": "復讐劇",
+      "prompt_template": "revenge t___",
+      "answer_word": "tragedy",
+      "part1_id": 469
+    },
+    {
+      "id": 332,
+      "category": "文化・娯楽・人間",
+      "kanji": "英文学",
+      "prompt_template": "English l___",
+      "answer_word": "literature",
+      "part1_id": 49
+    },
+    {
+      "id": 333,
+      "category": "文化・娯楽・人間",
+      "kanji": "美術展",
+      "prompt_template": "art e___",
+      "answer_word": "exhibition",
+      "part1_id": 387
+    },
+    {
+      "id": 334,
+      "category": "文化・娯楽・人間",
+      "kanji": "運動会",
+      "prompt_template": "a___ meet",
+      "answer_word": "athletic",
+      "part1_id": 170
+    },
+    {
+      "id": 335,
+      "category": "文化・娯楽・人間",
+      "kanji": "周遊券",
+      "prompt_template": "e___ ticket",
+      "answer_word": "excursion",
+      "part1_id": 384
+    },
+    {
+      "id": 336,
+      "category": "文化・娯楽・人間",
+      "kanji": "主題歌",
+      "prompt_template": "t___ song",
+      "answer_word": "theme",
+      "part1_id": 225
+    },
+    {
+      "id": 337,
+      "category": "文化・娯楽・人間",
+      "kanji": "早合点",
+      "prompt_template": "hasty c___",
+      "answer_word": "conclusion",
+      "part1_id": 31
+    },
+    {
+      "id": 338,
+      "category": "文化・娯楽・人間",
+      "kanji": "劣等感",
+      "prompt_template": "i___ complex",
+      "answer_word": "inferiority",
+      "part1_id": 41
+    },
+    {
+      "id": 339,
+      "category": "文化・娯楽・人間",
+      "kanji": "優越感",
+      "prompt_template": "s___ complex",
+      "answer_word": "superiority",
+      "part1_id": 417
+    },
+    {
+      "id": 340,
+      "category": "文化・娯楽・人間",
+      "kanji": "産業革命",
+      "prompt_template": "Industrial R___",
+      "answer_word": "Revolution",
+      "part1_id": 97
+    },
+    {
+      "id": 341,
+      "category": "文化・娯楽・人間",
+      "kanji": "封建制度",
+      "prompt_template": "f___ system",
+      "answer_word": "feudal",
+      "part1_id": 379
+    },
+    {
+      "id": 342,
+      "category": "文化・娯楽・人間",
+      "kanji": "少数民族",
+      "prompt_template": "m___ groups",
+      "answer_word": "minority",
+      "part1_id": 196
+    },
+    {
+      "id": 343,
+      "category": "文化・娯楽・人間",
+      "kanji": "人種差別",
+      "prompt_template": "racial d___",
+      "answer_word": "discrimination",
+      "part1_id": 57
+    },
+    {
+      "id": 344,
+      "category": "文化・娯楽・人間",
+      "kanji": "文明社会",
+      "prompt_template": "c___ed society",
+      "answer_word": "civilized",
+      "part1_id": 113
+    },
+    {
+      "id": 345,
+      "category": "文化・娯楽・人間",
+      "kanji": "社会習慣",
+      "prompt_template": "social c___",
+      "answer_word": "convention",
+      "part1_id": 266
+    },
+    {
+      "id": 346,
+      "category": "文化・娯楽・人間",
+      "kanji": "文化遺産",
+      "prompt_template": "cultural h___",
+      "answer_word": "heritage",
+      "part1_id": 65
+    },
+    {
+      "id": 347,
+      "category": "文化・娯楽・人間",
+      "kanji": "民族衣装",
+      "prompt_template": "e___ costume",
+      "answer_word": "ethnic",
+      "part1_id": 96
+    },
+    {
+      "id": 348,
+      "category": "文化・娯楽・人間",
+      "kanji": "伝統行事",
+      "prompt_template": "t___ event",
+      "answer_word": "traditional",
+      "part1_id": 218
+    },
+    {
+      "id": 349,
+      "category": "文化・娯楽・人間",
+      "kanji": "古代文明",
+      "prompt_template": "a___ civilization",
+      "answer_word": "ancient",
+      "part1_id": 343
+    },
+    {
+      "id": 350,
+      "category": "文化・娯楽・人間",
+      "kanji": "旧約聖書",
+      "prompt_template": "Old T___",
+      "answer_word": "Testament",
+      "part1_id": 195
+    },
+    {
+      "id": 351,
+      "category": "文化・娯楽・人間",
+      "kanji": "推理小説",
+      "prompt_template": "d___ story",
+      "answer_word": "detective",
+      "part1_id": 95
+    },
+    {
+      "id": 352,
+      "category": "文化・娯楽・人間",
+      "kanji": "幽霊屋敷",
+      "prompt_template": "h___ed house",
+      "answer_word": "haunted",
+      "part1_id": 119
+    },
+    {
+      "id": 353,
+      "category": "文化・娯楽・人間",
+      "kanji": "公式記録",
+      "prompt_template": "o___ record",
+      "answer_word": "official",
+      "part1_id": 94
+    },
+    {
+      "id": 354,
+      "category": "文化・娯楽・人間",
+      "kanji": "娯楽施設",
+      "prompt_template": "recreation f___",
+      "answer_word": "facility",
+      "part1_id": 439
+    },
+    {
+      "id": 355,
+      "category": "文化・娯楽・人間",
+      "kanji": "有給休暇",
+      "prompt_template": "p___ holiday",
+      "answer_word": "paid",
+      "part1_id": 52
+    },
+    {
+      "id": 356,
+      "category": "文化・娯楽・人間",
+      "kanji": "器械体操",
+      "prompt_template": "a___ gymnastics",
+      "answer_word": "apparatus",
+      "part1_id": 114
+    },
+    {
+      "id": 357,
+      "category": "文化・娯楽・人間",
+      "kanji": "潜在能力",
+      "prompt_template": "dormant f___",
+      "answer_word": "faculty",
+      "part1_id": 438
+    },
+    {
+      "id": 358,
+      "category": "文化・娯楽・人間",
+      "kanji": "企業戦士",
+      "prompt_template": "corporate w___",
+      "answer_word": "warrior",
+      "part1_id": 272
+    },
+    {
+      "id": 359,
+      "category": "文化・娯楽・人間",
+      "kanji": "少年非行",
+      "prompt_template": "juvenile d___",
+      "answer_word": "delinquency",
+      "part1_id": 56
+    },
+    {
+      "id": 360,
+      "category": "文化・娯楽・人間",
+      "kanji": "多重人格",
+      "prompt_template": "m___ personality",
+      "answer_word": "multiple",
+      "part1_id": 200
+    },
+    {
+      "id": 361,
+      "category": "文化・娯楽・人間",
+      "kanji": "母性本能",
+      "prompt_template": "maternal i___",
+      "answer_word": "instinct",
+      "part1_id": 61
+    },
+    {
+      "id": 362,
+      "category": "文化・娯楽・人間",
+      "kanji": "開拓者精神",
+      "prompt_template": "f___ spirit",
+      "answer_word": "frontier",
+      "part1_id": 87
+    },
+    {
+      "id": 363,
+      "category": "文化・娯楽・人間",
+      "kanji": "独立記念日",
+      "prompt_template": "I___ Day",
+      "answer_word": "Independence",
+      "part1_id": 290
+    },
+    {
+      "id": 364,
+      "category": "文化・娯楽・人間",
+      "kanji": "世界大恐慌",
+      "prompt_template": "Great D___",
+      "answer_word": "Depression",
+      "part1_id": 202
+    },
+    {
+      "id": 365,
+      "category": "文化・娯楽・人間",
+      "kanji": "文芸評論家",
+      "prompt_template": "literary c___",
+      "answer_word": "critic",
+      "part1_id": 284
+    },
+    {
+      "id": 366,
+      "category": "文化・娯楽・人間",
+      "kanji": "難民収容所",
+      "prompt_template": "c___ camp",
+      "answer_word": "concentration",
+      "part1_id": 282
+    },
+    {
+      "id": 367,
+      "category": "文化・娯楽・人間",
+      "kanji": "都市再開発",
+      "prompt_template": "u___ renewal",
+      "answer_word": "urban",
+      "part1_id": 352
+    },
+    {
+      "id": 368,
+      "category": "文化・娯楽・人間",
+      "kanji": "自動販売機",
+      "prompt_template": "v___ machine",
+      "answer_word": "vending",
+      "part1_id": 207
+    },
+    {
+      "id": 369,
+      "category": "文化・娯楽・人間",
+      "kanji": "実行委員会",
+      "prompt_template": "e___ committee",
+      "answer_word": "executive",
+      "part1_id": 368
+    },
+    {
+      "id": 370,
+      "category": "文化・娯楽・人間",
+      "kanji": "人種的偏見",
+      "prompt_template": "racial p___",
+      "answer_word": "prejudice",
+      "part1_id": 446
+    },
+    {
+      "id": 371,
+      "category": "医療・健康",
+      "kanji": "体力",
+      "prompt_template": "physical s___",
+      "answer_word": "strength",
+      "part1_id": 145
+    },
+    {
+      "id": 372,
+      "category": "医療・健康",
+      "kanji": "献血",
+      "prompt_template": "blood d___",
+      "answer_word": "donation",
+      "part1_id": 494
+    },
+    {
+      "id": 373,
+      "category": "医療・健康",
+      "kanji": "汗線",
+      "prompt_template": "s___ gland",
+      "answer_word": "sweat",
+      "part1_id": 493
+    },
+    {
+      "id": 374,
+      "category": "医療・健康",
+      "kanji": "早産",
+      "prompt_template": "p___ delivery",
+      "answer_word": "premature",
+      "part1_id": 15
+    },
+    {
+      "id": 375,
+      "category": "医療・健康",
+      "kanji": "胃癌",
+      "prompt_template": "s___ cancer",
+      "answer_word": "stomach",
+      "part1_id": 233
+    },
+    {
+      "id": 376,
+      "category": "医療・健康",
+      "kanji": "誤診",
+      "prompt_template": "mistaken d___",
+      "answer_word": "diagnosis",
+      "part1_id": 496
+    },
+    {
+      "id": 377,
+      "category": "医療・健康",
+      "kanji": "活力",
+      "prompt_template": "v___ energy",
+      "answer_word": "vital",
+      "part1_id": 500
+    },
+    {
+      "id": 378,
+      "category": "医療・健康",
+      "kanji": "虫歯",
+      "prompt_template": "d___ tooth",
+      "answer_word": "decayed",
+      "part1_id": 150
+    },
+    {
+      "id": 379,
+      "category": "医療・健康",
+      "kanji": "漢方",
+      "prompt_template": "C___ medicine",
+      "answer_word": "Chinese",
+      "part1_id": 409
+    },
+    {
+      "id": 380,
+      "category": "医療・健康",
+      "kanji": "脳死",
+      "prompt_template": "b___ death",
+      "answer_word": "brain",
+      "part1_id": 140
+    },
+    {
+      "id": 381,
+      "category": "医療・健康",
+      "kanji": "激痛",
+      "prompt_template": "i___ pain",
+      "answer_word": "intense",
+      "part1_id": 10
+    },
+    {
+      "id": 382,
+      "category": "医療・健康",
+      "kanji": "輸血",
+      "prompt_template": "blood t___",
+      "answer_word": "transfusion",
+      "part1_id": 28
+    },
+    {
+      "id": 383,
+      "category": "医療・健康",
+      "kanji": "血圧",
+      "prompt_template": "blood p___",
+      "answer_word": "pressure",
+      "part1_id": 330
+    },
+    {
+      "id": 384,
+      "category": "医療・健康",
+      "kanji": "急病",
+      "prompt_template": "s___ illness",
+      "answer_word": "sudden",
+      "part1_id": 497
+    },
+    {
+      "id": 385,
+      "category": "医療・健康",
+      "kanji": "義足",
+      "prompt_template": "a___ leg",
+      "answer_word": "artificial",
+      "part1_id": 392
+    },
+    {
+      "id": 386,
+      "category": "医療・健康",
+      "kanji": "安楽死",
+      "prompt_template": "m___ killing",
+      "answer_word": "mercy",
+      "part1_id": 331
+    },
+    {
+      "id": 387,
+      "category": "医療・健康",
+      "kanji": "伝染病",
+      "prompt_template": "i___ disease",
+      "answer_word": "infectious",
+      "part1_id": 123
+    },
+    {
+      "id": 388,
+      "category": "医療・健康",
+      "kanji": "不整脈",
+      "prompt_template": "irregular p___",
+      "answer_word": "pulse",
+      "part1_id": 339
+    },
+    {
+      "id": 389,
+      "category": "医療・健康",
+      "kanji": "末期癌",
+      "prompt_template": "t___ cancer",
+      "answer_word": "terminal",
+      "part1_id": 336
+    },
+    {
+      "id": 390,
+      "category": "医療・健康",
+      "kanji": "慢性病",
+      "prompt_template": "c___ disease",
+      "answer_word": "chronic",
+      "part1_id": 383
+    },
+    {
+      "id": 391,
+      "category": "医療・健康",
+      "kanji": "花粉症",
+      "prompt_template": "hay f___",
+      "answer_word": "fever",
+      "part1_id": 412
+    },
+    {
+      "id": 392,
+      "category": "医療・健康",
+      "kanji": "栄養価",
+      "prompt_template": "n___ value",
+      "answer_word": "nutritional",
+      "part1_id": 333
+    },
+    {
+      "id": 393,
+      "category": "医療・健康",
+      "kanji": "睡眠薬",
+      "prompt_template": "sleeping p___",
+      "answer_word": "pill",
+      "part1_id": 386
+    },
+    {
+      "id": 394,
+      "category": "医療・健康",
+      "kanji": "内服薬",
+      "prompt_template": "i___ medicine",
+      "answer_word": "internal",
+      "part1_id": 311
+    },
+    {
+      "id": 395,
+      "category": "医療・健康",
+      "kanji": "致命傷",
+      "prompt_template": "f___ wound",
+      "answer_word": "fatal",
+      "part1_id": 478
+    },
+    {
+      "id": 396,
+      "category": "医療・健康",
+      "kanji": "美容整形",
+      "prompt_template": "c___ surgery",
+      "answer_word": "cosmetic",
+      "part1_id": 197
+    },
+    {
+      "id": 397,
+      "category": "医療・健康",
+      "kanji": "臓器移植",
+      "prompt_template": "organ t___",
+      "answer_word": "transplant",
+      "part1_id": 53
+    },
+    {
+      "id": 398,
+      "category": "医療・健康",
+      "kanji": "視覚障害",
+      "prompt_template": "visual d___",
+      "answer_word": "defect",
+      "part1_id": 267
+    },
+    {
+      "id": 399,
+      "category": "医療・健康",
+      "kanji": "予防医学",
+      "prompt_template": "p___ medicine",
+      "answer_word": "preventive",
+      "part1_id": 432
+    },
+    {
+      "id": 400,
+      "category": "医療・健康",
+      "kanji": "外科手術",
+      "prompt_template": "surgical o___",
+      "answer_word": "operation",
+      "part1_id": 64
+    },
+    {
+      "id": 401,
+      "category": "医療・健康",
+      "kanji": "神経系統",
+      "prompt_template": "n___ system",
+      "answer_word": "nervous",
+      "part1_id": 427
+    },
+    {
+      "id": 402,
+      "category": "医療・健康",
+      "kanji": "人工呼吸",
+      "prompt_template": "artificial r___",
+      "answer_word": "respiration",
+      "part1_id": 342
+    },
+    {
+      "id": 403,
+      "category": "医療・健康",
+      "kanji": "免疫不全",
+      "prompt_template": "immune d___",
+      "answer_word": "deficiency",
+      "part1_id": 93
+    },
+    {
+      "id": 404,
+      "category": "医療・健康",
+      "kanji": "予防注射",
+      "prompt_template": "preventive i___",
+      "answer_word": "injection",
+      "part1_id": 301
+    },
+    {
+      "id": 405,
+      "category": "医療・健康",
+      "kanji": "禁断症状",
+      "prompt_template": "w___ symptom",
+      "answer_word": "withdrawal",
+      "part1_id": 118
+    },
+    {
+      "id": 406,
+      "category": "医療・健康",
+      "kanji": "想像妊娠",
+      "prompt_template": "p___ pregnancy",
+      "answer_word": "phantom",
+      "part1_id": 344
+    },
+    {
+      "id": 407,
+      "category": "医療・健康",
+      "kanji": "感覚器官",
+      "prompt_template": "sensory o___",
+      "answer_word": "organ",
+      "part1_id": 273
+    },
+    {
+      "id": 408,
+      "category": "医療・健康",
+      "kanji": "麻薬中毒者",
+      "prompt_template": "drug a___",
+      "answer_word": "addict",
+      "part1_id": 88
+    },
+    {
+      "id": 409,
+      "category": "医療・健康",
+      "kanji": "消化器系統",
+      "prompt_template": "d___ system",
+      "answer_word": "digestive",
+      "part1_id": 353
+    },
+    {
+      "id": 410,
+      "category": "医療・健康",
+      "kanji": "遺伝子治療",
+      "prompt_template": "gene t___",
+      "answer_word": "therapy",
+      "part1_id": 201
+    },
+    {
+      "id": 411,
+      "category": "生活",
+      "kanji": "婚約",
+      "prompt_template": "marriage c___",
+      "answer_word": "contract",
+      "part1_id": 29
+    },
+    {
+      "id": 412,
+      "category": "生活",
+      "kanji": "定年",
+      "prompt_template": "r___ age",
+      "answer_word": "retirement",
+      "part1_id": 146
+    },
+    {
+      "id": 413,
+      "category": "生活",
+      "kanji": "年収",
+      "prompt_template": "a___ income",
+      "answer_word": "annual",
+      "part1_id": 406
+    },
+    {
+      "id": 414,
+      "category": "生活",
+      "kanji": "英断",
+      "prompt_template": "wise d___",
+      "answer_word": "decision",
+      "part1_id": 491
+    },
+    {
+      "id": 415,
+      "category": "生活",
+      "kanji": "日課",
+      "prompt_template": "r___ task",
+      "answer_word": "routine",
+      "part1_id": 149
+    },
+    {
+      "id": 416,
+      "category": "生活",
+      "kanji": "食券",
+      "prompt_template": "m___ coupon",
+      "answer_word": "meal",
+      "part1_id": 488
+    },
+    {
+      "id": 417,
+      "category": "生活",
+      "kanji": "図星",
+      "prompt_template": "l___ guess",
+      "answer_word": "lucky",
+      "part1_id": 481
+    },
+    {
+      "id": 418,
+      "category": "生活",
+      "kanji": "官舎",
+      "prompt_template": "official r___",
+      "answer_word": "residence",
+      "part1_id": 13
+    },
+    {
+      "id": 419,
+      "category": "生活",
+      "kanji": "粗食",
+      "prompt_template": "p___ diet",
+      "answer_word": "plain",
+      "part1_id": 391
+    },
+    {
+      "id": 420,
+      "category": "生活",
+      "kanji": "養子",
+      "prompt_template": "a___ed child",
+      "answer_word": "adopted",
+      "part1_id": 393
+    },
+    {
+      "id": 421,
+      "category": "生活",
+      "kanji": "熟睡",
+      "prompt_template": "d___ sleep",
+      "answer_word": "dead",
+      "part1_id": 14
+    },
+    {
+      "id": 422,
+      "category": "生活",
+      "kanji": "概算",
+      "prompt_template": "a___ estimate",
+      "answer_word": "approximate",
+      "part1_id": 234
+    },
+    {
+      "id": 423,
+      "category": "生活",
+      "kanji": "寿命",
+      "prompt_template": "life s___",
+      "answer_word": "span",
+      "part1_id": 400
+    },
+    {
+      "id": 424,
+      "category": "生活",
+      "kanji": "家計",
+      "prompt_template": "family b___",
+      "answer_word": "budget",
+      "part1_id": 4
+    },
+    {
+      "id": 425,
+      "category": "生活",
+      "kanji": "会釈",
+      "prompt_template": "slight b___",
+      "answer_word": "bow",
+      "part1_id": 404
+    },
+    {
+      "id": 426,
+      "category": "生活",
+      "kanji": "吊橋",
+      "prompt_template": "s___ bridge",
+      "answer_word": "suspension",
+      "part1_id": 235
+    },
+    {
+      "id": 427,
+      "category": "生活",
+      "kanji": "産休",
+      "prompt_template": "m___ leave",
+      "answer_word": "maternity",
+      "part1_id": 396
+    },
+    {
+      "id": 428,
+      "category": "生活",
+      "kanji": "常識",
+      "prompt_template": "c___ sense",
+      "answer_word": "common",
+      "part1_id": 138
+    },
+    {
+      "id": 429,
+      "category": "生活",
+      "kanji": "管理棟",
+      "prompt_template": "a___ building",
+      "answer_word": "administration",
+      "part1_id": 472
+    },
+    {
+      "id": 430,
+      "category": "生活",
+      "kanji": "名誉職",
+      "prompt_template": "h___ post",
+      "answer_word": "honorary",
+      "part1_id": 416
+    },
+    {
+      "id": 431,
+      "category": "生活",
+      "kanji": "職業病",
+      "prompt_template": "o___ disease",
+      "answer_word": "occupational",
+      "part1_id": 50
+    },
+    {
+      "id": 432,
+      "category": "生活",
+      "kanji": "口約束",
+      "prompt_template": "v___ promise",
+      "answer_word": "verbal",
+      "part1_id": 381
+    },
+    {
+      "id": 433,
+      "category": "生活",
+      "kanji": "残念賞",
+      "prompt_template": "c___ prize",
+      "answer_word": "consolation",
+      "part1_id": 121
+    },
+    {
+      "id": 434,
+      "category": "生活",
+      "kanji": "入場料",
+      "prompt_template": "a___ fee",
+      "answer_word": "admission",
+      "part1_id": 414
+    },
+    {
+      "id": 435,
+      "category": "生活",
+      "kanji": "視聴率",
+      "prompt_template": "a___ rating",
+      "answer_word": "audience",
+      "part1_id": 252
+    },
+    {
+      "id": 436,
+      "category": "生活",
+      "kanji": "搭乗券",
+      "prompt_template": "b___ing pass",
+      "answer_word": "boarding",
+      "part1_id": 332
+    },
+    {
+      "id": 437,
+      "category": "生活",
+      "kanji": "不時着",
+      "prompt_template": "emergency l___ing",
+      "answer_word": "landing",
+      "part1_id": 480
+    },
+    {
+      "id": 438,
+      "category": "生活",
+      "kanji": "悪循環",
+      "prompt_template": "v___ circle",
+      "answer_word": "vicious",
+      "part1_id": 257
+    },
+    {
+      "id": 439,
+      "category": "生活",
+      "kanji": "乳母車",
+      "prompt_template": "baby c___",
+      "answer_word": "carriage",
+      "part1_id": 471
+    },
+    {
+      "id": 440,
+      "category": "生活",
+      "kanji": "銀行員",
+      "prompt_template": "bank c___",
+      "answer_word": "clerk",
+      "part1_id": 473
+    },
+    {
+      "id": 441,
+      "category": "生活",
+      "kanji": "目分量",
+      "prompt_template": "eye m___",
+      "answer_word": "measurement",
+      "part1_id": 251
+    },
+    {
+      "id": 442,
+      "category": "生活",
+      "kanji": "固定客",
+      "prompt_template": "regular c___",
+      "answer_word": "customer",
+      "part1_id": 382
+    },
+    {
+      "id": 443,
+      "category": "生活",
+      "kanji": "工事中",
+      "prompt_template": "under c___",
+      "answer_word": "construction",
+      "part1_id": 418
+    },
+    {
+      "id": 444,
+      "category": "生活",
+      "kanji": "正攻法",
+      "prompt_template": "o___ method",
+      "answer_word": "orthodox",
+      "part1_id": 334
+    },
+    {
+      "id": 445,
+      "category": "生活",
+      "kanji": "遺失物",
+      "prompt_template": "lost p___",
+      "answer_word": "property",
+      "part1_id": 420
+    },
+    {
+      "id": 446,
+      "category": "生活",
+      "kanji": "定期券",
+      "prompt_template": "c___ pass",
+      "answer_word": "commuter",
+      "part1_id": 122
+    },
+    {
+      "id": 447,
+      "category": "生活",
+      "kanji": "新幹線",
+      "prompt_template": "b___ train",
+      "answer_word": "bullet",
+      "part1_id": 475
+    },
+    {
+      "id": 448,
+      "category": "生活",
+      "kanji": "維持費",
+      "prompt_template": "m___ fee",
+      "answer_word": "maintenance",
+      "part1_id": 385
+    },
+    {
+      "id": 449,
+      "category": "生活",
+      "kanji": "国内便",
+      "prompt_template": "d___ flight",
+      "answer_word": "domestic",
+      "part1_id": 253
+    },
+    {
+      "id": 450,
+      "category": "生活",
+      "kanji": "日用品",
+      "prompt_template": "daily n___",
+      "answer_word": "necessity",
+      "part1_id": 388
+    },
+    {
+      "id": 451,
+      "category": "生活",
+      "kanji": "百貨店",
+      "prompt_template": "d___ store",
+      "answer_word": "department",
+      "part1_id": 476
+    },
+    {
+      "id": 452,
+      "category": "生活",
+      "kanji": "掲示板",
+      "prompt_template": "n___ board",
+      "answer_word": "notice",
+      "part1_id": 335
+    },
+    {
+      "id": 453,
+      "category": "生活",
+      "kanji": "大成功",
+      "prompt_template": "t___ success",
+      "answer_word": "tremendous",
+      "part1_id": 337
+    },
+    {
+      "id": 454,
+      "category": "生活",
+      "kanji": "虫眼鏡",
+      "prompt_template": "m___ing glass",
+      "answer_word": "magnifying",
+      "part1_id": 390
+    },
+    {
+      "id": 455,
+      "category": "生活",
+      "kanji": "天気図",
+      "prompt_template": "weather c___",
+      "answer_word": "chart",
+      "part1_id": 312
+    },
+    {
+      "id": 456,
+      "category": "生活",
+      "kanji": "補償金",
+      "prompt_template": "c___ money",
+      "answer_word": "compensation",
+      "part1_id": 125
+    },
+    {
+      "id": 457,
+      "category": "生活",
+      "kanji": "安全装置",
+      "prompt_template": "safety d___",
+      "answer_word": "device",
+      "part1_id": 55
+    },
+    {
+      "id": 458,
+      "category": "生活",
+      "kanji": "交通事故",
+      "prompt_template": "t___ accident",
+      "answer_word": "traffic",
+      "part1_id": 182
+    },
+    {
+      "id": 459,
+      "category": "生活",
+      "kanji": "天気予報",
+      "prompt_template": "w___ report",
+      "answer_word": "weather",
+      "part1_id": 271
+    },
+    {
+      "id": 460,
+      "category": "生活",
+      "kanji": "携帯電話",
+      "prompt_template": "c___ phone",
+      "answer_word": "cellular",
+      "part1_id": 429
+    },
+    {
+      "id": 461,
+      "category": "生活",
+      "kanji": "銀行預金",
+      "prompt_template": "bank d___",
+      "answer_word": "deposit",
+      "part1_id": 270
+    },
+    {
+      "id": 462,
+      "category": "生活",
+      "kanji": "合成繊維",
+      "prompt_template": "synthetic f___",
+      "answer_word": "fiber",
+      "part1_id": 110
+    },
+    {
+      "id": 463,
+      "category": "生活",
+      "kanji": "予備訓練",
+      "prompt_template": "p___ training",
+      "answer_word": "preparatory",
+      "part1_id": 54
+    },
+    {
+      "id": 464,
+      "category": "生活",
+      "kanji": "通勤電車",
+      "prompt_template": "c___ train",
+      "answer_word": "commuter",
+      "part1_id": 62
+    },
+    {
+      "id": 465,
+      "category": "生活",
+      "kanji": "早口言葉",
+      "prompt_template": "t___ twisters",
+      "answer_word": "tongue",
+      "part1_id": 303
+    },
+    {
+      "id": 466,
+      "category": "生活",
+      "kanji": "現金割引",
+      "prompt_template": "cash d___",
+      "answer_word": "discount",
+      "part1_id": 199
+    },
+    {
+      "id": 467,
+      "category": "生活",
+      "kanji": "家庭用品",
+      "prompt_template": "household c___",
+      "answer_word": "commodity",
+      "part1_id": 434
+    },
+    {
+      "id": 468,
+      "category": "生活",
+      "kanji": "階級意識",
+      "prompt_template": "class c___",
+      "answer_word": "consciousness",
+      "part1_id": 431
+    },
+    {
+      "id": 469,
+      "category": "生活",
+      "kanji": "横断歩道",
+      "prompt_template": "p___ crossing",
+      "answer_word": "pedestrian",
+      "part1_id": 109
+    },
+    {
+      "id": 470,
+      "category": "生活",
+      "kanji": "失業手当",
+      "prompt_template": "unemployment b___",
+      "answer_word": "benefit",
+      "part1_id": 63
+    },
+    {
+      "id": 471,
+      "category": "生活",
+      "kanji": "不快指数",
+      "prompt_template": "d___ index",
+      "answer_word": "discomfort",
+      "part1_id": 304
+    },
+    {
+      "id": 472,
+      "category": "生活",
+      "kanji": "花粉情報",
+      "prompt_template": "p___ information",
+      "answer_word": "pollen",
+      "part1_id": 277
+    },
+    {
+      "id": 473,
+      "category": "生活",
+      "kanji": "食料品店",
+      "prompt_template": "g___ store",
+      "answer_word": "grocery",
+      "part1_id": 456
+    },
+    {
+      "id": 474,
+      "category": "生活",
+      "kanji": "職場結婚",
+      "prompt_template": "office m___",
+      "answer_word": "marriage",
+      "part1_id": 451
+    },
+    {
+      "id": 475,
+      "category": "生活",
+      "kanji": "避難訓練",
+      "prompt_template": "fire d___",
+      "answer_word": "drill",
+      "part1_id": 92
+    },
+    {
+      "id": 476,
+      "category": "生活",
+      "kanji": "連帯責任",
+      "prompt_template": "joint r___",
+      "answer_word": "responsibility",
+      "part1_id": 341
+    },
+    {
+      "id": 477,
+      "category": "生活",
+      "kanji": "耐火建築",
+      "prompt_template": "f___ building",
+      "answer_word": "fireproof",
+      "part1_id": 437
+    },
+    {
+      "id": 478,
+      "category": "生活",
+      "kanji": "通信販売",
+      "prompt_template": "mail-order s___ing",
+      "answer_word": "selling",
+      "part1_id": 452
+    },
+    {
+      "id": 479,
+      "category": "生活",
+      "kanji": "追加料金",
+      "prompt_template": "a___ charge",
+      "answer_word": "additional",
+      "part1_id": 261
+    },
+    {
+      "id": 480,
+      "category": "生活",
+      "kanji": "家族手当",
+      "prompt_template": "family a___",
+      "answer_word": "allowance",
+      "part1_id": 91
+    },
+    {
+      "id": 481,
+      "category": "生活",
+      "kanji": "事務用品",
+      "prompt_template": "office e___",
+      "answer_word": "equipment",
+      "part1_id": 80
+    },
+    {
+      "id": 482,
+      "category": "生活",
+      "kanji": "婚約指輪",
+      "prompt_template": "e___ ring",
+      "answer_word": "engagement",
+      "part1_id": 305
+    },
+    {
+      "id": 483,
+      "category": "生活",
+      "kanji": "緊急事態",
+      "prompt_template": "u___ situation",
+      "answer_word": "urgent",
+      "part1_id": 120
+    },
+    {
+      "id": 484,
+      "category": "生活",
+      "kanji": "孝行息子",
+      "prompt_template": "f___ son",
+      "answer_word": "filial",
+      "part1_id": 183
+    },
+    {
+      "id": 485,
+      "category": "生活",
+      "kanji": "生活水準",
+      "prompt_template": "living s___",
+      "answer_word": "standard",
+      "part1_id": 211
+    },
+    {
+      "id": 486,
+      "category": "生活",
+      "kanji": "家電製品",
+      "prompt_template": "electrical a___",
+      "answer_word": "appliance",
+      "part1_id": 274
+    },
+    {
+      "id": 487,
+      "category": "生活",
+      "kanji": "解雇通知",
+      "prompt_template": "d___ notice",
+      "answer_word": "dismissal",
+      "part1_id": 440
+    },
+    {
+      "id": 488,
+      "category": "生活",
+      "kanji": "幼児虐待",
+      "prompt_template": "child a___",
+      "answer_word": "abuse",
+      "part1_id": 71
+    },
+    {
+      "id": 489,
+      "category": "生活",
+      "kanji": "記念写真",
+      "prompt_template": "s___ picture",
+      "answer_word": "souvenir",
+      "part1_id": 346
+    },
+    {
+      "id": 490,
+      "category": "生活",
+      "kanji": "人命救助隊",
+      "prompt_template": "r___ party",
+      "answer_word": "rescue",
+      "part1_id": 210
+    },
+    {
+      "id": 491,
+      "category": "生活",
+      "kanji": "身分証明書",
+      "prompt_template": "i___ card",
+      "answer_word": "identification",
+      "part1_id": 209
+    },
+    {
+      "id": 492,
+      "category": "生活",
+      "kanji": "高齢化社会",
+      "prompt_template": "aging s___",
+      "answer_word": "society",
+      "part1_id": 370
+    },
+    {
+      "id": 493,
+      "category": "生活",
+      "kanji": "食品添加物",
+      "prompt_template": "food a___",
+      "answer_word": "additive",
+      "part1_id": 89
+    },
+    {
+      "id": 494,
+      "category": "生活",
+      "kanji": "取扱説明書",
+      "prompt_template": "i___ manual",
+      "answer_word": "instruction",
+      "part1_id": 354
+    },
+    {
+      "id": 495,
+      "category": "生活",
+      "kanji": "自動車保険",
+      "prompt_template": "automobile i___",
+      "answer_word": "insurance",
+      "part1_id": 450
+    },
+    {
+      "id": 496,
+      "category": "生活",
+      "kanji": "方向指示器",
+      "prompt_template": "d___ indicator",
+      "answer_word": "direction",
+      "part1_id": 357
+    },
+    {
+      "id": 497,
+      "category": "生活",
+      "kanji": "結婚記念日",
+      "prompt_template": "wedding a___",
+      "answer_word": "anniversary",
+      "part1_id": 208
+    },
+    {
+      "id": 498,
+      "category": "生活",
+      "kanji": "関係当事者",
+      "prompt_template": "person c___ed",
+      "answer_word": "concerned",
+      "part1_id": 445
+    },
+    {
+      "id": 499,
+      "category": "生活",
+      "kanji": "宿泊人名簿",
+      "prompt_template": "hotel r___",
+      "answer_word": "register",
+      "part1_id": 449
+    },
+    {
+      "id": 500,
+      "category": "生活",
+      "kanji": "電気掃除機",
+      "prompt_template": "v___ cleaner",
+      "answer_word": "vacuum",
+      "part1_id": 442
+    }
+  ],
+  "yoji": [
+    {
+      "id": 1,
+      "english": "I am skeptical about whether or not he will keep his promise.",
+      "kanji_hint": "半□半□",
+      "answer": "半信半疑",
+      "vocab": "skeptical [形] 懐疑的な / promise [名] 約束"
+    },
+    {
+      "id": 2,
+      "english": "He carried out the experiment without sleeping or resting.",
+      "kanji_hint": "不□不□",
+      "answer": "不眠不休",
+      "vocab": "carry out 実行する"
+    },
+    {
+      "id": 3,
+      "english": "Too much eating and drinking ruined his health.",
+      "kanji_hint": "暴□暴□",
+      "answer": "暴飲暴食",
+      "vocab": "ruin [動] だめにする"
+    },
+    {
+      "id": 4,
+      "english": "You can't blame anybody. You asked for it.",
+      "kanji_hint": "自□自□",
+      "answer": "自業自得",
+      "vocab": "blame [動] 非難する / ask for it 災いを自ら招く"
+    },
+    {
+      "id": 5,
+      "english": "So many men, so many minds.",
+      "kanji_hint": "十□十□",
+      "answer": "十人十色",
+      "vocab": "mind [名] 心，考え"
+    },
+    {
+      "id": 6,
+      "english": "On-lookers see more than players.",
+      "kanji_hint": "□目□目",
+      "answer": "岡目八目",
+      "vocab": "on-looker [名] 傍観者"
+    },
+    {
+      "id": 7,
+      "english": "Life is short, so cherish every moment you are with someone.",
+      "kanji_hint": "一□一□",
+      "answer": "一期一会",
+      "vocab": "cherish [動] 大事にする"
+    },
+    {
+      "id": 8,
+      "english": "Everyone has his strong points and shortcomings.",
+      "kanji_hint": "一□一□",
+      "answer": "一長一短",
+      "vocab": "shortcoming [名] 欠点"
+    },
+    {
+      "id": 9,
+      "english": "You can't accomplish such a big project overnight.",
+      "kanji_hint": "一□一□",
+      "answer": "一朝一夕",
+      "vocab": "accomplish [動] 成し遂げる"
+    },
+    {
+      "id": 10,
+      "english": "He sold his car much cheaper than he had expected.",
+      "kanji_hint": "二□三□",
+      "answer": "二束三文",
+      "vocab": "expect [動] 予想する"
+    },
+    {
+      "id": 11,
+      "english": "Professor Smith keeps giving the same dull lecture year after year.",
+      "kanji_hint": "十□一□",
+      "answer": "十年一日",
+      "vocab": "dull [形] 退屈な"
+    },
+    {
+      "id": 12,
+      "english": "She waited impatiently for her husband to come home.",
+      "kanji_hint": "一□千□",
+      "answer": "一日千秋",
+      "vocab": "impatiently [副] 今か今かと"
+    },
+    {
+      "id": 13,
+      "english": "His grand slam home run turned the game around.",
+      "kanji_hint": "□死□生",
+      "answer": "起死回生",
+      "vocab": "grand slam home run 満塁ホームラン / turn around 一変させる"
+    },
+    {
+      "id": 14,
+      "english": "He is a man of Japanese spirit and Western learning.",
+      "kanji_hint": "和□洋□",
+      "answer": "和魂洋才",
+      "vocab": "spirit [名] 精神"
+    },
+    {
+      "id": 15,
+      "english": "There seems to be little difference in the content of these two books.",
+      "kanji_hint": "大□小□",
+      "answer": "大同小異",
+      "vocab": "content [名] 内容"
+    },
+    {
+      "id": 16,
+      "english": "There is nothing I can do well except eating a lot.",
+      "kanji_hint": "無□□食",
+      "answer": "無芸大食",
+      "vocab": "except [前] ～を除いて"
+    },
+    {
+      "id": 17,
+      "english": "The hijacker made a completely unreasonable demand.",
+      "kanji_hint": "無□□題",
+      "answer": "無理難題",
+      "vocab": "hijacker [名] 乗っ取り犯"
+    },
+    {
+      "id": 18,
+      "english": "Great talents mature late.",
+      "kanji_hint": "大□□成",
+      "answer": "大器晩成",
+      "vocab": "mature [動] 熟す"
+    },
+    {
+      "id": 19,
+      "english": "It seems we are sailing in the same boat.",
+      "kanji_hint": "一□□生",
+      "answer": "一連托生",
+      "vocab": "sail [動] 航海する"
+    },
+    {
+      "id": 20,
+      "english": "Punishing one serves as a warning to all the others.",
+      "kanji_hint": "一□□戒",
+      "answer": "一罰百戒",
+      "vocab": "serve [動] 役立つ / warning [名] 警告"
+    },
+    {
+      "id": 21,
+      "english": "The teacher turns a deaf ear to whatever his students say.",
+      "kanji_hint": "馬□東□",
+      "answer": "馬耳東風",
+      "vocab": "turn a deaf ear to ～ ～に耳をかさない"
+    },
+    {
+      "id": 22,
+      "english": "Learning history in French is like killing two birds with one stone.",
+      "kanji_hint": "一□□鳥",
+      "answer": "一石二鳥",
+      "vocab": "like [前] ～のような"
+    },
+    {
+      "id": 23,
+      "english": "We never meet without saying good-bye.",
+      "kanji_hint": "□者定□",
+      "answer": "会者定離",
+      "vocab": "never ～ without -ing 2重否定＝強い肯定"
+    },
+    {
+      "id": 24,
+      "english": "The order of priorities should be the other way around.",
+      "kanji_hint": "□客□倒",
+      "answer": "主客転倒",
+      "vocab": "priority [名] 優先すべきこと / the other way around 逆で"
+    },
+    {
+      "id": 25,
+      "english": "The king spent a lot of time enjoying the luxury of food and drinks.",
+      "kanji_hint": "□池肉□",
+      "answer": "酒池肉林",
+      "vocab": "luxury [名] 贅沢"
+    },
+    {
+      "id": 26,
+      "english": "He is a match for a thousand.",
+      "kanji_hint": "□騎□千",
+      "answer": "一騎当千",
+      "vocab": "match [名] 好敵手"
+    },
+    {
+      "id": 27,
+      "english": "His wife is endowed with both beauty and intelligence.",
+      "kanji_hint": "才□兼□",
+      "answer": "才色兼備",
+      "vocab": "endow [動] 与える / intelligence [名] 聡明さ"
+    },
+    {
+      "id": 28,
+      "english": "What a laugh that you will give us a lecture!",
+      "kanji_hint": "笑□千□",
+      "answer": "笑止千万",
+      "vocab": "lecture [名] お説教"
+    },
+    {
+      "id": 29,
+      "english": "I was surrounded by enemies on all sides.",
+      "kanji_hint": "□面□歌",
+      "answer": "四面楚歌",
+      "vocab": "surround [動] 取り囲む"
+    },
+    {
+      "id": 30,
+      "english": "The salesclerk flattered me into buying an expensive suit.",
+      "kanji_hint": "□先□寸",
+      "answer": "舌先三寸",
+      "vocab": "salesclerk [名] 店員 / flatter [動] おだてる"
+    },
+    {
+      "id": 31,
+      "english": "He is a jack-of-all-trades and master of none.",
+      "kanji_hint": "□用□乏",
+      "answer": "器用貧乏",
+      "vocab": "jack-of-all-trades [動] 何でも屋"
+    },
+    {
+      "id": 32,
+      "english": "Try to discover new things by studying the past.",
+      "kanji_hint": "□故知□",
+      "answer": "温故知新",
+      "vocab": "discover [動] 発見する"
+    },
+    {
+      "id": 33,
+      "english": "He can be a good example of what we should not be.",
+      "kanji_hint": "反□□師",
+      "answer": "反面教師",
+      "vocab": "example [名] 見本"
+    },
+    {
+      "id": 34,
+      "english": "I can't put up with his arrogant behavior.",
+      "kanji_hint": "傍□□人",
+      "answer": "傍若無人",
+      "vocab": "arrogant [形] 横柄な / behavior [名] ふるまい"
+    },
+    {
+      "id": 35,
+      "english": "I have to come up with some good reason to resign my post.",
+      "kanji_hint": "大□□分",
+      "answer": "大義名分",
+      "vocab": "come up with ～を考え出す / resign [動] 辞任する"
+    },
+    {
+      "id": 36,
+      "english": "You cannot succeed in anything if you always depend on others.",
+      "kanji_hint": "□力本□",
+      "answer": "他力本願",
+      "vocab": "depend on ～ ～に頼る"
+    },
+    {
+      "id": 37,
+      "english": "That is against my principles. I don't follow the crowd.",
+      "kanji_hint": "□和雷□",
+      "answer": "付和雷同",
+      "vocab": "principle [名] 信念 / crowd [名] 大衆"
+    },
+    {
+      "id": 38,
+      "english": "Life has its ups and downs.",
+      "kanji_hint": "□枯盛□",
+      "answer": "栄枯盛衰",
+      "vocab": "ups and downs いい時と悪い時"
+    },
+    {
+      "id": 39,
+      "english": "You got exactly what you deserved.",
+      "kanji_hint": "□果応□",
+      "answer": "因果応報",
+      "vocab": "deserve [動] 値する"
+    },
+    {
+      "id": 40,
+      "english": "Food is no less important than medicine for your health.",
+      "kanji_hint": "□食同□",
+      "answer": "医食同源",
+      "vocab": "medicine [名] 薬"
+    },
+    {
+      "id": 41,
+      "english": "You must be prudent in your behavior.",
+      "kanji_hint": "□挙妄□",
+      "answer": "軽挙妄動",
+      "vocab": "prudent [形] 思慮分別がある"
+    },
+    {
+      "id": 42,
+      "english": "We found the new drug by trial and error.",
+      "kanji_hint": "□行錯□",
+      "answer": "試行錯誤",
+      "vocab": "trial [名] 試み"
+    },
+    {
+      "id": 43,
+      "english": "Everything is going well with my business.",
+      "kanji_hint": "□風□帆",
+      "answer": "順風満帆",
+      "vocab": "go well うまくいく"
+    },
+    {
+      "id": 44,
+      "english": "Yoko and I are encouraging each other to study hard.",
+      "kanji_hint": "□磋□磨",
+      "answer": "切磋琢磨",
+      "vocab": "encourage [動] 励ます"
+    },
+    {
+      "id": 45,
+      "english": "What he has done is an unprecedented achievement.",
+      "kanji_hint": "□人□踏",
+      "answer": "前人未踏",
+      "vocab": "unprecedented [形] 空前の / achievement [名] 業績"
+    },
+    {
+      "id": 46,
+      "english": "The soldier fought alone against the countless number of enemies.",
+      "kanji_hint": "□軍□闘",
+      "answer": "孤軍奮闘",
+      "vocab": "soldier [名] 兵士 / countless [形] 無数の"
+    },
+    {
+      "id": 47,
+      "english": "I can't stick to anything.",
+      "kanji_hint": "□日□主",
+      "answer": "三日坊主",
+      "vocab": "stick to ～ ～をたゆまず続ける"
+    },
+    {
+      "id": 48,
+      "english": "You should finish what you've started.",
+      "kanji_hint": "□志□徹",
+      "answer": "初志貫徹",
+      "vocab": "should [助] ～すべきだ"
+    },
+    {
+      "id": 49,
+      "english": "He praised the picture he himself painted.",
+      "kanji_hint": "自□自□",
+      "answer": "自画自賛",
+      "vocab": "praise [動] ほめる"
+    },
+    {
+      "id": 50,
+      "english": "The video game market is now split among many rival companies.",
+      "kanji_hint": "群□割□",
+      "answer": "群雄割拠",
+      "vocab": "split [動] 分割する"
+    }
+  ],
+  "abbr": [
+    {
+      "id": 1,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "CD",
+      "prompt_template": "c___ disk",
+      "answer_word": "compact",
+      "full_english": "compact disk",
+      "japanese": "シーディー",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "DNA",
+      "prompt_template": "deoxyribonucleic a___",
+      "answer_word": "acid",
+      "full_english": "deoxyribonucleic acid",
+      "japanese": "デオキシリボ核酸（ディーエヌエイ）",
+      "notes": "nucleic acid [名] 核酸 / ⇒ nuclear [名] 核"
+    },
+    {
+      "id": 3,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "CO2",
+      "prompt_template": "c___ dioxide",
+      "answer_word": "carbon",
+      "full_english": "carbon dioxide",
+      "japanese": "二酸化炭素",
+      "notes": "dioxide [daiáksaid] [名] 二酸化物 / di（接頭語）ふたつ / ⇒ dilémma [名] ジレンマ / ⇒ oxide [名] 酸化物"
+    },
+    {
+      "id": 4,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "NOx",
+      "prompt_template": "n___ oxide",
+      "answer_word": "nitrogen",
+      "full_english": "nitrogen oxide",
+      "japanese": "窒素酸化物",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "NASA",
+      "prompt_template": "National Aeronautics and S___ Administration",
+      "answer_word": "Space",
+      "full_english": "National Aeronautics and Space Administration",
+      "japanese": "米国航空宇宙局（ナサ）",
+      "notes": "aeronautics [èərənɔ́ːtiks] [名] 航空学 / ⇒ áeroplane [名] 飛行機"
+    },
+    {
+      "id": 6,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "LNG",
+      "prompt_template": "liquefied n___ gas",
+      "answer_word": "natural",
+      "full_english": "liquefied natural gas",
+      "japanese": "液化天然ガス",
+      "notes": "liquefy [líkwəfai] [動] 液化する / ⇒ liquid [名] 液体"
+    },
+    {
+      "id": 7,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "HDTV",
+      "prompt_template": "high-d___ television",
+      "answer_word": "definition",
+      "full_english": "high-definition television",
+      "japanese": "ハイビジョンテレビ",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "BS",
+      "prompt_template": "b___ing satellite",
+      "answer_word": "broadcasting",
+      "full_english": "broadcasting satellite",
+      "japanese": "放送衛星",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "CS",
+      "prompt_template": "c___ satellite",
+      "answer_word": "communication",
+      "full_english": "communication satellite",
+      "japanese": "通信衛星",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "category": "自然・環境・科学用語の部",
+      "abbr": "UFO",
+      "prompt_template": "unidentified flying o___",
+      "answer_word": "object",
+      "full_english": "unidentified flying object",
+      "japanese": "未確認飛行物体（ユーフォー）",
+      "notes": "ùnidéntified [形] 正体不明の / ⇒ identify [動] 特定する / ⇒ identity [名] 特定されたものであること，同一性"
+    },
+    {
+      "id": 11,
+      "category": "コンピューター用語の部",
+      "abbr": "RAM",
+      "prompt_template": "random-a___ memory",
+      "answer_word": "access",
+      "full_english": "random-access memory",
+      "japanese": "読み書き両用メモリー（ラム）",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "category": "コンピューター用語の部",
+      "abbr": "ROM",
+      "prompt_template": "read-o___ memory",
+      "answer_word": "only",
+      "full_english": "read-only memory",
+      "japanese": "読み出し専用メモリー（ロム）",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "category": "コンピューター用語の部",
+      "abbr": "DOS",
+      "prompt_template": "disk o___ing system",
+      "answer_word": "operating",
+      "full_english": "disk operating system",
+      "japanese": "ディスク情報操作プログラム（ドス）",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "category": "コンピューター用語の部",
+      "abbr": "LAN",
+      "prompt_template": "local a___ network",
+      "answer_word": "area",
+      "full_english": "local area network",
+      "japanese": "地域限定型情報通信網（ラン）",
+      "notes": "local [lóukl] [形] ある特定の地域に限られた / 日本語では「いなかの」という意味で使われることが多いが，英語ではその意味はない"
+    },
+    {
+      "id": 15,
+      "category": "コンピューター用語の部",
+      "abbr": "VAN",
+      "prompt_template": "v___-added network",
+      "answer_word": "value",
+      "full_english": "value-added network",
+      "japanese": "付加価値通信網（ヴァン）",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "category": "コンピューター用語の部",
+      "abbr": "LSI",
+      "prompt_template": "large-s___ integration",
+      "answer_word": "scale",
+      "full_english": "large-scale integration",
+      "japanese": "大規模集積回路",
+      "notes": "integration [ìntəgréiʃən] [名] 統合 / ⇒ íntegràted [形] 統合した / ⇒ íntegral [形] 不可欠な"
+    },
+    {
+      "id": 17,
+      "category": "コンピューター用語の部",
+      "abbr": "CPU",
+      "prompt_template": "central p___ing unit",
+      "answer_word": "processing",
+      "full_english": "central processing unit",
+      "japanese": "中央演算処理装置",
+      "notes": "unit [júːnət] [名] ひとまとまりになった部品 / uni（接頭語）ひとつ / ⇒ únifòrm [名] 制服 [形] 一様な / ⇒ únify [動] 統一する / ⇒ únion [名] 結合 / ⇒ uníque [形] 唯一の，独特な / ⇒ uníte [動] 結びつける / ⇒ únity [名] 単一(性) / ⇒ únivèrse [名] 宇宙 / ⇒ ùnivérsity [名] 総合大学"
+    },
+    {
+      "id": 18,
+      "category": "コンピューター用語の部",
+      "abbr": "CAI",
+      "prompt_template": "computer-assisted i___",
+      "answer_word": "instruction",
+      "full_english": "computer-assisted instruction",
+      "japanese": "コンピューター利用の教育（機器）",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "category": "コンピューター用語の部",
+      "abbr": "PC",
+      "prompt_template": "p___ computer",
+      "answer_word": "personal",
+      "full_english": "personal computer",
+      "japanese": "個人用コンピューター",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "category": "コンピューター用語の部",
+      "abbr": "OA",
+      "prompt_template": "office a___",
+      "answer_word": "automation",
+      "full_english": "office automation",
+      "japanese": "事務業務の自動化，合理化",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "NGO",
+      "prompt_template": "nongovernmental o___",
+      "answer_word": "organization",
+      "full_english": "nongovernmental organization",
+      "japanese": "非政府組織（エヌジーオー）",
+      "notes": "nòngovernméntal [形] 非政府の / ※ non（接頭語）非，不，無 / ⇒ nónstop [形] 直通の / ⇒ nónvèrbal [形] 言葉を用いない / ⇒ nonsense [名] 無意味"
+    },
+    {
+      "id": 22,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "PKO",
+      "prompt_template": "Peace-Keeping O___s",
+      "answer_word": "Operations",
+      "full_english": "Peace-Keeping Operations",
+      "japanese": "国連平和維持活動",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "GATT",
+      "prompt_template": "General Agreement on T___s and Trade",
+      "answer_word": "Tariffs",
+      "full_english": "General Agreement on Tariffs and Trade",
+      "japanese": "関税と貿易に関する一般協定（ガット）",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "UN",
+      "prompt_template": "U___ed Nations",
+      "answer_word": "United",
+      "full_english": "United Nations",
+      "japanese": "国連",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "ASEAN",
+      "prompt_template": "A___ of Southeast Asian Nations",
+      "answer_word": "Association",
+      "full_english": "Association of Southeast Asian Nations",
+      "japanese": "東南アジア諸国連合（アセアン）",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "NATO",
+      "prompt_template": "North Atlantic T___ Organization",
+      "answer_word": "Treaty",
+      "full_english": "North Atlantic Treaty Organization",
+      "japanese": "北大西洋条約機構（ナトー）",
+      "notes": "Atlantic [ətlǽntik] [形] 大西洋の / the Atlas Mountains（アトラス山脈）に接っしているということから"
+    },
+    {
+      "id": 27,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "NAFTA",
+      "prompt_template": "North American Free Trade A___",
+      "answer_word": "Agreement",
+      "full_english": "North American Free Trade Agreement",
+      "japanese": "北米自由貿易協定",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "GDP",
+      "prompt_template": "gross d___ product",
+      "answer_word": "domestic",
+      "full_english": "gross domestic product",
+      "japanese": "国内総生産",
+      "notes": "gross [grous] [形] 全体の / 「正味の」は net / ⇒ gross income 総収入 / ⇒ net profit 純益"
+    },
+    {
+      "id": 29,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "IMF",
+      "prompt_template": "International Monetary F___",
+      "answer_word": "Fund",
+      "full_english": "International Monetary Fund",
+      "japanese": "国際通貨基金",
+      "notes": "monetary [mánətèri] [形] 通貨の / ⇒ money [名] 金銭"
+    },
+    {
+      "id": 30,
+      "category": "政治・経済・外交用語の部",
+      "abbr": "ODA",
+      "prompt_template": "Official Development A___",
+      "answer_word": "Assistance",
+      "full_english": "Official Development Assistance",
+      "japanese": "政府開発援助",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "MIT",
+      "prompt_template": "Massachusetts I___ of Technology",
+      "answer_word": "Institute",
+      "full_english": "Massachusetts Institute of Technology",
+      "japanese": "マサチューセッツ工科大学",
+      "notes": "institute [ínstətjùːt] [名] 工科大学，研究所 / institútion [名] 機構，公共機関"
+    },
+    {
+      "id": 32,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "AT&T",
+      "prompt_template": "American Telephone & T___ company",
+      "answer_word": "Telegraph",
+      "full_english": "American Telephone & Telegraph company",
+      "japanese": "米国電話電信会社",
+      "notes": "telephone [名] 電話 / tele（接頭語）遠い / télegràph [名] 電報，電信（システム全体） / télegràm [名] 電報（文や紙） / télescòpe [名] 望遠鏡 / télevìsion [名] テレビ"
+    },
+    {
+      "id": 33,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "TOEFL",
+      "prompt_template": "Test of English as a F___ Language",
+      "answer_word": "Foreign",
+      "full_english": "Test of English as a Foreign Language",
+      "japanese": "米国留学希望の外国人のための英語検定試験（トーフル）",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "TOEIC",
+      "prompt_template": "Test of English for I___ Communication",
+      "answer_word": "International",
+      "full_english": "Test of English for International Communication",
+      "japanese": "国際コミュニケーション英語能力テスト（トーイック）",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "AIDS",
+      "prompt_template": "a___ed immune deficiency syndrome",
+      "answer_word": "acquired",
+      "full_english": "acquired immune deficiency syndrome",
+      "japanese": "後天性免疫不全症候群（エイズ）",
+      "notes": "deficiency [difíʃənsi] [名] 欠乏，欠陥 / deficit [défəsət] [名] 赤字"
+    },
+    {
+      "id": 36,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "HIV",
+      "prompt_template": "h___ immunodeficiency virus",
+      "answer_word": "human",
+      "full_english": "human immunodeficiency virus",
+      "japanese": "ヒト免疫不全ウイルス（エイズウィルス）",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "ATM",
+      "prompt_template": "a___ teller machine",
+      "answer_word": "automatic",
+      "full_english": "automatic teller machine",
+      "japanese": "自動現金預け入れ引き出し機",
+      "notes": "teller [名] 銀行の金銭出納係"
+    },
+    {
+      "id": 38,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "RV",
+      "prompt_template": "recreational v___",
+      "answer_word": "vehicle",
+      "full_english": "recreational vehicle",
+      "japanese": "レジャー用の車",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "DINKS",
+      "prompt_template": "double i___ no kids",
+      "answer_word": "income",
+      "full_english": "double income no kids",
+      "japanese": "子供のいない共稼ぎ夫婦（ディンクス） [単] DINK",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "category": "教育・医療・生活用語の部",
+      "abbr": "WASP",
+      "prompt_template": "White Anglo-Saxon P___",
+      "answer_word": "Protestant",
+      "full_english": "White Anglo-Saxon Protestant",
+      "japanese": "アングロサクソン系白人のプロテスタントで米国の上流階級（ワスプ）",
+      "notes": "Ànglo-Sáxon [名] アングロサクソン系の人，アングロサクソン部族 / 5，6世紀頃ヨーロッパ大陸から英国に移住したゲルマン民族で今の英国人の祖先"
+    }
+  ],
+  "katakana": [
+    {
+      "id": 1,
+      "katakana": "インフォームド コンセント",
+      "prompt_template": "informed c___",
+      "answer_word": "consent",
+      "full_english": "informed consent",
+      "explanation": "手術の前などに医師が患者に対して十分に説明し，同意を得ることが必要であるという考え方。",
+      "notes": "consent [動] 同意する [名] 同意"
+    },
+    {
+      "id": 2,
+      "katakana": "オンブズマン",
+      "prompt_template": "o___",
+      "answer_word": "ombudsman",
+      "full_english": "ombudsman",
+      "explanation": "行政機関に対して，公権力の乱用や税金の使途等で市民から苦情や監査の依頼があった時に調査をする人。",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "katakana": "シンクタンク",
+      "prompt_template": "t___ tank",
+      "answer_word": "think",
+      "full_english": "think tank",
+      "explanation": "高いレベルの知識を持ち，さまざまな分野で研究，分析，調査などの活動を行い，その情報を提供する頭脳集団。",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "katakana": "コングロマリット",
+      "prompt_template": "c___",
+      "answer_word": "conglomerate",
+      "full_english": "conglomerate",
+      "explanation": "いろいろな分野の多数の企業をその支配下に置く巨大な複合企業。",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "katakana": "クローン",
+      "prompt_template": "c___",
+      "answer_word": "clone",
+      "full_english": "clone",
+      "explanation": "遺伝子を操作することによってできた，まったく同じ遺伝物質を持った生命の個体。",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "katakana": "フェミニスト",
+      "prompt_template": "f___",
+      "answer_word": "feminist",
+      "full_english": "feminist",
+      "explanation": "女性を差別から解放し，男性と同じ権利を獲得しようとする運動（フェミニズム）の信奉者。男性にも女性にも使える。",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "katakana": "オゾンホール",
+      "prompt_template": "ozone h___",
+      "answer_word": "hole",
+      "full_english": "ozone hole",
+      "explanation": "地球の生命を有害な紫外線から守ってくれているオゾン層が，フロンガスなどの影響で濃度が下がり穴が開いたようになっている部分。",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "katakana": "リストラクチャリング",
+      "prompt_template": "r___ing",
+      "answer_word": "restructuring",
+      "full_english": "restructuring",
+      "explanation": "企業が生きのびるために組織全体を見直し，不採算部門を整理し，雇用調整を行うこと。",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "katakana": "インフラストラクチャー",
+      "prompt_template": "i___",
+      "answer_word": "infrastructure",
+      "full_english": "infrastructure",
+      "explanation": "社会が社会として機能するために必要な道路，輸送手段，通信網，上下水道，教育などの設備の総称。",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "katakana": "シャドーキャビネット",
+      "prompt_template": "shadow c___",
+      "answer_word": "cabinet",
+      "full_english": "shadow cabinet",
+      "explanation": "野党が実際に政権をとった時を想定して作る内閣。",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "katakana": "バーチャル リアリティー",
+      "prompt_template": "v___ reality",
+      "answer_word": "virtual",
+      "full_english": "virtual reality",
+      "explanation": "コンピューター技術を駆使することによって，あたかも現実であるかのような環境をつくり出すこと。仮想現実感ともいう。",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "katakana": "タックス ヘイブン",
+      "prompt_template": "tax h___",
+      "answer_word": "haven",
+      "full_english": "tax haven",
+      "explanation": "多国籍企業が税金を回避するために利用する，課税がなかったりまたはきわめて安い国や地域。haven と heaven は違う。",
+      "notes": "haven [héivn]"
+    },
+    {
+      "id": 13,
+      "katakana": "シミュレーション",
+      "prompt_template": "s___",
+      "answer_word": "simulation",
+      "full_english": "simulation",
+      "explanation": "実際には体験することのできない状況を，コンピューターなどの最新技術を用いて模擬体験すること。",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "katakana": "コンピューター ウィルス",
+      "prompt_template": "computer v___",
+      "answer_word": "virus",
+      "full_english": "computer virus",
+      "explanation": "ネットワークやディスクを通してコンピューターシステムに侵入し，いたずらやデータの破壊などを行うプログラム。",
+      "notes": "virus [váirəs]"
+    },
+    {
+      "id": 15,
+      "katakana": "ビック バン",
+      "prompt_template": "big b___",
+      "answer_word": "bang",
+      "full_english": "big bang",
+      "explanation": "宇宙のはじまりは大爆発であったという宇宙論と，規制でがんじがらめになった分野を解放するという経済用語。",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "katakana": "ベンチャー キャピタル",
+      "prompt_template": "venture c___",
+      "answer_word": "capital",
+      "full_english": "venture capital",
+      "explanation": "将来性があり独創性に富むと判断された新しい小規模企業（ベンチャービジネス）に投下される資本。",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "katakana": "コラーゲン",
+      "prompt_template": "c___",
+      "answer_word": "collagen",
+      "full_english": "collagen",
+      "explanation": "近年注目をされてきた肌のみずみずしさを保つために，必要だとされるタンパク質の1つ。",
+      "notes": "collagen [kálədʒən]"
+    },
+    {
+      "id": 18,
+      "katakana": "シーリング",
+      "prompt_template": "c___ing",
+      "answer_word": "ceiling",
+      "full_english": "ceiling",
+      "explanation": "もともとは天井の意味で，価格や賃金や要求額の最高限度という意味でも使われる。",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "katakana": "フリー マーケット",
+      "prompt_template": "f___ market",
+      "answer_word": "flea",
+      "full_english": "flea market",
+      "explanation": "フランスではじまった古物市。売られていた衣類や家具に蚤（のみ）がいたので蚤の市の名がついた。free という意味ではない。",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "katakana": "ナショナル トラスト",
+      "prompt_template": "National T___",
+      "answer_word": "Trust",
+      "full_english": "National Trust",
+      "explanation": "貴重な文化遺産や自然環境を守るために市民からの寄付で買い取って保護していく団体。またその運動。",
+      "notes": ""
+    }
+  ]
+};
