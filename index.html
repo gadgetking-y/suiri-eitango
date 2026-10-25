@@ -214,32 +214,20 @@
           <div class="q-phonetic" id="qPhonetic">[sʌ́pləméntəri]</div>
         </div>
 
-        <!-- Progressive Hints Area (The essence of "推理でうめる英単語"!) -->
+        <!-- Progressive Hints Area (Compact 1-row pill bar + inline revealed content) -->
         <div class="hints-container" id="hintsContainer">
-          <!-- Step 1: Partial Kanji / Cloze Template Box -->
+          <div class="hint-pills-row">
+            <button type="button" class="reveal-hint-btn" id="btnRevealHint1">🔍 ①文字枠ヒント</button>
+            <button type="button" class="reveal-hint-btn" id="btnRevealHint2">💡 ②文脈ヒント</button>
+            <button type="button" class="reveal-hint-btn" id="btnRevealHint3">📖 ③重要語句</button>
+          </div>
           <div class="hint-box hint-step-1" id="hintBox1">
-            <div class="hint-header">
-              <span class="hint-tag">ヒント① 文字枠・手がかり</span>
-              <button class="reveal-hint-btn" id="btnRevealHint1">タップして開く 🔍</button>
-            </div>
             <div class="hint-content" id="hintContent1"></div>
           </div>
-
-          <!-- Step 2: Context Sentence / Explanation -->
           <div class="hint-box hint-step-2" id="hintBox2">
-            <div class="hint-header">
-              <span class="hint-tag">ヒント② 推理の文脈ヒント</span>
-              <button class="reveal-hint-btn" id="btnRevealHint2">タップして開く 💡</button>
-            </div>
             <div class="hint-content" id="hintContent2"></div>
           </div>
-
-          <!-- Step 3: Vocab Footnote -->
           <div class="hint-box hint-step-3" id="hintBox3">
-            <div class="hint-header">
-              <span class="hint-tag">ヒント③ ヒント内の重要語句</span>
-              <button class="reveal-hint-btn" id="btnRevealHint3">タップして開く 📖</button>
-            </div>
             <div class="hint-content" id="hintContent3"></div>
           </div>
         </div>

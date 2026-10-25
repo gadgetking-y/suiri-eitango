@@ -727,10 +727,32 @@
     const hintBox1 = document.getElementById('hintBox1');
     const hintBox2 = document.getElementById('hintBox2');
     const hintBox3 = document.getElementById('hintBox3');
+    const btnHint1 = document.getElementById('btnRevealHint1');
+    const btnHint2 = document.getElementById('btnRevealHint2');
+    const btnHint3 = document.getElementById('btnRevealHint3');
 
+    document.getElementById('hintsContainer').style.display = 'flex';
     hintBox1.classList.remove('revealed');
     hintBox2.classList.remove('revealed');
     hintBox3.classList.remove('revealed');
+
+    const setupHint = (num, box, btn, hasContent, htmlOrText, isHtml, autoReveal) => {
+      const contentEl = document.getElementById(`hintContent${num}`);
+      if (isHtml) contentEl.innerHTML = htmlOrText;
+      else contentEl.textContent = htmlOrText;
+
+      if (!hasContent) {
+        box.style.display = 'none';
+        btn.style.display = 'none';
+      } else if (autoReveal) {
+        box.style.display = 'block';
+        box.classList.add('revealed');
+        btn.style.display = 'none';
+      } else {
+        box.style.display = 'none';
+        btn.style.display = 'inline-flex';
+      }
+    };
 
     if (secId === 'part1') {
       subBadge.textContent = `${q.version || ''} Version`;
@@ -738,14 +760,9 @@
       phoneticEl.textContent = q.phonetic || '';
       phoneticEl.style.display = q.phonetic ? 'block' : 'none';
 
-      hintBox1.style.display = 'block';
-      document.getElementById('hintContent1').innerHTML = renderKanjiBoxesHTML(q.kanji_hint || '');
-
-      hintBox2.style.display = q.hint ? 'block' : 'none';
-      document.getElementById('hintContent2').textContent = q.hint || '';
-
-      hintBox3.style.display = q.vocab ? 'block' : 'none';
-      document.getElementById('hintContent3').textContent = q.vocab || '';
+      setupHint(1, hintBox1, btnHint1, !!q.kanji_hint, renderKanjiBoxesHTML(q.kanji_hint || ''), true, false);
+      setupHint(2, hintBox2, btnHint2, !!q.hint, q.hint || '', false, false);
+      setupHint(3, hintBox3, btnHint3, !!q.vocab, q.vocab || '', false, false);
 
       document.getElementById('inputGuideText').textContent = '漢字全体（または□に入る漢字）を入力してください';
     } else if (secId === 'part2') {
@@ -754,17 +771,10 @@
       phoneticEl.textContent = `（PART 1 No.${q.part1_id} と連動）`;
       phoneticEl.style.display = 'block';
 
-      hintBox1.style.display = 'block';
-      document.getElementById('hintContent1').innerHTML = `<div style="font-size:18px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`;
-      // Auto-reveal the cloze template in PART 2 since it is on the main line in the book!
-      hintBox1.classList.add('revealed');
-
       const linkedP1 = findLinkedPart1(q.part1_id);
-      hintBox2.style.display = linkedP1 && linkedP1.hint ? 'block' : 'none';
-      document.getElementById('hintContent2').textContent = linkedP1 ? linkedP1.hint : '';
-
-      hintBox3.style.display = linkedP1 && linkedP1.phonetic ? 'block' : 'none';
-      document.getElementById('hintContent3').textContent = linkedP1 ? `発音ヒント: ${linkedP1.phonetic} / ${linkedP1.vocab || ''}` : '';
+      setupHint(1, hintBox1, btnHint1, true, `<div style="font-size:17px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`, true, true);
+      setupHint(2, hintBox2, btnHint2, !!(linkedP1 && linkedP1.hint), linkedP1 ? linkedP1.hint : '', false, false);
+      setupHint(3, hintBox3, btnHint3, !!(linkedP1 && linkedP1.phonetic), linkedP1 ? `発音: ${linkedP1.phonetic} / ${linkedP1.vocab || ''}` : '', false, false);
 
       document.getElementById('inputGuideText').textContent = '空欄に入る英単語（または英語2語すべて）を入力してください';
     } else if (secId === 'yoji') {
@@ -772,14 +782,10 @@
       mainPrompt.textContent = q.english;
       phoneticEl.style.display = 'none';
 
-      hintBox1.style.display = 'block';
-      document.getElementById('hintContent1').innerHTML = renderKanjiBoxesHTML(q.kanji_hint || '');
-      hintBox1.classList.add('revealed');
+      setupHint(1, hintBox1, btnHint1, true, renderKanjiBoxesHTML(q.kanji_hint || ''), true, true);
+      setupHint(2, hintBox2, btnHint2, !!q.vocab, q.vocab || '', false, false);
+      setupHint(3, hintBox3, btnHint3, false, '', false, false);
 
-      hintBox2.style.display = q.vocab ? 'block' : 'none';
-      document.getElementById('hintContent2').textContent = q.vocab || '';
-
-      hintBox3.style.display = 'none';
       document.getElementById('inputGuideText').textContent = '四文字熟語全体（または□に入る漢字2文字）を入力してください';
     } else if (secId === 'abbr') {
       subBadge.textContent = q.category || '略語の解剖';
@@ -787,28 +793,20 @@
       phoneticEl.textContent = q.japanese || '';
       phoneticEl.style.display = 'block';
 
-      hintBox1.style.display = 'block';
-      document.getElementById('hintContent1').innerHTML = `<div style="font-size:18px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`;
-      hintBox1.classList.add('revealed');
+      setupHint(1, hintBox1, btnHint1, true, `<div style="font-size:17px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`, true, true);
+      setupHint(2, hintBox2, btnHint2, !!q.notes, q.notes || '', false, false);
+      setupHint(3, hintBox3, btnHint3, false, '', false, false);
 
-      hintBox2.style.display = q.notes ? 'block' : 'none';
-      document.getElementById('hintContent2').textContent = q.notes || '';
-      hintBox3.style.display = 'none';
       document.getElementById('inputGuideText').textContent = '枠内に入る英単語（またはフルスペル）を入力してください';
     } else if (secId === 'katakana') {
       subBadge.textContent = 'カタカナ英語';
       mainPrompt.textContent = q.katakana;
       phoneticEl.style.display = 'none';
 
-      hintBox1.style.display = 'block';
-      document.getElementById('hintContent1').innerHTML = `<div style="font-size:18px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`;
-      hintBox1.classList.add('revealed');
+      setupHint(1, hintBox1, btnHint1, true, `<div style="font-size:17px;font-weight:800;color:var(--primary)">${escapeHtml(q.prompt_template)}</div>`, true, true);
+      setupHint(2, hintBox2, btnHint2, !!q.explanation, q.explanation || '', false, false);
+      setupHint(3, hintBox3, btnHint3, !!q.notes, q.notes || '', false, false);
 
-      hintBox2.style.display = q.explanation ? 'block' : 'none';
-      document.getElementById('hintContent2').textContent = q.explanation || '';
-
-      hintBox3.style.display = q.notes ? 'block' : 'none';
-      document.getElementById('hintContent3').textContent = q.notes || '';
       document.getElementById('inputGuideText').textContent = '枠内に入る英単語（または英語全体）を入力してください';
     }
 
@@ -1007,6 +1005,12 @@
       }, 380);
       return;
     }
+
+    // Hide hints and interaction panels in-place so Answer Reveal Box replaces them without scrolling!
+    document.getElementById('hintsContainer').style.display = 'none';
+    document.getElementById('panelCardMode').style.display = 'none';
+    document.getElementById('panelInputMode').style.display = 'none';
+    document.getElementById('panelChoiceMode').style.display = 'none';
 
     // Show Answer Reveal Box
     const revealBox = document.getElementById('answerRevealBox');
@@ -1340,6 +1344,7 @@
   // Navigation & Event Listeners
   // ============================================================================
   function switchTab(tabId) {
+    document.body.classList.toggle('quiz-mode-active', tabId === 'quiz');
     document.querySelectorAll('.tab-view').forEach((el) => {
       el.classList.toggle('active', el.id === `view-${tabId}`);
     });
@@ -1351,7 +1356,7 @@
     } else if (!quiz.active) {
       startQuizSession({});
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   function bindEvents() {
@@ -1474,8 +1479,11 @@
 
     // Progressive Hint Reveal Buttons
     [1, 2, 3].forEach((num) => {
-      document.getElementById(`btnRevealHint${num}`).addEventListener('click', () => {
-        document.getElementById(`hintBox${num}`).classList.add('revealed');
+      document.getElementById(`btnRevealHint${num}`).addEventListener('click', (e) => {
+        const box = document.getElementById(`hintBox${num}`);
+        box.style.display = 'block';
+        box.classList.add('revealed');
+        e.currentTarget.style.display = 'none';
         quiz.hintsRevealed += 1;
         playTone('hint');
       });
