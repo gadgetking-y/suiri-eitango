@@ -6,6 +6,15 @@
   'use strict';
 
   const STORAGE_KEY = 'suiri_eitango_state_v1';
+  const ACCOUNTS_KEY = 'suiri_eitango_accounts_v1';
+  const ACTIVE_ACC_KEY = 'suiri_eitango_active_account_v1';
+  const CLOUD_CONFIG_KEY = 'suiri_eitango_cloud_v1';
+
+  let accounts = [{ id: 'default', name: 'メイン', avatar: '🕵️‍♂️' }];
+  let activeAccountId = 'default';
+  let selectedNewAvatar = '🕵️‍♂️';
+  let cloudConfig = { token: '', gistId: '', lastSync: null };
+  let cloudSyncTimer = null;
 
   const SECTIONS = [
     {
@@ -149,9 +158,66 @@
     }
   }
 
+  function createDefaultState() {
+    return {
+      items: {},
+      exp: 0,
+      totalSolved: 0,
+      noHintSolves: 0,
+      maxCombo: 0,
+      bestTimeAttack: 0,
+      streak: 0,
+      lastStudyDate: null,
+      dailyHistory: {},
+      unlockedBadges: [],
+      settings: {
+        sound: true,
+        darkMode: false,
+        autoSpeak: false,
+        dailyGoal: 10,
+        selectedSection: 'part1',
+        selectedStyle: 'card',
+        selectedFilter: 'remaining',
+        selectedCategory: 'all'
+      }
+    };
+  }
+
+  function getAccountStorageKey(accId) {
+    return accId === 'default' ? STORAGE_KEY : `${STORAGE_KEY}_${accId}`;
+  }
+
   function loadState() {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const rawAccs = localStorage.getItem(ACCOUNTS_KEY);
+      if (rawAccs) {
+        const parsedAccs = JSON.parse(rawAccs);
+        if (Array.isArray(parsedAccs) && parsedAccs.length > 0) {
+          accounts = parsedAccs;
+        }
+      }
+      const savedActive = localStorage.getItem(ACTIVE_ACC_KEY);
+      if (savedActive && accounts.some((a) => a.id === savedActive)) {
+        activeAccountId = savedActive;
+      } else {
+        activeAccountId = accounts[0].id;
+      }
+
+      const rawCloud = localStorage.getItem(CLOUD_CONFIG_KEY);
+      if (rawCloud) {
+        cloudConfig = Object.assign({}, cloudConfig, JSON.parse(rawCloud));
+      }
+
+      loadAccountState(activeAccountId);
+    } catch (e) {
+      console.warn('Failed to load state:', e);
+    }
+  }
+
+  function loadAccountState(accId) {
+    state = createDefaultState();
+    try {
+      const raw = localStorage.getItem(getAccountStorageKey(accId));
       if (raw) {
         const parsed = JSON.parse(raw);
         state = Object.assign({}, state, parsed);
@@ -161,13 +227,21 @@
         state.unlockedBadges = parsed.unlockedBadges || [];
       }
     } catch (e) {
-      console.warn('Failed to load state:', e);
+      console.warn('Failed to load account state:', e);
     }
+  }
+
+  function saveAccountsMeta() {
+    try {
+      localStorage.setItem(ACCOUNTS_KEY, JSON.stringify(accounts));
+      localStorage.setItem(ACTIVE_ACC_KEY, activeAccountId);
+    } catch (e) {}
   }
 
   function saveState() {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(getAccountStorageKey(activeAccountId), JSON.stringify(state));
+      scheduleAutoCloudSync();
     } catch (e) {
       console.warn('Failed to save state:', e);
     }
@@ -401,6 +475,11 @@
     const { current, next } = getCurrentRank();
 
     // Header & Global Progress Bar
+    const activeAcc = accounts.find((a) => a.id === activeAccountId) || accounts[0];
+    if (activeAcc) {
+      document.getElementById('headerUserAvatar').textContent = activeAcc.avatar || '🕵️‍♂️';
+      document.getElementById('headerUserName').textContent = activeAcc.name || 'メイン';
+    }
     document.getElementById('headerRankBadge').textContent = `${current.title} Lv.${current.level}`;
     document.getElementById('headerStreak').textContent = state.streak;
     document.getElementById('headerExp').textContent = state.exp;
@@ -1673,11 +1752,336 @@
     });
 
     document.getElementById('btnResetData').addEventListener('click', () => {
-      if (confirm('これまでのチェック記録やEXPをすべてリセットしますか？')) {
-        localStorage.removeItem(STORAGE_KEY);
-        location.reload();
+      if (confirm('現在のアカウントのチェック記録やEXPをリセットしますか？')) {
+        localStorage.removeItem(getAccountStorageKey(activeAccountId));
+        loadAccountState(activeAccountId);
+        refreshAllUI();
+        showToast('🗑️ 現在のアカウントの記録をリセットしました');
       }
     });
+
+    // Account Modal & Cloud Sync Event Listeners
+    const openAccModal = () => {
+      renderAccountModal();
+      document.getElementById('accountModal').style.display = 'flex';
+    };
+    const closeAccModal = () => {
+      document.getElementById('accountModal').style.display = 'none';
+    };
+
+    document.getElementById('userAccountBtn').addEventListener('click', openAccModal);
+    document.getElementById('btnOpenAccountModal').addEventListener('click', openAccModal);
+    document.getElementById('btnCloseAccountModal').addEventListener('click', closeAccModal);
+    document.getElementById('accountModal').addEventListener('click', (e) => {
+      if (e.target.id === 'accountModal') closeAccModal();
+    });
+
+    document.getElementById('avatarPicker').addEventListener('click', (e) => {
+      const btn = e.target.closest('.avatar-opt');
+      if (!btn) return;
+      selectedNewAvatar = btn.dataset.avatar;
+      document.querySelectorAll('#avatarPicker .avatar-opt').forEach((b) => {
+        b.classList.toggle('active', b === btn);
+      });
+    });
+
+    document.getElementById('createAccountForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nameInp = document.getElementById('newAccountNameInput');
+      const name = (nameInp.value || '').trim();
+      if (!name) return;
+      const newId = 'acc_' + Date.now();
+      accounts.push({ id: newId, name, avatar: selectedNewAvatar });
+      activeAccountId = newId;
+      saveAccountsMeta();
+      loadAccountState(activeAccountId);
+      saveState();
+      nameInp.value = '';
+      renderAccountModal();
+      refreshAllUI();
+      showToast(`👤 アカウント「${name}」を作成しました！`);
+    });
+
+    document.getElementById('accountsList').addEventListener('click', (e) => {
+      const switchBtn = e.target.closest('[data-switch-acc]');
+      if (switchBtn) {
+        const accId = switchBtn.dataset.switchAcc;
+        activeAccountId = accId;
+        saveAccountsMeta();
+        loadAccountState(activeAccountId);
+        applyTheme();
+        renderAccountModal();
+        refreshAllUI();
+        const acc = accounts.find((a) => a.id === accId);
+        showToast(`👤「${acc ? acc.name : ''}」に切り替えました`);
+        return;
+      }
+      const delBtn = e.target.closest('[data-delete-acc]');
+      if (delBtn) {
+        const accId = delBtn.dataset.deleteAcc;
+        if (accounts.length <= 1) {
+          showToast('⚠️ 最後の1つのアカウントは削除できません');
+          return;
+        }
+        const acc = accounts.find((a) => a.id === accId);
+        if (confirm(`アカウント「${acc ? acc.name : ''}」を削除しますか？`)) {
+          localStorage.removeItem(getAccountStorageKey(accId));
+          accounts = accounts.filter((a) => a.id !== accId);
+          if (activeAccountId === accId) {
+            activeAccountId = accounts[0].id;
+            loadAccountState(activeAccountId);
+          }
+          saveAccountsMeta();
+          renderAccountModal();
+          refreshAllUI();
+          showToast('🗑️ アカウントを削除しました');
+        }
+      }
+    });
+
+    document.getElementById('btnCloudPush').addEventListener('click', () => pushToCloud(false));
+    document.getElementById('btnCloudPull').addEventListener('click', () => pullFromCloud());
+
+    document.getElementById('btnCopyTransferCode').addEventListener('click', () => {
+      try {
+        const payload = {
+          account: accounts.find((a) => a.id === activeAccountId),
+          state: state
+        };
+        const code = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+        navigator.clipboard.writeText(code).then(() => {
+          showToast('📋 引き継ぎコードをクリップボードにコピーしました！');
+        }).catch(() => {
+          prompt('以下の引き継ぎコードをコピーしてください:', code);
+        });
+      } catch (err) {
+        showToast('⚠️ コードの生成に失敗しました');
+      }
+    });
+
+    document.getElementById('btnPasteTransferCode').addEventListener('click', () => {
+      const code = prompt('コピーした引き継ぎコードを貼り付けてください:');
+      if (!code) return;
+      try {
+        const jsonStr = decodeURIComponent(escape(atob(code.trim())));
+        const parsed = JSON.parse(jsonStr);
+        if (parsed && parsed.state) {
+          state = Object.assign(createDefaultState(), parsed.state);
+          if (parsed.account && parsed.account.name) {
+            const cur = accounts.find((a) => a.id === activeAccountId);
+            if (cur) {
+              cur.name = parsed.account.name;
+              cur.avatar = parsed.account.avatar || cur.avatar;
+              saveAccountsMeta();
+            }
+          }
+          saveState();
+          applyTheme();
+          renderAccountModal();
+          refreshAllUI();
+          showToast('📥 引き継ぎコードから記録を復元しました！');
+        }
+      } catch (err) {
+        showToast('⚠️ 無効な引き継ぎコードです');
+      }
+    });
+  }
+
+  // ============================================================================
+  // Account Modal & Cloud Sync Helpers
+  // ============================================================================
+  function getAccountSummary(accId) {
+    try {
+      const raw = localStorage.getItem(getAccountStorageKey(accId));
+      if (!raw) return { mastered: 0, exp: 0 };
+      const st = JSON.parse(raw);
+      const items = st.items || {};
+      const mastered = Object.values(items).filter((v) => v && v.status === 'mastered').length;
+      return { mastered, exp: st.exp || 0 };
+    } catch (e) {
+      return { mastered: 0, exp: 0 };
+    }
+  }
+
+  function renderAccountModal() {
+    const listEl = document.getElementById('accountsList');
+    if (!listEl) return;
+    let html = '';
+    accounts.forEach((acc) => {
+      const isCurrent = acc.id === activeAccountId;
+      const sum = isCurrent
+        ? { mastered: computeMetrics().totalMastered, exp: state.exp }
+        : getAccountSummary(acc.id);
+      html += `
+        <div class="account-row ${isCurrent ? 'active' : ''}">
+          <div class="account-info">
+            <span class="account-avatar">${escapeHtml(acc.avatar || '🕵️‍♂️')}</span>
+            <div>
+              <span class="account-name">${escapeHtml(acc.name)} ${isCurrent ? '<small style="color:var(--primary)">(使用中)</small>' : ''}</span>
+              <span class="account-meta">覚えた数: <strong>${sum.mastered}</strong>問 / ${sum.exp} EXP</span>
+            </div>
+          </div>
+          <div class="account-actions">
+            ${!isCurrent ? `<button type="button" class="mini-btn" data-switch-acc="${escapeHtml(acc.id)}">切替</button>` : ''}
+            ${accounts.length > 1 ? `<button type="button" class="danger-btn" style="padding:5px 8px;font-size:11px;" data-delete-acc="${escapeHtml(acc.id)}">削除</button>` : ''}
+          </div>
+        </div>
+      `;
+    });
+    listEl.innerHTML = html;
+
+    document.getElementById('cloudTokenInput').value = cloudConfig.token || '';
+    document.getElementById('cloudGistIdInput').value = cloudConfig.gistId || '';
+    updateCloudStatusText();
+  }
+
+  function updateCloudStatusText(customMsg) {
+    const el = document.getElementById('cloudStatusText');
+    if (!el) return;
+    if (customMsg) {
+      el.textContent = customMsg;
+      return;
+    }
+    if (cloudConfig.token && cloudConfig.gistId) {
+      el.textContent = `✅ クラウド同期中 (Gist ID: ${cloudConfig.gistId.slice(0, 8)}... / 最終同期: ${cloudConfig.lastSync || '完了'})`;
+      el.style.color = 'var(--success)';
+    } else {
+      el.textContent = '未連携（この端末のブラウザ内に自動保存中）';
+      el.style.color = 'var(--text-muted)';
+    }
+  }
+
+  function buildFullCloudBundle() {
+    const bundleStates = {};
+    accounts.forEach((acc) => {
+      if (acc.id === activeAccountId) {
+        bundleStates[acc.id] = state;
+      } else {
+        try {
+          const raw = localStorage.getItem(getAccountStorageKey(acc.id));
+          if (raw) bundleStates[acc.id] = JSON.parse(raw);
+        } catch (e) {}
+      }
+    });
+    return {
+      updatedAt: new Date().toISOString(),
+      accounts,
+      activeAccountId,
+      states: bundleStates
+    };
+  }
+
+  function scheduleAutoCloudSync() {
+    if (!cloudConfig.token || !cloudConfig.gistId) return;
+    if (cloudSyncTimer) clearTimeout(cloudSyncTimer);
+    cloudSyncTimer = setTimeout(() => {
+      pushToCloud(true);
+    }, 2000);
+  }
+
+  async function pushToCloud(isSilent) {
+    const tokenInp = document.getElementById('cloudTokenInput');
+    const gistInp = document.getElementById('cloudGistIdInput');
+    const token = (tokenInp && tokenInp.value ? tokenInp.value : cloudConfig.token || '').trim();
+    const gistId = (gistInp && gistInp.value ? gistInp.value : cloudConfig.gistId || '').trim();
+
+    if (!token) {
+      if (!isSilent) showToast('⚠️ GitHub Personal Access Tokenを入力してください');
+      return;
+    }
+
+    cloudConfig.token = token;
+    cloudConfig.gistId = gistId;
+    localStorage.setItem(CLOUD_CONFIG_KEY, JSON.stringify(cloudConfig));
+
+    if (!isSilent) updateCloudStatusText('⏳ クラウドへ保存中...');
+
+    try {
+      const bundle = buildFullCloudBundle();
+      const bodyObj = {
+        description: '推理でうめる英単語 学習データ同期 (suiri-eitango)',
+        public: false,
+        files: {
+          'suiri-eitango-sync.json': {
+            content: JSON.stringify(bundle, null, 2)
+          }
+        }
+      };
+
+      const url = gistId ? `https://api.github.com/gists/${gistId}` : 'https://api.github.com/gists';
+      const method = gistId ? 'PATCH' : 'POST';
+
+      const res = await fetch(url, {
+        method,
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: 'application/vnd.github+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(bodyObj)
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      cloudConfig.gistId = data.id;
+      cloudConfig.lastSync = new Date().toLocaleTimeString('ja-JP');
+      localStorage.setItem(CLOUD_CONFIG_KEY, JSON.stringify(cloudConfig));
+      if (gistInp) gistInp.value = data.id;
+      updateCloudStatusText();
+      if (!isSilent) showToast('☁️ クラウドへ保存完了！以降自動で同期されます');
+    } catch (err) {
+      if (!isSilent) {
+        updateCloudStatusText('⚠️ 同期エラー: トークン(gist権限)またはGist IDを確認してください');
+        showToast('⚠️ クラウド保存に失敗しました');
+      }
+    }
+  }
+
+  async function pullFromCloud() {
+    const token = (document.getElementById('cloudTokenInput').value || cloudConfig.token || '').trim();
+    const gistId = (document.getElementById('cloudGistIdInput').value || cloudConfig.gistId || '').trim();
+
+    if (!gistId) {
+      showToast('⚠️ 読み込むGist IDを入力してください');
+      return;
+    }
+
+    updateCloudStatusText('⏳ クラウドから読み込み中...');
+    try {
+      const headers = { Accept: 'application/vnd.github+json' };
+      if (token) headers.Authorization = `Bearer ${token}`;
+
+      const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const file = data.files && data.files['suiri-eitango-sync.json'];
+      if (!file || !file.content) throw new Error('File not found in Gist');
+
+      const bundle = JSON.parse(file.content);
+      if (Array.isArray(bundle.accounts) && bundle.accounts.length > 0) {
+        accounts = bundle.accounts;
+        activeAccountId = bundle.activeAccountId || accounts[0].id;
+        saveAccountsMeta();
+      }
+      if (bundle.states && typeof bundle.states === 'object') {
+        Object.keys(bundle.states).forEach((accId) => {
+          localStorage.setItem(getAccountStorageKey(accId), JSON.stringify(bundle.states[accId]));
+        });
+      }
+      cloudConfig.token = token;
+      cloudConfig.gistId = gistId;
+      cloudConfig.lastSync = new Date().toLocaleTimeString('ja-JP');
+      localStorage.setItem(CLOUD_CONFIG_KEY, JSON.stringify(cloudConfig));
+
+      loadAccountState(activeAccountId);
+      applyTheme();
+      renderAccountModal();
+      refreshAllUI();
+      showToast('🔄 クラウドから最新のアカウント記録を復元しました！');
+    } catch (err) {
+      updateCloudStatusText('⚠️ 読込失敗: Gist IDまたはトークンを確認してください');
+      showToast('⚠️ クラウドからの読み込みに失敗しました');
+    }
   }
 
   // ============================================================================

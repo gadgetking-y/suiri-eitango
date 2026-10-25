@@ -1,4 +1,4 @@
-const CACHE_NAME = 'suiri-eitango-v2';
+const CACHE_NAME = 'suiri-eitango-v3';
 const ASSETS = [
   './',
   './index.html',

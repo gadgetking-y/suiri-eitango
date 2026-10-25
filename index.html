@@ -23,6 +23,10 @@
       </div>
     </div>
     <div class="header-right">
+      <button class="user-account-pill" id="userAccountBtn" title="アカウント切替・クラウド同期">
+        <span id="headerUserAvatar">🕵️‍♂️</span>
+        <span id="headerUserName">ゲスト</span>
+      </button>
       <div class="stat-pill streak-pill" id="streakPill" title="連続学習日数">
         <span>🔥</span> <span id="headerStreak">0</span><small>日</small>
       </div>
@@ -408,16 +412,75 @@
           </select>
         </div>
         <div class="backup-actions">
+          <button class="start-btn" id="btnOpenAccountModal" style="margin-bottom:4px;">👤 アカウント管理・クラウド同期設定を開く</button>
           <button class="secondary-btn" id="btnExportData">📥 学習データを保存（JSON書き出し）</button>
           <label class="secondary-btn file-label">
             📤 学習データを復元（JSON読み込み）
             <input type="file" id="inputImportData" accept=".json" style="display:none;" />
           </label>
-          <button class="danger-btn" id="btnResetData">🗑️ 学習記録をリセット</button>
+          <button class="danger-btn" id="btnResetData">🗑️ 現在のアカウントの記録をリセット</button>
         </div>
       </div>
     </section>
   </main>
+
+  <!-- User Account & Cloud Sync Modal -->
+  <div class="modal-overlay" id="accountModal" style="display:none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>👤 ユーザーアカウント＆記録保持</h2>
+        <button class="icon-btn" id="btnCloseAccountModal" aria-label="閉じる">✕</button>
+      </div>
+
+      <!-- 1. Multi-Account Switcher & Creator -->
+      <div class="modal-section">
+        <h3>👥 アカウント一覧・切り替え</h3>
+        <p class="small-muted">アカウントごとに「覚えたチェック」「EXP」「学習履歴」を分けて保持できます。</p>
+        <div class="accounts-list" id="accountsList"></div>
+
+        <form class="create-account-form" id="createAccountForm">
+          <div class="avatar-picker" id="avatarPicker">
+            <button type="button" class="avatar-opt active" data-avatar="🕵️‍♂️">🕵️‍♂️</button>
+            <button type="button" class="avatar-opt" data-avatar="👩‍🎓">👩‍🎓</button>
+            <button type="button" class="avatar-opt" data-avatar="🧑‍💻">🧑‍💻</button>
+            <button type="button" class="avatar-opt" data-avatar="🦊">🦊</button>
+            <button type="button" class="avatar-opt" data-avatar="🐱">🐱</button>
+            <button type="button" class="avatar-opt" data-avatar="🦉">🦉</button>
+            <button type="button" class="avatar-opt" data-avatar="👑">👑</button>
+          </div>
+          <div class="create-acc-row">
+            <input type="text" class="form-input" id="newAccountNameInput" placeholder="新しいユーザー名（例: まこと / 2周目用）" maxlength="20" required />
+            <button type="submit" class="mini-btn" style="white-space:nowrap;padding:10px 14px;">➕ 作成</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- 2. Cloud Auto-Sync (GitHub Gist) -->
+      <div class="modal-section">
+        <h3>☁️ クラウド自動同期（スマホ⇔PC間）</h3>
+        <p class="small-muted">GitHubのPersonal Access Token（<code>gist</code>権限のみ）を設定すると、非公開Gistに自動保存され、スマホとPCで同じアカウント記録を同期できます。</p>
+        <div class="cloud-sync-form">
+          <input type="password" class="form-input" id="cloudTokenInput" placeholder="GitHub Token (ghp_... または github_pat_...)" autocomplete="off" />
+          <input type="text" class="form-input" id="cloudGistIdInput" placeholder="Gist ID（初回は空欄でOK・自動作成されます）" autocomplete="off" />
+          <div class="cloud-btn-row">
+            <button type="button" class="mini-btn" id="btnCloudPush">☁️ クラウドへ保存（同期設定）</button>
+            <button type="button" class="secondary-btn" id="btnCloudPull" style="padding:7px 12px;font-size:12px;">🔄 クラウドから読込</button>
+          </div>
+          <div class="cloud-status-text" id="cloudStatusText">未連携（この端末のブラウザ内に自動保存中）</div>
+        </div>
+      </div>
+
+      <!-- 3. Quick Transfer Code -->
+      <div class="modal-section" style="border-bottom:none;margin-bottom:0;padding-bottom:0;">
+        <h3>📋 ワンタップ引き継ぎコード</h3>
+        <p class="small-muted">アカウント登録なしで別端末へすぐ移したい場合、引き継ぎコードをコピー＆ペーストできます。</p>
+        <div class="cloud-btn-row" style="margin-top:6px;">
+          <button type="button" class="secondary-btn" id="btnCopyTransferCode" style="flex:1;padding:8px;">📋 引き継ぎコードをコピー</button>
+          <button type="button" class="secondary-btn" id="btnPasteTransferCode" style="flex:1;padding:8px;">📥 コードを入力して復元</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Toast Notification -->
   <div class="toast-container" id="toastContainer"></div>
